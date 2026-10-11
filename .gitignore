@@ -2,5 +2,14 @@ node_modules
 .DS_Store
 dist
 
-node_modules
-*.png
+# Temporary diagnostic screenshots in root
+/*screenshot*.png
+/*diag*.png
+/*header_screenshot*.png
+/*full_page_screenshot*.png
+/*logo_closeup*.png
+/*revealed_screenshot*.png
+/*home_goal_entered*.png
+
+# Ensure all asset files and textures are tracked
+!assets/**
