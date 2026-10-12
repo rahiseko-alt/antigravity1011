@@ -2,3 +2,94 @@
 
 #preloader.is-hidden,#preloader-percent-digits.is-hidden,html.is-started #preloader,html.is-started #preloader-percent-digits{opacity:0!important;visibility:hidden!important;display:none!important}
 .preloader-percent-digit-num:nth-child(n+2) { display: none !important; }
+
+/* Home button on top navigation bar */
+#header-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.25em !important;
+}
+#header-right-talk-btn-placeholder {
+  display: none !important;
+}
+#header-right-talk-btn {
+  position: relative !important;
+  left: 0 !important;
+  transform: none !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+}
+#header-right-menu-btn {
+  position: relative !important;
+  transform: none !important;
+  opacity: 1 !important;
+}
+#header-home-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  height: 3.2em;
+  padding: 0 1.25em;
+  border-radius: 6.25em;
+  font-size: 0.875em;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: var(--color-dark-white, #ebebeb);
+  color: var(--color-black, #000);
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.1, 1), color 0.3s cubic-bezier(0.4, 0, 0.1, 1), transform 0.3s cubic-bezier(0.4, 0, 0.1, 1);
+  z-index: 10;
+  white-space: nowrap;
+}
+#header-home-btn:hover {
+  background: var(--color-white, #fff);
+  color: var(--header-text-color, #000);
+  transform: translateY(-1px);
+}
+#header-home-btn svg {
+  width: 1.15em;
+  height: 1.15em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.1, 1);
+}
+#header-home-btn:hover svg {
+  transform: scale(1.1);
+}
+html.is-black-bg #header-home-btn, html.is-blue-bg #header-home-btn {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+html.is-black-bg #header-home-btn:hover, html.is-blue-bg #header-home-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+@media (max-width: 812px) {
+  #header-right {
+    gap: 0.6em !important;
+  }
+  #header-right-talk-btn {
+    width: 3.2em !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #header-right-menu-btn {
+    width: 3.2em !important;
+    padding: 0 !important;
+  }
+  #header-home-btn {
+    width: 3.2em;
+    padding: 0;
+    border-radius: 50%;
+  }
+  #header-home-btn span {
+    display: none;
+  }
+}
