@@ -1,0 +1,417 @@
+{
+  "target": "localhost",
+  "url": "http://localhost:3000/",
+  "userAgent": "iPhone",
+  "consoleErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://localhost:3000/assets/textures/reel/mobile.mp4"
+      }
+    }
+  ],
+  "consoleWarnings": [
+    {
+      "text": "WARNING: Multiple instances of Three.js being imported.",
+      "location": {
+        "url": "http://localhost:3000/_astro/hoisted.CUO_IjfL.js?t=1791757389749",
+        "lineNumber": 3589,
+        "columnNumber": 162405
+      }
+    }
+  ],
+  "network404s": [
+    {
+      "status": 404,
+      "url": "http://localhost:3000/assets/textures/reel/mobile.mp4"
+    }
+  ],
+  "pageErrors": [],
+  "unhandledRejections": [],
+  "preloaderTimeline": [
+    {
+      "timeSec": "0.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "0.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "0.4",
+      "digits": "0 0 3",
+      "hasStarted": false,
+      "loaderWeight": "92.5 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp",
+        "./assets/models/tunnels/astronaut_helmet.buf"
+      ]
+    },
+    {
+      "timeSec": "0.6",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "99.69999999999999 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp"
+      ]
+    },
+    {
+      "timeSec": "0.8",
+      "digits": "0 1 0",
+      "hasStarted": false,
+      "loaderWeight": "107.89999999999999 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/grid_structure_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "1.0",
+      "digits": "0 2 9",
+      "hasStarted": false,
+      "loaderWeight": "121.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/earth_card.buf",
+        "./assets/models/tunnels/diamond.buf",
+        "./assets/textures/tunnels/stickers_low.png",
+        "./assets/models/tunnels/broken_glass.buf"
+      ]
+    },
+    {
+      "timeSec": "1.2",
+      "digits": "0 4 5",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "1.4",
+      "digits": "0 5 4",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "1.6",
+      "digits": "0 7 6",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "1.8",
+      "digits": "0 7 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "2.0",
+      "digits": "0 7 4",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "2.2",
+      "digits": "0 7 7",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "2.4",
+      "digits": "0 8 9",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "2.6",
+      "digits": "0 8 1",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "2.8",
+      "digits": "0 8 4",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "3.0",
+      "digits": "1 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "3.2",
+      "digits": "1 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "3.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "3.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "3.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "4.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "4.2",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "4.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "4.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "4.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "5.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "5.2",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "5.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "5.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "5.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "6.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "6.2",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "6.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "6.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "6.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "7.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "7.2",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "7.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "7.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "7.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "8.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "8.2",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "8.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "8.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "8.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "9.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "9.2",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "9.4",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "9.6",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "9.8",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "10.0",
+      "digits": "100",
+      "hasStarted": true,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    }
+  ]
+}

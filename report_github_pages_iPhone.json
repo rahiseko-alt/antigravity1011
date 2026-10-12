@@ -1,0 +1,1731 @@
+{
+  "target": "github_pages",
+  "url": "https://rahiseko-alt.github.io/antigravity1011/",
+  "userAgent": "iPhone",
+  "consoleErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures/reel/mobile.mp4"
+      }
+    },
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures//tunnels/desktop.png"
+      }
+    },
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures//tunnels/tablet.png"
+      }
+    }
+  ],
+  "consoleWarnings": [
+    {
+      "text": "WARNING: Multiple instances of Three.js being imported.",
+      "location": {
+        "url": "https://rahiseko-alt.github.io/antigravity1011/assets/index-QuTv66aW.js",
+        "lineNumber": 3596,
+        "columnNumber": 162518
+      }
+    }
+  ],
+  "network404s": [
+    {
+      "status": 404,
+      "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures/reel/mobile.mp4"
+    },
+    {
+      "status": 404,
+      "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures//tunnels/desktop.png"
+    },
+    {
+      "status": 404,
+      "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures//tunnels/tablet.png"
+    }
+  ],
+  "pageErrors": [],
+  "unhandledRejections": [],
+  "preloaderTimeline": [
+    {
+      "timeSec": "0.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "0.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "0.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "0.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "0.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "1.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "1.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "1.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "1.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "1.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "2.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "2.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "2.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "2.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "2.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "3.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "3.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "3.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "3.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "3.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "4.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "4.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "4.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "4.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "4.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "5.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "5.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "5.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "5.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "5.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "6.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 1",
+      "activeItems": [
+        "Aeonik:400"
+      ]
+    },
+    {
+      "timeSec": "6.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "6.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.2 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "6.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.2 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "6.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.2 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "7.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.2 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "7.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "7.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "7.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "7.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "8.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "8.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "8.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "8.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.4 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "8.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.6 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "9.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.6 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "9.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.6 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "9.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.6 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "9.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.6 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "9.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "0.6 / 128.1",
+      "activeItems": [
+        "Aeonik:500,Aeonik:400:italic,IBMPlexMono:400,IBMPlexMono:500,LusionMono:400",
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png"
+      ]
+    },
+    {
+      "timeSec": "10.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "1 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/home/cross_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "10.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "1 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/home/cross_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "10.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "1 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/home/cross_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "10.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "1 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/home/cross_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "10.8",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "1 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/home/cross_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "11.0",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "1 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/home/cross_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "11.2",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "11.4",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "11.6",
+      "digits": "0 0 0",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "11.8",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "12.0",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "12.2",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "12.4",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "12.6",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "12.8",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "13.0",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "13.2",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "13.4",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "13.6",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "13.8",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "14.0",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "2 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/textures/home/matcap.exr"
+      ]
+    },
+    {
+      "timeSec": "14.2",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "3 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/lines/line_reel.buf"
+      ]
+    },
+    {
+      "timeSec": "14.4",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "3 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/lines/line_reel.buf"
+      ]
+    },
+    {
+      "timeSec": "14.6",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "3 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/lines/line_reel.buf"
+      ]
+    },
+    {
+      "timeSec": "14.8",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "3 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/lines/line_reel.buf"
+      ]
+    },
+    {
+      "timeSec": "15.0",
+      "digits": "0 0 1",
+      "hasStarted": false,
+      "loaderWeight": "3 / 128.1",
+      "activeItems": [
+        "./assets/textures/LDR_RGB1_0.png",
+        "./assets/textures/smaa-area.png",
+        "./assets/textures/smaa-search.png",
+        "./assets/models/lines/line_reel.buf"
+      ]
+    },
+    {
+      "timeSec": "15.2",
+      "digits": "0 0 7",
+      "hasStarted": false,
+      "loaderWeight": "91.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/face.png",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp"
+      ]
+    },
+    {
+      "timeSec": "15.4",
+      "digits": "0 1 0",
+      "hasStarted": false,
+      "loaderWeight": "91.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/face.png",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp"
+      ]
+    },
+    {
+      "timeSec": "15.6",
+      "digits": "0 3 4",
+      "hasStarted": false,
+      "loaderWeight": "91.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/face.png",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp"
+      ]
+    },
+    {
+      "timeSec": "15.8",
+      "digits": "0 3 5",
+      "hasStarted": false,
+      "loaderWeight": "91.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/face.png",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp"
+      ]
+    },
+    {
+      "timeSec": "16.0",
+      "digits": "0 3 8",
+      "hasStarted": false,
+      "loaderWeight": "91.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/face.png",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_helmet_nor.webp"
+      ]
+    },
+    {
+      "timeSec": "16.2",
+      "digits": "0 4 9",
+      "hasStarted": false,
+      "loaderWeight": "95.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_helmet.buf",
+        "./assets/models/tunnels/astronaut_helmet_glass.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp"
+      ]
+    },
+    {
+      "timeSec": "16.4",
+      "digits": "0 4 0",
+      "hasStarted": false,
+      "loaderWeight": "95.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_helmet.buf",
+        "./assets/models/tunnels/astronaut_helmet_glass.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp"
+      ]
+    },
+    {
+      "timeSec": "16.6",
+      "digits": "0 4 0",
+      "hasStarted": false,
+      "loaderWeight": "95.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_helmet.buf",
+        "./assets/models/tunnels/astronaut_helmet_glass.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp"
+      ]
+    },
+    {
+      "timeSec": "16.8",
+      "digits": "0 5 0",
+      "hasStarted": false,
+      "loaderWeight": "95.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_helmet.buf",
+        "./assets/models/tunnels/astronaut_helmet_glass.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp"
+      ]
+    },
+    {
+      "timeSec": "17.0",
+      "digits": "0 5 1",
+      "hasStarted": false,
+      "loaderWeight": "95.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_helmet.buf",
+        "./assets/models/tunnels/astronaut_helmet_glass.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp"
+      ]
+    },
+    {
+      "timeSec": "17.2",
+      "digits": "0 5 2",
+      "hasStarted": false,
+      "loaderWeight": "98.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+        "./assets/models/tunnels/astronaut_glove_shoes.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "17.4",
+      "digits": "0 5 3",
+      "hasStarted": false,
+      "loaderWeight": "99.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+        "./assets/models/tunnels/astronaut_glove_shoes.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp"
+      ]
+    },
+    {
+      "timeSec": "17.6",
+      "digits": "0 5 3",
+      "hasStarted": false,
+      "loaderWeight": "99.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+        "./assets/models/tunnels/astronaut_glove_shoes.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp"
+      ]
+    },
+    {
+      "timeSec": "17.8",
+      "digits": "0 5 3",
+      "hasStarted": false,
+      "loaderWeight": "99.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+        "./assets/models/tunnels/astronaut_glove_shoes.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp"
+      ]
+    },
+    {
+      "timeSec": "18.0",
+      "digits": "0 5 4",
+      "hasStarted": false,
+      "loaderWeight": "99.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_glove_shoes_nor.webp",
+        "./assets/models/tunnels/astronaut_glove_shoes.buf",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_arm.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp"
+      ]
+    },
+    {
+      "timeSec": "18.2",
+      "digits": "0 5 4",
+      "hasStarted": false,
+      "loaderWeight": "102.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+        "./assets/models/tunnels/astronaut_wearpack.buf",
+        "./assets/models/tunnels/astronaut_in_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "18.4",
+      "digits": "0 5 4",
+      "hasStarted": false,
+      "loaderWeight": "102.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_base.webp",
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+        "./assets/models/tunnels/astronaut_wearpack.buf",
+        "./assets/models/tunnels/astronaut_in_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "18.6",
+      "digits": "0 5 5",
+      "hasStarted": false,
+      "loaderWeight": "103.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+        "./assets/models/tunnels/astronaut_wearpack.buf",
+        "./assets/models/tunnels/astronaut_in_animation.buf",
+        "./assets/models/tunnels/astronaut_out_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "18.8",
+      "digits": "0 5 5",
+      "hasStarted": false,
+      "loaderWeight": "103.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+        "./assets/models/tunnels/astronaut_wearpack.buf",
+        "./assets/models/tunnels/astronaut_in_animation.buf",
+        "./assets/models/tunnels/astronaut_out_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "19.0",
+      "digits": "0 5 5",
+      "hasStarted": false,
+      "loaderWeight": "103.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/astronaut/astronaut_wearpack_nor.webp",
+        "./assets/models/tunnels/astronaut_wearpack.buf",
+        "./assets/models/tunnels/astronaut_in_animation.buf",
+        "./assets/models/tunnels/astronaut_out_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "19.2",
+      "digits": "0 5 5",
+      "hasStarted": false,
+      "loaderWeight": "104.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_wearpack.buf",
+        "./assets/models/tunnels/astronaut_in_animation.buf",
+        "./assets/models/tunnels/astronaut_out_animation.buf",
+        "./assets/textures/tunnels/earth.webp"
+      ]
+    },
+    {
+      "timeSec": "19.4",
+      "digits": "0 5 6",
+      "hasStarted": false,
+      "loaderWeight": "106.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_out_animation.buf",
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/astronaut_animations.buf"
+      ]
+    },
+    {
+      "timeSec": "19.6",
+      "digits": "0 5 6",
+      "hasStarted": false,
+      "loaderWeight": "106.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_out_animation.buf",
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/astronaut_animations.buf"
+      ]
+    },
+    {
+      "timeSec": "19.8",
+      "digits": "0 5 6",
+      "hasStarted": false,
+      "loaderWeight": "106.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_out_animation.buf",
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/astronaut_animations.buf"
+      ]
+    },
+    {
+      "timeSec": "20.0",
+      "digits": "0 5 7",
+      "hasStarted": false,
+      "loaderWeight": "107.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/astronaut_animations.buf",
+        "./assets/models/tunnels/grid_structure_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "20.2",
+      "digits": "0 5 7",
+      "hasStarted": false,
+      "loaderWeight": "107.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/astronaut_animations.buf",
+        "./assets/models/tunnels/grid_structure_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "20.4",
+      "digits": "0 5 7",
+      "hasStarted": false,
+      "loaderWeight": "107.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/earth.webp",
+        "./assets/textures/tunnels/white_matcap.jpg",
+        "./assets/models/tunnels/astronaut_animations.buf",
+        "./assets/models/tunnels/grid_structure_ld.buf"
+      ]
+    },
+    {
+      "timeSec": "20.6",
+      "digits": "0 5 8",
+      "hasStarted": false,
+      "loaderWeight": "109.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/astronaut_animations.buf",
+        "./assets/models/tunnels/grid_structure_ld.buf",
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf"
+      ]
+    },
+    {
+      "timeSec": "20.8",
+      "digits": "0 5 9",
+      "hasStarted": false,
+      "loaderWeight": "110.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_structure_ld.buf",
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf"
+      ]
+    },
+    {
+      "timeSec": "21.0",
+      "digits": "0 5 9",
+      "hasStarted": false,
+      "loaderWeight": "110.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_structure_ld.buf",
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf"
+      ]
+    },
+    {
+      "timeSec": "21.2",
+      "digits": "0 5 9",
+      "hasStarted": false,
+      "loaderWeight": "110.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_structure_ld.buf",
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf"
+      ]
+    },
+    {
+      "timeSec": "21.4",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "110.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_structure_ld.buf",
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf"
+      ]
+    },
+    {
+      "timeSec": "21.6",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "21.8",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "22.0",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "22.2",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "22.4",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "22.6",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "22.8",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "23.0",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "23.2",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "23.4",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "23.6",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "111.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/grid_base_ld.buf",
+        "./assets/models/tunnels/grid_structure_hd.buf",
+        "./assets/models/tunnels/grid_base_hd.buf",
+        "./assets/textures/tunnels/grids/greeble_arm.webp"
+      ]
+    },
+    {
+      "timeSec": "23.8",
+      "digits": "0 6 0",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "24.0",
+      "digits": "0 6 1",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "24.2",
+      "digits": "0 6 1",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "24.4",
+      "digits": "0 6 1",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "24.6",
+      "digits": "0 6 2",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "24.8",
+      "digits": "0 6 2",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "25.0",
+      "digits": "0 6 2",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "25.2",
+      "digits": "0 6 2",
+      "hasStarted": false,
+      "loaderWeight": "114.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/grids/greeble_arm.webp",
+        "./assets/textures/tunnels/grids/greeble_base.webp",
+        "./assets/textures/tunnels/grids/greeble_nor.webp",
+        "./assets/textures/tunnels/white_block.webp"
+      ]
+    },
+    {
+      "timeSec": "25.4",
+      "digits": "0 6 2",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "25.6",
+      "digits": "0 6 3",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "25.8",
+      "digits": "0 6 3",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "26.0",
+      "digits": "0 6 3",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "26.2",
+      "digits": "0 6 4",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "26.4",
+      "digits": "0 6 4",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "26.6",
+      "digits": "0 6 4",
+      "hasStarted": false,
+      "loaderWeight": "118.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/tunnel_block_base.buf",
+        "./assets/models/tunnels/tunnel_block_wall.buf",
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf"
+      ]
+    },
+    {
+      "timeSec": "26.8",
+      "digits": "0 6 4",
+      "hasStarted": false,
+      "loaderWeight": "120.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/tunnels/earth_landscape.jpg",
+        "./assets/models/tunnels/earth_card.buf",
+        "./assets/models/tunnels/diamond.buf",
+        "./assets/textures/tunnels/stickers_low.png"
+      ]
+    },
+    {
+      "timeSec": "27.0",
+      "digits": "0 6 5",
+      "hasStarted": false,
+      "loaderWeight": "122.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/diamond.buf",
+        "./assets/textures/tunnels/stickers_low.png",
+        "./assets/models/tunnels/broken_glass.buf",
+        "./assets/models/tunnels/broken_glass_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "27.2",
+      "digits": "0 6 5",
+      "hasStarted": false,
+      "loaderWeight": "122.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/diamond.buf",
+        "./assets/textures/tunnels/stickers_low.png",
+        "./assets/models/tunnels/broken_glass.buf",
+        "./assets/models/tunnels/broken_glass_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "27.4",
+      "digits": "0 6 5",
+      "hasStarted": false,
+      "loaderWeight": "122.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/diamond.buf",
+        "./assets/textures/tunnels/stickers_low.png",
+        "./assets/models/tunnels/broken_glass.buf",
+        "./assets/models/tunnels/broken_glass_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "27.6",
+      "digits": "0 6 6",
+      "hasStarted": false,
+      "loaderWeight": "122.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/diamond.buf",
+        "./assets/textures/tunnels/stickers_low.png",
+        "./assets/models/tunnels/broken_glass.buf",
+        "./assets/models/tunnels/broken_glass_animation.buf"
+      ]
+    },
+    {
+      "timeSec": "27.8",
+      "digits": "0 6 6",
+      "hasStarted": false,
+      "loaderWeight": "124.1 / 128.1",
+      "activeItems": [
+        "./assets/models/tunnels/broken_glass.buf",
+        "./assets/models/tunnels/broken_glass_animation.buf",
+        "./assets/models/lines/line_goal.buf",
+        "./assets/textures/flip_texture.png"
+      ]
+    },
+    {
+      "timeSec": "28.0",
+      "digits": "0 6 7",
+      "hasStarted": false,
+      "loaderWeight": "126.1 / 128.1",
+      "activeItems": [
+        "./assets/models/lines/line_goal.buf",
+        "./assets/textures/flip_texture.png"
+      ]
+    },
+    {
+      "timeSec": "28.2",
+      "digits": "0 6 7",
+      "hasStarted": false,
+      "loaderWeight": "126.1 / 128.1",
+      "activeItems": [
+        "./assets/models/lines/line_goal.buf",
+        "./assets/textures/flip_texture.png"
+      ]
+    },
+    {
+      "timeSec": "28.4",
+      "digits": "0 6 7",
+      "hasStarted": false,
+      "loaderWeight": "126.1 / 128.1",
+      "activeItems": [
+        "./assets/models/lines/line_goal.buf",
+        "./assets/textures/flip_texture.png"
+      ]
+    },
+    {
+      "timeSec": "28.6",
+      "digits": "0 6 8",
+      "hasStarted": false,
+      "loaderWeight": "126.1 / 128.1",
+      "activeItems": [
+        "./assets/models/lines/line_goal.buf",
+        "./assets/textures/flip_texture.png"
+      ]
+    },
+    {
+      "timeSec": "28.8",
+      "digits": "0 6 8",
+      "hasStarted": false,
+      "loaderWeight": "127.1 / 128.1",
+      "activeItems": [
+        "./assets/textures/flip_texture.png"
+      ]
+    },
+    {
+      "timeSec": "29.0",
+      "digits": "0 6 9",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "29.2",
+      "digits": "0 6 2",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "29.4",
+      "digits": "0 7 6",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "29.6",
+      "digits": "0 7 1",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "29.8",
+      "digits": "0 7 5",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    },
+    {
+      "timeSec": "30.0",
+      "digits": "0 8 9",
+      "hasStarted": false,
+      "loaderWeight": "0 / 0",
+      "activeItems": []
+    }
+  ]
+}
