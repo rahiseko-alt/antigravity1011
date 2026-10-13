@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "AI League AIueo - 草AI同盟",
+    "description": "AIを触る仲間を集める場。「今度何かやりましょう」を「こういうのやるので、一緒にどうですか？」に変えます。参加は登録不要。",
+    "siteName": "AI League AIueo",
+    "canonical": "https://aiueo.kouheikosehira.com",
+    "contactEmail": "info@kouheikosehira.com",
+    "github": "https://github.com/rahiseko-alt/AIueo-LP",
+    "captainGithub": "https://github.com/rahiseko-alt"
+  },
+  "hero": {
+    "eyebrow": "THIS WAY. TOGETHER.",
+    "brandName": "AI League AIueo",
+    "serviceType": "仲間を集めるサービス",
+    "mainCopy": "「今度何かやりましょう」を、「こういうのやるので、一緒にどうですか？」に変える。",
+    "scrollText": "scroll to explore",
+    "heroImage": "./assets/images/aiueo/hero-female.png"
+  },
+  "concept": {
+    "sectionNumber": "01 / WHO WE ARE",
+    "eyebrow": "A place to call people in.",
+    "titleLine1": "Bold Ideas,",
+    "titleLine2": "Brought to Life",
+    "subtitle": "やりたいことを、実行まで。",
+    "description": "名刺交換を重ねるよりも、まず実際の企画やイベントを1つやってみる。ジャンルは自由です。やりたいことを持ち込む人と、参加したい人が出会い、準備して、実行する。草野球のように集まり、AIを触り、1つのプロトタイプを作る草AI同盟。0はいくら集めても0。まずは1つの草活動から。",
+    "ctaText": "How It Works ↓",
+    "ctaUrl": "#philosophy",
+    "howItWorks": [
+      {
+        "step": 1,
+        "title": "やりたい事をAIueoに掲載",
+        "description": "自分のやりたい企画やアイデアをAIueoに載せる"
+      },
+      {
+        "step": 2,
+        "title": "準備を進める",
+        "description": "興味を持った仲間や助っ人と一緒に準備を進める"
+      },
+      {
+        "step": 3,
+        "title": "参加者含めて準備が出来たら実行",
+        "description": "仲間とともに実際のイベント・プロトタイプを形にする"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "proposal-ai-tips",
+      "slug": "ai-tips-presentation",
+      "status": "active",
+      "title": "AI小技 発表会",
+      "date": "11/11(水) 20:00",
+      "format": "リモート開催（視聴申込不要）",
+      "cost": "金銭なし",
+      "organizer": "小齊平 恒平",
+      "organizerEmail": "info@kouheikosehira.com",
+      "tags": ["AI", "TIPS", "LIGHTNING_TALK"],
+      "badge": "11/11(水) 20:00",
+      "image": "./assets/images/aiueo/event-ai-tips.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/api/proposals/831cfd10-c5e2-4010-9867-5beb1ed14b45/image",
+      "youtubeUrl": "https://youtu.be/pgO7gyX4n_4?si=808vu_UvNkEs4IdC",
+      "summary": "人の役に立つかはわからない。でも自分はかなり気に入ってる。『小技を好きな人に悪い人はいない』。そんなAIの小技を持ち寄るゆるい発表会。大技禁止、「それだけ？」くらいがちょうどいい。",
+      "details": "■どんな発表会？\n「これ、地味だけど自分は好き」「他の人に役立つかは分からないけど、よく使ってる」そんな小さなAI活用を共有する会です。\n\n■大技禁止\n大規模システムや壮大な活用事例はなし。「それだけ？」くらいが、ちょうどいい。ChatGPT、Claude、Geminiなどツールは何でもOK。仕事・勉強・遊び、内容も自由です。\n\n■開催形式\nリモート開催。見るだけでも、発表してもOK。視聴URLは後日お伝えします！視聴は申し込み不要。"
+    },
+    {
+      "id": "proposal-ai-art-exhibition",
+      "slug": "ai-art-exhibition",
+      "status": "active",
+      "title": "AIアート展覧会を重要文化財で開催する",
+      "date": "2027年1月頃（2日間）",
+      "format": "オフライン（名古屋市市政資料館）",
+      "cost": "メンバーで割り勘（約1,000円） / 入場無料",
+      "organizer": "小齊平 恒平",
+      "organizerEmail": "info@kouheikosehira.com",
+      "tags": ["AI_ART", "EXHIBITION", "CULTURE"],
+      "badge": "1/9(土) 10:00",
+      "image": "./assets/images/aiueo/event-ai-art.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/api/proposals/33e4e724-e8ae-4004-8052-e4614d2645c1/image",
+      "summary": "会場は国の重要文化財【名古屋市市政資料館】。歴史と文化が積み重なる空間で「AIアートは文化になれるか？」を問う。出展者・運営メンバー10名募集中。",
+      "details": "会場は、国の重要文化財でもある【名古屋市市政資料館】。映画・ドラマのロケ地としても度々使われてきた歴史的建造物に最新のAI表現を展示します。\n\n■コンセプト\n「AIアートは文化になれるか？」\n作品だけでなく、プロンプト・試行錯誤・AIとの対話の裏側も展示します。\n\n■作品募集\n「AIを主に使って制作」「アートとして展示」を満たせば形式不問。映像・3D・立体物・Web作品もOK。\n\n■運営メンバー募集\n設営・広報・レイアウトなど未経験歓迎で約10名募集。"
+    }
+  ],
+  "organizers": [
+    {
+      "id": "kouhei-kosehira",
+      "name": "小齊平 恒平",
+      "nameEn": "Kouhei Kosehira",
+      "role": "代表 / AI活動家",
+      "bio": "play with AIをコンセプトに人の繋がりを広げる場としてAIueoを設立。他にもAI専門学校講師やAIコンサルティングなど教育現場や企業でのAI活用を行っている。",
+      "image": "./assets/images/aiueo/member-kosehira.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/kosehirakouhei-profile.png",
+      "email": "info@kouheikosehira.com"
+    },
+    {
+      "id": "ryoji-ito",
+      "name": "伊藤 良二",
+      "nameEn": "Ryoji Ito",
+      "role": "プロデューサー",
+      "bio": "Craft Line Works代表｜AI講師｜個人向けAI活用コンサル｜業務効率化の伴走サポーター｜SEO / MEO / AIO 対策｜店舗Web集客導線の改善（AIによる自動化）｜HP作成。Zoom無料相談受付中。",
+      "image": "./assets/images/aiueo/member-ito.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/avatar-2-v2.png"
+    },
+    {
+      "id": "akira-sakai",
+      "name": "堺 彬",
+      "nameEn": "Akira Sakai",
+      "role": "株式会社SakAI Nexus 代表取締役",
+      "bio": "Webライター・メディア運営の経験を経て、現在は生成AIを活用した業務改善、AI導入支援、システム開発、企業研修・講演を行う。",
+      "image": "./assets/images/aiueo/member-sakai.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/avatar-sakai-v1.png"
+    },
+    {
+      "id": "junichi-okamoto",
+      "name": "岡本 ジュンイチ",
+      "nameEn": "Junichi Okamoto",
+      "role": "顧問 / SNSマーケター・メディアプロデューサー",
+      "bio": "おもに個人事業主のマーケティング支援のために、SNS・出版・公認ネットラジオ局による冠番組等をプロデュース。未経験からの伴走型起業支援を提供。",
+      "image": "./assets/images/aiueo/member-okamoto.jpg",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/avatar-okamoto-v1.jpg"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-sns-automation",
+      "title": "SNS運用の自動化",
+      "tags": ["#AI", "#DEVELOPMENT"],
+      "badge": "投稿の途絶がなくなった",
+      "description": "投稿文の生成、自動投稿、反応の分析にもとづく修正までをひとつながりにした。媒体ごとのアルゴリズムとBAN対策も含む。",
+      "image": "./assets/images/aiueo/act-meetup.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/meetup.png"
+    },
+    {
+      "id": "activity-ai-chatbot",
+      "title": "自社特化型 AIチャットボット",
+      "tags": ["#AI", "#LLM"],
+      "badge": "定型の問い合わせを自動処理",
+      "description": "自社資料だけを根拠に答える一次対応。回答には必ず出どころを示し、判断が必要なものは人へ回す。",
+      "image": "./assets/images/aiueo/act-development.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/development.png"
+    },
+    {
+      "id": "activity-voice-medical-record",
+      "title": "音声カルテ作成アプリ（ペット業界向け）",
+      "tags": ["#AI", "#PROTOTYPE"],
+      "badge": "1日約2時間の事務作業を削減",
+      "description": "診察中に片手で音声入力し、記録を業務と同時進行にした。あとからの転記をなくすことを狙った。",
+      "image": "./assets/images/aiueo/act-workshop.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/workshop.png"
+    },
+    {
+      "id": "activity-doc-automation",
+      "title": "書類業務の半自動化アプリ（飲食業向け）",
+      "tags": ["#AI", "#LOCAL"],
+      "badge": "月50時間相当を削減",
+      "description": "作業しながらの片手入力から書式変換、本部提出までを一気通貫に。現場で使い続けられることを最優先に設計した。",
+      "image": "./assets/images/aiueo/act-seminar.png",
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/seminar.png"
+    }
+  ],
+  "coCreation": [
+    {
+      "title": "「こういうのやりたい！」企画を持ち込む",
+      "description": "主婦向け講座、子ども向け教室、勉強会、開発企画など、自分のやりたい企画を同盟に提案・募集。",
+      "action": "企画を提案する",
+      "url": "/register"
+    },
+    {
+      "title": "進行中の企画に助っ人・参加する",
+      "description": "受託案件の開発チーム、セミナーのアシスタント、LT登壇など、具体的な活動に合流。",
+      "action": "企画一覧を見る",
+      "url": "/events"
+    },
+    {
+      "title": "企画の壁打ち・仲間集めを相談する",
+      "description": "「こんな企画を考えている」を、まずAIueoへ気軽に相談できます。",
+      "action": "相談する",
+      "url": "/register"
+    },
+    {
+      "title": "会場・機材・案件を提供する",
+      "description": "公民館、コワーキング、店舗の会場提供や、AI開発の相談・依頼はこちらから。",
+      "action": "連携・相談する",
+      "url": "mailto:info@kouheikosehira.com"
+    }
+  ],
+  "guidelines": {
+    "eyebrow": "07 / OPERATING GUIDELINES",
+    "title": "運営のかかわり方",
+    "corePosition": "場をつくる。場を乱さない。",
+    "corePositionNote": "AIueoは企画・参加・金銭の当事者ではありません。主催者と参加者が、それぞれの責任で行動してください。",
+    "tunnelTitle": [
+      "場をつくる。",
+      "場を乱さない。",
+      "まずは1つの草活動から。"
+    ],
+    "rules": [
+      {
+        "index": "01",
+        "title": "AIueoの立場",
+        "content": "AIueoは、やりたいことを呼びかける場です。企画の主催者・共同主催者・代理人・参加者ではありません。企画・参加・成果・事故・トラブルは、それぞれの主催者と参加者が自分の責任で対応してください。"
+      },
+      {
+        "index": "02",
+        "title": "イベント登録と参加",
+        "content": "イベントを登録・主催する場合は、AIueoの会員登録が必要です。イベントへの参加だけなら、会員登録は必要ありません。会員登録なしで勝手にイベントを打つことはできません。"
+      },
+      {
+        "index": "03",
+        "title": "個人情報・認証",
+        "content": "AIueoは、住所・電話番号・参加者名簿を取得しません。企画を掲載する会員のログインはGoogleアカウントで行い、Googleから渡されるメールアドレス・表示名と、ご自身に入力いただく公開名だけを扱います。パスワードは預かりません。"
+      },
+      {
+        "index": "04",
+        "title": "禁止事項と措置",
+        "content": "AIueoは、この場を乱す行為を認めません。無断でイベントを立てる、参加者を困らせる、虚偽の告知をする、他人を傷つける、マルチ商法などの勧誘に使う、アダルト系イベントを登録するといった行為は禁止です。"
+      },
+      {
+        "index": "05",
+        "title": "費用",
+        "content": "AIueoは、利用料・会費・イベント参加費など、いかなる金銭も受け取りません。参加費・報酬・経費・交通費などの決定、支払い、精算にも関与しません。イベントごとの金銭条件は、主催者が事前に明記してください。まずは全て割り勘から始めることをおすすめします。"
+      },
+      {
+        "index": "06",
+        "title": "イベントの取り消し",
+        "content": "イベントの取り消しは主催者に一任します。参加者が1名でも集まっている場合、主催者は自己責任で会員へ説明してください。"
+      },
+      {
+        "index": "07",
+        "title": "著作権・禁止事項",
+        "content": "AIueoに掲載・登録された文章、画像、企画情報などの著作権の一切はAIueoに帰属します。掲載内容に問題がある場合は、AIueoへお知らせください。把握した内容を確認し、必要に応じて非公開・削除などの対応を行います。"
+      }
+    ]
+  },
+  "footer": {
+    "whereWePlay": "Tokyo, Japan & Online",
+    "ethos": "草野球のように集まり、AIを触り、1つのプロトタイプを作る草AI同盟。",
+    "slogan": "0はいくら集めても0。まずは1つの草活動から。",
+    "copyright": "© 2026 AI League AIueo. Activities & Experiment First."
+  }
+}
