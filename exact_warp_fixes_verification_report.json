@@ -1,0 +1,110 @@
+{
+  "duration90to100Seconds": 3.301,
+  "zoomSamplesCount": 37,
+  "zoomSamplesPreview": [
+    {
+      "time": 3551,
+      "easedPercent": 88.65595238095237,
+      "digits": "088",
+      "zoomProgress": 0
+    },
+    {
+      "time": 3721,
+      "easedPercent": 89.2259523812504,
+      "digits": "089",
+      "zoomProgress": 0
+    },
+    {
+      "time": 3909,
+      "easedPercent": 90.9127999998331,
+      "digits": "090",
+      "zoomProgress": 0.09127999998330978
+    },
+    {
+      "time": 4060,
+      "easedPercent": 91.42857142857143,
+      "digits": "091",
+      "zoomProgress": 0.14285714285714307
+    },
+    {
+      "time": 4095,
+      "easedPercent": 91.78571428571428,
+      "digits": "091",
+      "zoomProgress": 0.17857142857142777
+    },
+    {
+      "time": 4140,
+      "easedPercent": 91.78571428571428,
+      "digits": "091",
+      "zoomProgress": 0.17857142857142777
+    },
+    {
+      "time": 4187,
+      "easedPercent": 92.37245714294059,
+      "digits": "092",
+      "zoomProgress": 0.237245714294059
+    },
+    {
+      "time": 4287,
+      "easedPercent": 92.6090571426068,
+      "digits": "092",
+      "zoomProgress": 0.2609057142606801
+    },
+    {
+      "time": 4326,
+      "easedPercent": 92.6090571426068,
+      "digits": "092",
+      "zoomProgress": 0.2609057142606801
+    },
+    {
+      "time": 4370,
+      "easedPercent": 92.6090571426068,
+      "digits": "092",
+      "zoomProgress": 0.2609057142606801
+    },
+    {
+      "time": 4428,
+      "easedPercent": 93.21428571428572,
+      "digits": "093",
+      "zoomProgress": 0.32142857142857223
+    },
+    {
+      "time": 4515,
+      "easedPercent": 93.57142857142857,
+      "digits": "093",
+      "zoomProgress": 0.35714285714285693
+    },
+    {
+      "time": 4559,
+      "easedPercent": 94.06297142848798,
+      "digits": "094",
+      "zoomProgress": 0.40629714284879836
+    },
+    {
+      "time": 4697,
+      "easedPercent": 94.77865714269025,
+      "digits": "094",
+      "zoomProgress": 0.47786571426902497
+    },
+    {
+      "time": 4729,
+      "easedPercent": 95.47614285714285,
+      "digits": "095",
+      "zoomProgress": 0.5476142857142847
+    }
+  ],
+  "warpStatesCount": 5,
+  "blackTunnelSamples": [
+    {
+      "time": 7210,
+      "blackRatio": 0.00014285715562956675,
+      "dollyOffset": -0.000004135695531512459,
+      "bloomAmount": 6.000571428622519,
+      "bloomSaturation": 2.5000714285778147,
+      "efxPosZ": null,
+      "efxRotZ": null
+    }
+  ],
+  "whiteTunnelSamples": [],
+  "consoleErrors": []
+}
