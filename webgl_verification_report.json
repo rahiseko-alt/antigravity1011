@@ -8,7 +8,7 @@
   },
   "t1": {
     "warpActive": true,
-    "warpProgress": 0.16582978722896982,
+    "warpProgress": 0.0914666666686535,
     "currentStage3D": "GoalTunnels",
     "isBlackTunnelActive": true,
     "isWhiteTunnelActive": false,
@@ -32,12 +32,12 @@
         "materialType": "ShaderMaterial"
       }
     ],
-    "bloomAmount": 40.698695950256116,
-    "tunnelTime": 1.2153182498153752
+    "bloomAmount": 35.90107526894539,
+    "tunnelTime": 1.2097277661562744
   },
   "t2": {
     "warpActive": true,
-    "warpProgress": 0.954595744673242,
+    "warpProgress": 0.7476333333353202,
     "currentStage3D": "GoalTunnels",
     "isBlackTunnelActive": false,
     "isWhiteTunnelActive": true,
@@ -59,9 +59,9 @@
         "hasMaterial": true
       }
     ],
-    "whiteTunnelRatio": 0.8253068722537492,
-    "bloomAmount": 0.040474035029987476,
-    "bgColor": "f0f1fa"
+    "whiteTunnelRatio": 0.16281348876928647,
+    "bloomAmount": 31.275089348910562,
+    "bgColor": "ffffff"
   },
   "t2_5": {
     "warpHasCompleted": true,
@@ -78,9 +78,9 @@
         "radius": 1,
         "color": "#ff0055",
         "position": {
-          "x": 2.8141013657194263,
-          "y": -2.3614222054570924,
-          "z": 1.4449037852428739
+          "x": 3.113643231298778,
+          "y": -1.9329449917070451,
+          "z": 0.6601183690596615
         }
       },
       {
@@ -91,9 +91,9 @@
         "radius": 1,
         "color": "#ffaa00",
         "position": {
-          "x": -0.9027048095691794,
-          "y": 0.003576227470903498,
-          "z": 0.6071800350313744
+          "x": -0.8473797977488021,
+          "y": -0.07908159944245133,
+          "z": -1.9092099706386452
         }
       },
       {
@@ -104,9 +104,9 @@
         "radius": 1,
         "color": "#00c0ff",
         "position": {
-          "x": 0.6040707189190693,
-          "y": 0.18020243303921085,
-          "z": 2.847218178716707
+          "x": 2.2384015115889113,
+          "y": -2.2185139760651604,
+          "z": -1.225759146665828
         }
       },
       {
@@ -117,9 +117,9 @@
         "radius": 1,
         "color": "#ff0080",
         "position": {
-          "x": 1.3304166682760148,
-          "y": -1.9693135000250683,
-          "z": -0.8209135435909367
+          "x": 2.116886707785218,
+          "y": -1.533144792452703,
+          "z": 2.6185481833306943
         }
       },
       {
@@ -130,28 +130,23 @@
         "radius": 1,
         "color": "#f5a623",
         "position": {
-          "x": -2.06020104471455,
-          "y": -0.23635658597259954,
-          "z": -0.8470328572119142
+          "x": 0.14245432680042291,
+          "y": 1.842935030536115,
+          "z": -1.6877071190238395
         }
       }
     ],
-    "headerOpacity": "0.998495",
+    "headerOpacity": "1",
     "pageContainerOpacity": "1",
     "heroTitleText": "Host events more casually, more\nfreely! AI expands your world.",
     "cameraPosition": {
       "x": 0,
       "y": 0,
-      "z": 4.74954365019709
+      "z": 7.0285201579922685
     },
     "scrollManagerActive": true
   },
   "consoleErrors": [],
   "webglWarnings": [],
-  "failedRequests": [
-    {
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-W2XC5XK9QJ&gtm=45je6a91v9165630968za208zd9165630968xf1&_p=1791846577217&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2087977110.1791846583&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=ja&_s=1&tag_exp=115938466~115938469~118897920~118897930~119860442~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791846582&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=Lusion%20-%20Award%20Winning%203D%20and%20Interactive%20Web%20Studio&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=5474",
-      "failure": "net::ERR_ABORTED"
-    }
-  ]
+  "failedRequests": []
 }

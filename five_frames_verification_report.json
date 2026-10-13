@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-10-13T04:25:06.693Z",
+  "frames": {
+    "frame1": {
+      "name": "Frame 1: 100 zooming up and flying past camera",
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\verify_frame_1_100_zooming_past.png",
+      "state": {
+        "isActive": true,
+        "percent": 1,
+        "zoomProgress": 0.1920000000298023,
+        "zoomScale": 1.205258752095581,
+        "text": "100"
+      },
+      "timestamp": "2026-10-13T04:25:11.527Z"
+    },
+    "frame2": {
+      "name": "Frame 2: Real 3D cyber grid tunnel in full flight",
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\verify_frame_2_cyber_grid_tunnel.png",
+      "state": {
+        "r": 1.1888999999761583,
+        "isBlackTunnelActive": true,
+        "bloomAmount": 71.68235294117648,
+        "fov": 72.51176470588234
+      },
+      "timestamp": "2026-10-13T04:25:11.884Z"
+    },
+    "frame3": {
+      "name": "Frame 3: 3D glass shattering into fragments",
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\verify_frame_3_glass_shattering.png",
+      "state": {
+        "r": 1.9062999999821186,
+        "glassRatio": 0.11502961974314607,
+        "glassVisible": true,
+        "meshVisible": true,
+        "parent": "Object3D"
+      },
+      "timestamp": "2026-10-13T04:25:12.972Z"
+    },
+    "frame5": {
+      "name": "Frame 5: Hero floating blocks fading in and settling",
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\verify_frame_5_hero_floating_blocks_settling.png",
+      "state": {
+        "isIntroWarp": false,
+        "homeBalloonsActive": true,
+        "blockMeshCount": 0,
+        "sampleBlocks": [],
+        "pageContainerOpacity": "1",
+        "headerOpacity": "1",
+        "whiteoutDisplay": "none",
+        "whiteoutOpacity": "0",
+        "scrollActive": true
+      },
+      "timestamp": "2026-10-13T04:25:20.374Z"
+    }
+  },
+  "webglState": {
+    "glError": 0,
+    "glErrorName": "NO_ERROR",
+    "vendor": "WebKit",
+    "renderer": "WebKit WebGL",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  },
+  "consoleErrors": [],
+  "webglWarnings": [],
+  "failedRequests": [],
+  "success": true
+}

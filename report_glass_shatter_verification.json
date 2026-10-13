@@ -1,0 +1,42 @@
+{
+  "capturedPhaseA": false,
+  "capturedPhaseB_Black": true,
+  "capturedPhaseB_White": true,
+  "capturedPhaseC_Glass": true,
+  "capturedPhaseD_Whiteout": false,
+  "capturedHero": true,
+  "midPageState": {
+    "stage": "GoalTunnels",
+    "goalTunnelsActive": true,
+    "scrollPixel": 7187.953125,
+    "glassContainerExists": true,
+    "glassMeshExists": true
+  },
+  "sampleCount": 17,
+  "phaseCSamplesCount": 1,
+  "phaseCSample": {
+    "r": 2.216300000011921,
+    "introRatio": 0.7281000000039737,
+    "isIntroWarp": true,
+    "hasStarted": true,
+    "stage": "GoalTunnels",
+    "isBlackTunnelActive": false,
+    "isWhiteTunnelActive": true,
+    "blackTunnelRatio": 1,
+    "whiteTunnelRatio": 1,
+    "bloomAmount": 43.13775370688958,
+    "bgColor": "#ffffff",
+    "glassRatio": 0.8463010174197422,
+    "glassContainerVisible": true,
+    "glassMeshActive": true,
+    "glassShaderMaterialActive": true,
+    "glassMeshPieceCount": 946,
+    "glassUniforms": {
+      "u_frameFrom": 11,
+      "u_frameTo": 12,
+      "u_frameRatio": 0.8482142438763898,
+      "u_fragmentScale": 1
+    }
+  },
+  "consoleErrors": []
+}

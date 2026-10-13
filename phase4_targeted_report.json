@@ -1,0 +1,35 @@
+{
+  "s1": {
+    "r": "2.883",
+    "isIntroWarp": true,
+    "whiteoutOpacity": "0.042",
+    "whiteoutDisplay": "block",
+    "pageContainerOpacity": "0.939",
+    "headerOpacity": "0.939",
+    "homeBalloonsActive": true,
+    "scrollActive": false,
+    "bloomAmount": 4.15184770488051
+  },
+  "s2": {
+    "r": "3.386",
+    "isIntroWarp": false,
+    "whiteoutOpacity": "0",
+    "whiteoutDisplay": "none",
+    "pageContainerOpacity": "1",
+    "headerOpacity": "1",
+    "homeBalloonsActive": true,
+    "scrollActive": true,
+    "bloomAmount": 0
+  },
+  "s3": {
+    "r": "4.129",
+    "isIntroWarp": false,
+    "whiteoutOpacity": "0",
+    "whiteoutDisplay": "none",
+    "pageContainerOpacity": "1",
+    "headerOpacity": "1",
+    "homeBalloonsActive": true,
+    "scrollActive": true,
+    "bloomAmount": 0
+  }
+}
