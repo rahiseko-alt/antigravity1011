@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-13T09:34:11.715Z",
+  "timestamp": "2026-10-13T11:16:30.855Z",
   "results": {
     "1a_zoom_approach": {
       "name": "Stage 1a: Approach 100 Zoom & Dissolve Simultaneously",
       "state": {
-        "preloaderText": "043",
+        "preloaderText": "095",
         "zoomProgress": 0.55,
         "zoomScale": 6.6567500000000015,
         "digitsOpacity": "0.563",
@@ -21,7 +21,8 @@
         "homeBalloonsActive": false,
         "pageOpacity": "1",
         "headerOpacity": "1",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": false
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_1a_zoom_approach.png",
       "errors": []
@@ -34,7 +35,7 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 0.505,
+        "r": 0.4004000000059605,
         "isBlackActive": false,
         "isWhiteActive": false,
         "bloom": 0,
@@ -46,7 +47,8 @@
         "homeBalloonsActive": false,
         "pageOpacity": "0",
         "headerOpacity": "0",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": false
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_1b_pure_black_interval.png",
       "errors": []
@@ -59,19 +61,20 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 1.011,
+        "r": 0.8061999999880791,
         "isBlackActive": true,
         "isWhiteActive": false,
-        "bloom": 1.380000000447032,
+        "bloom": 1.0649999991059311,
         "bgColor": "#000000",
-        "blackoutOpacity": "0.969",
+        "blackoutOpacity": "0.976",
         "blackoutDisplay": "block",
         "whiteoutOpacity": "0",
         "whiteoutDisplay": "none",
         "homeBalloonsActive": false,
         "pageOpacity": "0",
         "headerOpacity": "0",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": true
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_1c_warp_fadein.png",
       "errors": []
@@ -84,7 +87,7 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 1.2647999999821187,
+        "r": 1.2775,
         "isBlackActive": true,
         "isWhiteActive": false,
         "bloom": 45,
@@ -96,7 +99,8 @@
         "homeBalloonsActive": false,
         "pageOpacity": "0",
         "headerOpacity": "0",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": true
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_1d_black_warp_full.png",
       "errors": []
@@ -109,10 +113,10 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 1.653899999976158,
+        "r": 1.7367000000178814,
         "isBlackActive": false,
         "isWhiteActive": true,
-        "bloom": 73.80714285799435,
+        "bloom": 70.63214285671711,
         "bgColor": "#ffffff",
         "blackoutOpacity": "0",
         "blackoutDisplay": "none",
@@ -121,7 +125,8 @@
         "homeBalloonsActive": false,
         "pageOpacity": "0",
         "headerOpacity": "0",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": false
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_1e_white_warp.png",
       "errors": []
@@ -134,19 +139,20 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 2.447300000011921,
+        "r": 2.4688999999761583,
         "isBlackActive": false,
         "isWhiteActive": true,
-        "bloom": 61.533333333830036,
+        "bloom": 63.33333333333334,
         "bgColor": "#ffffff",
         "blackoutOpacity": "0",
         "blackoutDisplay": "none",
-        "whiteoutOpacity": "0.231",
+        "whiteoutOpacity": "0.267",
         "whiteoutDisplay": "block",
         "homeBalloonsActive": false,
         "pageOpacity": "0",
         "headerOpacity": "0",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": false
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_2_fade_white.png",
       "errors": []
@@ -159,7 +165,7 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 2.9965,
+        "r": 3.0785999999940397,
         "isBlackActive": false,
         "isWhiteActive": false,
         "bloom": 80,
@@ -171,7 +177,8 @@
         "homeBalloonsActive": true,
         "pageOpacity": "0",
         "headerOpacity": "0",
-        "scrollActive": false
+        "scrollActive": false,
+        "stageHit1b": true
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_3_hold_white.png",
       "errors": []
@@ -184,19 +191,20 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": true,
-        "r": 3.5536000000238417,
+        "r": 3.5555,
         "isBlackActive": false,
         "isWhiteActive": false,
-        "bloom": 77.00571428367068,
-        "bgColor": "#ffffff",
+        "bloom": 80,
+        "bgColor": "#f0f1fa",
         "blackoutOpacity": "0",
         "blackoutDisplay": "none",
-        "whiteoutOpacity": "0.963",
+        "whiteoutOpacity": "1",
         "whiteoutDisplay": "block",
         "homeBalloonsActive": true,
-        "pageOpacity": "0.037",
-        "headerOpacity": "0.037",
-        "scrollActive": false
+        "pageOpacity": "0",
+        "headerOpacity": "0",
+        "scrollActive": false,
+        "stageHit1b": false
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_4a_fade_hero.png",
       "errors": []
@@ -209,7 +217,7 @@
         "zoomScale": 35,
         "digitsOpacity": "0",
         "isIntroWarp": false,
-        "r": 4.2489000000059605,
+        "r": 4.2915,
         "isBlackActive": false,
         "isWhiteActive": false,
         "bloom": 0,
@@ -221,7 +229,8 @@
         "homeBalloonsActive": true,
         "pageOpacity": "1",
         "headerOpacity": "1",
-        "scrollActive": true
+        "scrollActive": true,
+        "stageHit1b": false
       },
       "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\test_timing_4b_hero_settled.png",
       "errors": []

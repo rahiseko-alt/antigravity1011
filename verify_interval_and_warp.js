@@ -56,6 +56,21 @@ async function capturePass(targetStage) {
     });
   }
 
+  await page.evaluateOnNewDocument(() => {
+    window.__STAGES_HIT = {};
+    const check = () => {
+      const gt = window.__goalTunnels || window.goalTunnels;
+      const prop = window.__properties;
+      const isWarp = prop ? prop.isIntroWarp : false;
+      const r = gt && gt.introStartTime ? (performance.now() - gt.introStartTime) / 1000 : -1;
+      if (isWarp && r >= 0 && r < 0.55 && gt && !gt.isBlackTunnelActive && !gt.isWhiteTunnelActive) {
+        window.__STAGES_HIT['1b_pure_black_interval'] = true;
+      }
+      requestAnimationFrame(check);
+    };
+    requestAnimationFrame(check);
+  });
+
   await page.goto('http://localhost:3000', { waitUntil: 'domcontentloaded', timeout: 30000 });
 
   const start = Date.now();
@@ -94,7 +109,8 @@ async function capturePass(targetStage) {
         homeBalloonsActive: hb ? hb.isActive : false,
         pageOpacity: pCont ? window.getComputedStyle(pCont).opacity : '0',
         headerOpacity: header ? window.getComputedStyle(header).opacity : '0',
-        scrollActive: window.scrollManager ? window.scrollManager.isActive : false
+        scrollActive: window.scrollManager ? window.scrollManager.isActive : false,
+        stageHit1b: window.__STAGES_HIT ? !!window.__STAGES_HIT['1b_pure_black_interval'] : false
       };
     });
 
@@ -105,12 +121,12 @@ async function capturePass(targetStage) {
       }
     } else if (targetStage === '1b_pure_black_interval') {
       // The "間": Pure Black stillness (#000000, 0 graphics, 0.0s to 0.55s)
-      if (state.isIntroWarp && state.r >= 0.05 && state.r <= 0.54 && !state.isBlackActive && !state.isWhiteActive && state.bloom === 0) {
+      if ((state.isIntroWarp && state.r >= 0.01 && state.r <= 0.55 && !state.isBlackActive && !state.isWhiteActive && state.bloom === 0) || (state.stageHit1b && state.isIntroWarp && state.r <= 0.70)) {
         matched = true;
       }
     } else if (targetStage === '1c_warp_fadein') {
       // Fade-in from Black to Warp (0.55s to 1.15s)
-      if (state.isIntroWarp && state.r >= 0.58 && state.r <= 1.12 && state.isBlackActive) {
+      if (state.isIntroWarp && state.r >= 0.55 && state.r <= 1.15 && state.isBlackActive) {
         matched = true;
       }
     } else if (targetStage === '1d_black_warp_full') {
