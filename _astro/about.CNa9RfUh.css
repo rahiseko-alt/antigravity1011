@@ -1141,3 +1141,47 @@ html.is-black-bg #home-goal-texts {
   background: rgba(255, 255, 255, 0.04);
   border-radius: 6px;
 }
+
+/* Option B Intro Warp Typography */
+#intro-warp-title {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  pointer-events: none;
+  z-index: 9500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate3d(0, -50%, 0);
+  will-change: transform, opacity;
+  visibility: hidden;
+  opacity: 0;
+}
+.intro-warp-phase {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35ch;
+  white-space: nowrap;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  font-weight: 900 !important;
+  font-size: clamp(2.5rem, 6.5vw, 7.5rem);
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.95), 0 0 35px rgba(0, 180, 255, 0.7), 0 0 70px rgba(255, 255, 255, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: none;
+}
+.intro-warp-phase.is-active {
+  visibility: visible;
+  opacity: 1;
+}
+.intro-warp-word {
+  display: inline-block;
+  will-change: transform;
+}
