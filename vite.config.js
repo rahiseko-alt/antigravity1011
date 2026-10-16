@@ -65,13 +65,13 @@ export default defineConfig({
         const assetsSrc = path.resolve(process.cwd(), 'assets');
         const assetsDest = path.join(distDir, 'assets');
         if (fs.existsSync(assetsSrc)) {
-          fs.cpSync(assetsSrc, assetsDest, { recursive: true, force: false });
+          fs.cpSync(assetsSrc, assetsDest, { recursive: true, force: true });
           console.log('[build] Copied static assets to dist/assets');
         }
         const astroSrc = path.resolve(process.cwd(), '_astro');
         const astroDest = path.join(distDir, '_astro');
         if (fs.existsSync(astroSrc)) {
-          fs.cpSync(astroSrc, astroDest, { recursive: true, force: false });
+          fs.cpSync(astroSrc, astroDest, { recursive: true, force: true });
           console.log('[build] Copied _astro to dist/_astro');
         }
         // GitHub Pages ignores directories starting with _ without .nojekyll
