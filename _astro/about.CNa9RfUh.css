@@ -640,7 +640,7 @@ html.is-black-bg #home-goal-texts {
   min-height: 0 !important;
   padding: clamp(60px, 8vh, 120px) var(--base-padding-x) !important;
   margin: 0 !important;
-  background: #040508 !important;
+  background: transparent !important;
   color: #fff !important;
   box-sizing: border-box !important;
   overflow: visible !important;
@@ -1184,4 +1184,14 @@ html.is-black-bg #home-goal-texts {
 .intro-warp-word {
   display: inline-block;
   will-change: transform;
+}
+
+#home-members.section, #home-members {
+  background: transparent !important;
+}
+.member-card {
+  background: rgba(8, 12, 20, 0.95) !important;
+  position: relative !important;
+  z-index: 2 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
