@@ -49,7 +49,7 @@
       "slug": "ai-art-exhibition",
       "status": "active",
       "title": "AIアート展覧会を重要文化財で開催する",
-      "date": "2027年1月頃（2日間）",
+      "date": "2027年1月頃",
       "format": "オフライン（名古屋市市政資料館）",
       "cost": "メンバーで割り勘（約1,000円） / 入場無料",
       "organizer": "小齊平 恒平",
@@ -59,11 +59,13 @@
         "EXHIBITION",
         "CULTURE"
       ],
-      "badge": "1/9(土) 10:00",
+      "badge": "重要文化財企画",
       "image": "./assets/images/aiueo/event-ai-art.png",
       "imageOriginal": "https://aiueo-lp.vercel.app/api/proposals/33e4e724-e8ae-4004-8052-e4614d2645c1/image",
       "summary": "会場は国の重要文化財【名古屋市市政資料館】。歴史と文化が積み重なる空間で「AIアートは文化になれるか？」を問う。出展者・運営メンバー10名募集中。",
-      "details": "会場は、国の重要文化財でもある【名古屋市市政資料館】。映画・ドラマのロケ地としても度々使われてきた歴史的建造物に最新のAI表現を展示します。\n\n■コンセプト\n「AIアートは文化になれるか？」\n作品だけでなく、プロンプト・試行錯誤・AIとの対話の裏側も展示します。\n\n■作品募集\n「AIを主に使って制作」「アートとして展示」を満たせば形式不問。映像・3D・立体物・Web作品もOK。\n\n■運営メンバー募集\n設営・広報・レイアウトなど未経験歓迎で約10名募集。"
+      "details": "会場は、国の重要文化財でもある【名古屋市市政資料館】。映画・ドラマのロケ地としても度々使われてきた歴史的建造物に最新のAI表現を展示します。\n\n■コンセプト\n「AIアートは文化になれるか？」\n作品だけでなく、プロンプト・試行錯誤・AIとの対話の裏側も展示します。\n\n■作品募集\n「AIを主に使って制作」「アートとして展示」を満たせば形式不問。映像・3D・立体物・Web作品もOK。\n\n■運営メンバー募集\n設営・広報・レイアウトなど未経験歓迎で約10名募集。",
+      "venue": "名古屋市市政資料館（国の重要文化財）",
+      "recruitment": "出展者・運営メンバー募集中"
     },
     {
       "id": "proposal-ai-tips",
@@ -80,12 +82,13 @@
         "TIPS",
         "LIGHTNING_TALK"
       ],
-      "badge": "11/11(水) 20:00",
       "image": "./assets/images/aiueo/event-ai-tips.png",
       "imageOriginal": "https://aiueo-lp.vercel.app/api/proposals/831cfd10-c5e2-4010-9867-5beb1ed14b45/image",
       "youtubeUrl": "https://youtu.be/pgO7gyX4n_4?si=808vu_UvNkEs4IdC",
       "summary": "人の役に立つかはわからない。でも自分はかなり気に入ってる。『小技を好きな人に悪い人はいない』。そんなAIの小技を持ち寄るゆるい発表会。大技禁止、「それだけ？」くらいがちょうどいい。",
-      "details": "■どんな発表会？\n「これ、地味だけど自分は好き」「他の人に役立つかは分からないけど、よく使ってる」そんな小さなAI活用を共有する会です。\n\n■大技禁止\n大規模システムや壮大な活用事例はなし。「それだけ？」くらいが、ちょうどいい。ChatGPT、Claude、Geminiなどツールは何でもOK。仕事・勉強・遊び、内容も自由です。\n\n■開催形式\nリモート開催。見るだけでも、発表してもOK。視聴URLは後日お伝えします！視聴は申し込み不要。"
+      "details": "■どんな発表会？\n「これ、地味だけど自分は好き」「他の人に役立つかは分からないけど、よく使ってる」そんな小さなAI活用を共有する会です。\n\n■大技禁止\n大規模システムや壮大な活用事例はなし。「それだけ？」くらいが、ちょうどいい。ChatGPT、Claude、Geminiなどツールは何でもOK。仕事・勉強・遊び、内容も自由です。\n\n■開催形式\nリモート開催。見るだけでも、発表してもOK。視聴URLは後日お伝えします！視聴は申し込み不要。",
+      "venue": "リモート開催",
+      "recruitment": "参加・視聴自由（申込不要）"
     }
   ],
   "organizers": [
@@ -135,10 +138,12 @@
         "#AI",
         "#DEVELOPMENT"
       ],
-      "badge": "投稿の途絶がなくなった",
       "description": "投稿文の生成、自動投稿、反応の分析にもとづく修正までをひとつながりにした。媒体ごとのアルゴリズムとBAN対策も含む。",
       "image": "./assets/images/aiueo/act-meetup.png",
-      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/meetup.png"
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/meetup.png",
+      "date": "随時進行中",
+      "venue": "オンライン",
+      "recruitment": "共同開発メンバー募集中"
     },
     {
       "id": "activity-ai-chatbot",
@@ -147,34 +152,40 @@
         "#AI",
         "#LLM"
       ],
-      "badge": "定型の問い合わせを自動処理",
       "description": "自社資料だけを根拠に答える一次対応。回答には必ず出どころを示し、判断が必要なものは人へ回す。",
       "image": "./assets/images/aiueo/act-development.png",
-      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/development.png"
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/development.png",
+      "date": "随時進行中",
+      "venue": "オンライン",
+      "recruitment": "実証実験パートナー募集中"
     },
     {
       "id": "activity-voice-medical-record",
-      "title": "音声カルテ作成アプリ（ペット業界向け）",
+      "title": "音声カルテ作成アプリ",
       "tags": [
         "#AI",
         "#PROTOTYPE"
       ],
-      "badge": "1日約2時間の事務作業を削減",
       "description": "診察中に片手で音声入力し、記録を業務と同時進行にした。あとからの転記をなくすことを狙った。",
       "image": "./assets/images/aiueo/act-workshop.png",
-      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/workshop.png"
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/workshop.png",
+      "date": "随時進行中",
+      "venue": "オンライン",
+      "recruitment": "フィールドテスター募集中"
     },
     {
       "id": "activity-doc-automation",
-      "title": "書類業務の半自動化アプリ（飲食業向け）",
+      "title": "書類業務の半自動化アプリ",
       "tags": [
         "#AI",
         "#LOCAL"
       ],
-      "badge": "月50時間相当を削減",
       "description": "作業しながらの片手入力から書式変換、本部提出までを一気通貫に。現場で使い続けられることを最優先に設計した。",
       "image": "./assets/images/aiueo/act-seminar.png",
-      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/seminar.png"
+      "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/seminar.png",
+      "date": "随時進行中",
+      "venue": "オンライン",
+      "recruitment": "企画・開発メンバー募集中"
     }
   ],
   "coCreation": [
