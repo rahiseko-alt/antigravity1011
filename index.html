@@ -485,6 +485,22 @@
 }
 </style>
 
+<style id="header-protection-styles">
+  #header {
+    background: linear-gradient(180deg, rgba(4, 5, 8, 0.92) 0%, rgba(4, 5, 8, 0.65) 60%, rgba(4, 5, 8, 0) 100%) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    padding-bottom: 24px !important;
+    pointer-events: none !important;
+  }
+  #header-container {
+    pointer-events: auto !important;
+  }
+  /* Remove abnormal 5em margin-top on 2nd project item that cuts text */
+  .project-item:nth-child(2) {
+    margin-top: 0 !important;
+  }
+</style>
 </head> <body>
   <div id="intro-warp-title">
     <div id="intro-warp-p1" class="intro-warp-phase is-active">
