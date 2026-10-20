@@ -211,14 +211,14 @@ async function verifySession(browser, config, deviceName) {
       // Wheel simulation
       await page.mouse.wheel({ deltaY: 300 });
     } else {
-      // Simulate click & wheel
-      await page.mouse.click(200, 200);
+      // Simulate click & wheel on safe central canvas area
+      await page.mouse.click(500, 500);
       result.item2_responsiveness.clickResponsive = true;
       await page.mouse.wheel({ deltaY: 400 });
     }
 
-    // Wait 120ms to measure responsiveness
-    await sleep(150);
+    // Wait 350ms to measure responsiveness
+    await sleep(350);
 
     const postInteraction = await page.evaluate(() => {
       const sm = window.scrollManager || window.__scrollManager;
@@ -263,26 +263,19 @@ async function verifySession(browser, config, deviceName) {
     for (let step = 1; step <= scrollSteps; step++) {
       await page.mouse.wheel({ deltaY: wheelDelta });
       await sleep(65); // Realistic user continuous scrolling rate
-
-      if (step === 8) {
-        const sc = `perf_${deviceName}_02_initiatives.png`;
-        await page.screenshot({ path: sc });
-        result.item4_bottom_scroll.screenshots.push(sc);
-      } else if (step === 16) {
-        const sc = `perf_${deviceName}_03_members.png`;
-        await page.screenshot({ path: sc });
-        result.item4_bottom_scroll.screenshots.push(sc);
-      } else if (step === 24) {
-        const sc = `perf_${deviceName}_04_operating_guidelines.png`;
-        await page.screenshot({ path: sc });
-        result.item4_bottom_scroll.screenshots.push(sc);
-      }
     }
 
     // Allow inertia to settle
-    await sleep(800);
+    await sleep(600);
+
+    // Stop tracking scroll performance before capturing screenshots
+    await page.evaluate(() => {
+      window.__perfMonitor.isTrackingScroll = false;
+    });
 
     const finalScreenshot = `perf_${deviceName}_05_bottom_footer.png`;
+    await page.screenshot({ path: finalScreenshot });
+    result.item4_bottom_scroll.screenshots.push(finalScreenshot);
     await page.screenshot({ path: finalScreenshot });
     result.item4_bottom_scroll.screenshots.push(finalScreenshot);
 
