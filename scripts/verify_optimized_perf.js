@@ -276,8 +276,6 @@ async function verifySession(browser, config, deviceName) {
     const finalScreenshot = `perf_${deviceName}_05_bottom_footer.png`;
     await page.screenshot({ path: finalScreenshot });
     result.item4_bottom_scroll.screenshots.push(finalScreenshot);
-    await page.screenshot({ path: finalScreenshot });
-    result.item4_bottom_scroll.screenshots.push(finalScreenshot);
 
     // Analyze FPS & Frame Timings
     const perfData = await page.evaluate(() => {
