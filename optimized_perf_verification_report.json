@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-10-20T22:49:13.207Z",
+  "targetUrl": "http://localhost:3000",
+  "desktop": {
+    "device": "desktop",
+    "viewport": "1440x900",
+    "item1_intro": {
+      "status": "FAIL",
+      "preloaderDurationMs": 6835,
+      "introDurationMs": 3298,
+      "introDurationSec": 3.3,
+      "isIntroWarp": false,
+      "scrollManagerActive": true,
+      "targetMs": 2500,
+      "details": "Intro took 3.3s (limit: 2.5s). isIntroWarp=false, scrollActive=true"
+    },
+    "item2_responsiveness": {
+      "status": "FAIL",
+      "wheelResponseMs": 671,
+      "scrollPixelBefore": 0,
+      "scrollPixelAfter": 0,
+      "clickResponsive": true,
+      "tapResponsive": false,
+      "details": "Interaction blocked or delayed: isActive=true, targetY=0, scrollPixel=0"
+    },
+    "item3_fps": {
+      "status": "FAIL",
+      "avgFps": 31,
+      "minFps": 4,
+      "maxFps": 96,
+      "p95FrameTimeMs": 68.4,
+      "p99FrameTimeMs": 151.6,
+      "jankFrames33ms": 89,
+      "totalFramesSampled": 307,
+      "targetFps": "55 - 60 FPS",
+      "details": "Average FPS = 31 fps (Target: 55-60 FPS). Min FPS = 4, Jank frames (>33ms) = 89/307."
+    },
+    "item4_bottom_scroll": {
+      "status": "FAIL",
+      "maxScrollPixelReached": 5800,
+      "reachedBottom": true,
+      "scrollHitchesCount": 89,
+      "maxFrameTimeDuringScrollMs": 229.6,
+      "freezeDetected": true,
+      "screenshots": [
+        "perf_desktop_01_hero_settled.png",
+        "perf_desktop_02_initiatives.png",
+        "perf_desktop_03_members.png",
+        "perf_desktop_04_operating_guidelines.png",
+        "perf_desktop_05_bottom_footer.png"
+      ],
+      "details": "Scroll bottom issues: reachedBottom=true (pixel=5800), freezes=5, maxFrameDelta=229.6ms."
+    },
+    "overallStatus": "FAIL",
+    "errors": [
+      "%c%d font-size:0;color:transparent NaN",
+      "%c%d font-size:0;color:transparent NaN"
+    ]
+  },
+  "mobile": {
+    "device": "mobile",
+    "viewport": "390x844",
+    "item1_intro": {
+      "status": "PASS",
+      "preloaderDurationMs": 4812,
+      "introDurationMs": 1570,
+      "introDurationSec": 1.57,
+      "isIntroWarp": false,
+      "scrollManagerActive": true,
+      "targetMs": 2500,
+      "details": "Intro completed briskly in 1.57s (<= 2.5s) and scrollManager immediately activated."
+    },
+    "item2_responsiveness": {
+      "status": "PASS",
+      "wheelResponseMs": 705,
+      "scrollPixelBefore": 0,
+      "scrollPixelAfter": 117.00898361906893,
+      "clickResponsive": false,
+      "tapResponsive": true,
+      "details": "Instant response: wheel/interaction immediately updated scroll position (displacement=117.00898361906893px in 705ms)."
+    },
+    "item3_fps": {
+      "status": "FAIL",
+      "avgFps": 44,
+      "minFps": 2,
+      "maxFps": 132,
+      "p95FrameTimeMs": 36,
+      "p99FrameTimeMs": 151.3,
+      "jankFrames33ms": 19,
+      "totalFramesSampled": 349,
+      "targetFps": "55 - 60 FPS",
+      "details": "Average FPS = 44 fps (Target: 55-60 FPS). Min FPS = 2, Jank frames (>33ms) = 19/349."
+    },
+    "item4_bottom_scroll": {
+      "status": "FAIL",
+      "maxScrollPixelReached": 5750,
+      "reachedBottom": true,
+      "scrollHitchesCount": 19,
+      "maxFrameTimeDuringScrollMs": 632.8,
+      "freezeDetected": true,
+      "screenshots": [
+        "perf_mobile_01_hero_settled.png",
+        "perf_mobile_02_initiatives.png",
+        "perf_mobile_03_members.png",
+        "perf_mobile_04_operating_guidelines.png",
+        "perf_mobile_05_bottom_footer.png"
+      ],
+      "details": "Scroll bottom issues: reachedBottom=true (pixel=5750), freezes=5, maxFrameDelta=632.8ms."
+    },
+    "overallStatus": "FAIL",
+    "errors": [
+      "%c%d font-size:0;color:transparent NaN",
+      "%c%d font-size:0;color:transparent NaN"
+    ]
+  },
+  "summary": {
+    "desktopStatus": "FAIL",
+    "mobileStatus": "FAIL",
+    "allPassing": false
+  }
+}
