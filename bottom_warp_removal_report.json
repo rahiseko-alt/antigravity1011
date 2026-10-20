@@ -1,0 +1,224 @@
+{
+  "timestamp": "2026-10-20T22:17:02.497Z",
+  "desktop": {
+    "intro": {
+      "blackTunnel": {
+        "r": 0.8,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "0",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "whiteTunnel": {
+        "r": 3.6,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "0",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "whiteoutHold": {
+        "r": 4.4,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "0",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "heroSettled": {
+        "r": 6,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "1",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "status": "WARN"
+    },
+    "bottomWarp": {
+      "structure": {
+        "members": {
+          "top": 4301.859375,
+          "height": 1281.90625
+        },
+        "goal": {
+          "top": 5583.765625,
+          "height": 581.15625,
+          "clientHeight": 581,
+          "tunnelTitleExists": true,
+          "tunnelTitleDisplay": "none",
+          "tunnelTitleOpacity": "0",
+          "goalTitleText": "運営のかかわり方・スタンス（OperatingGuidelines）"
+        },
+        "endSection": {
+          "top": 6164.921875,
+          "height": 3150
+        },
+        "footer": {
+          "top": 9314.921875,
+          "height": 900
+        }
+      },
+      "goalContextCheck": {
+        "visibleInViewport": true,
+        "rect": {},
+        "title": "運営のかかわり方・スタンス（OperatingGuidelines）",
+        "paragraphs": [
+          "AIueoは、やりたいことを持つ人と参加したい人が出会う「呼びかけの場」です。企画・参加・金銭の当事者ではありません。主催者と参加者が、それぞれの責任で自由に行動し、場を乱さず楽しむことを基本とします。",
+          "参加だけなら会員登録は一切不要。企画を立てる人だけが会員登録（Googleログイン）を行います。利用料・会費・参加費などの金銭は預かりません。分からない場合は、すべて割り勘から始めることを推奨しています。"
+        ],
+        "tunnelTitleShowing": false,
+        "isIntroWarp": false
+      },
+      "endSectionCheck": {
+        "visibleInViewport": true,
+        "rect": {},
+        "title": "JJooiinn // PPrrooppoossee企企画画をを持持ちち込込むむ・・参参加加すするる"
+      },
+      "footerCheck": {
+        "visibleInViewport": true,
+        "rect": {},
+        "copyright": "© 2026 AI League AIueo. Activities & Experiment First."
+      },
+      "isGoalHeightClean": true,
+      "isDistanceToFooterClean": true,
+      "isWarpArtifactsGone": true,
+      "status": "PASS",
+      "reason": "PASS: Bottom warp is completely eliminated! #home-goal height is compact, operating guidelines are displayed cleanly, and scroll smoothly reaches end-section and footer."
+    },
+    "screenshots": [
+      "verify_desktop_intro_01_black_tunnel.png",
+      "verify_desktop_intro_02_white_tunnel.png",
+      "verify_desktop_intro_03_whiteout_hold.png",
+      "verify_desktop_intro_04_hero_settled.png",
+      "verify_desktop_05_members.png",
+      "verify_desktop_06_goal_context.png",
+      "verify_desktop_07_mid_goal_check.png",
+      "verify_desktop_08_end_section.png",
+      "verify_desktop_09_footer.png"
+    ]
+  },
+  "mobile": {
+    "intro": {
+      "blackTunnel": {
+        "r": 0.8,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "0",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "whiteTunnel": {
+        "r": 3.6,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "0",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "whiteoutHold": {
+        "r": 4.4,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "0",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "heroSettled": {
+        "r": 6,
+        "blackTunnelRatio": null,
+        "whiteTunnelRatio": null,
+        "isBlackActive": false,
+        "isWhiteActive": false,
+        "whiteoutOpacity": "1",
+        "heroOpacity": "1",
+        "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう"
+      },
+      "status": "WARN"
+    },
+    "bottomWarp": {
+      "structure": {
+        "members": {
+          "top": 4103.015625,
+          "height": 2374.125
+        },
+        "goal": {
+          "top": 6477.140625,
+          "height": 620.78125,
+          "clientHeight": 621,
+          "tunnelTitleExists": true,
+          "tunnelTitleDisplay": "none",
+          "tunnelTitleOpacity": "0",
+          "goalTitleText": "運営のかかわり方・スタンス（Operating Guidelines）"
+        },
+        "endSection": {
+          "top": 7097.921875,
+          "height": 2954
+        },
+        "footer": {
+          "top": 10051.921875,
+          "height": 1013.96875
+        }
+      },
+      "goalContextCheck": {
+        "visibleInViewport": true,
+        "rect": {},
+        "title": "運営のかかわり方・スタンス（Operating Guidelines）",
+        "paragraphs": [
+          "AIueoは、やりたいことを持つ人と参加したい人が出会う「呼びかけの場」です。企画・参加・金銭の当事者ではありません。主催者と参加者が、それぞれの責任で自由に行動し、場を乱さず楽しむことを基本とします。",
+          "参加だけなら会員登録は一切不要。企画を立てる人だけが会員登録（Googleログイン）を行います。利用料・会費・参加費などの金銭は預かりません。分からない場合は、すべて割り勘から始めることを推奨しています。"
+        ],
+        "tunnelTitleShowing": false,
+        "isIntroWarp": false
+      },
+      "endSectionCheck": {
+        "visibleInViewport": true,
+        "rect": {},
+        "title": "JJooiinn // PPrrooppoossee企企画画をを持持ちち込込むむ・・参参加加すするる"
+      },
+      "footerCheck": {
+        "visibleInViewport": true,
+        "rect": {},
+        "copyright": "© 2026 AI League AIueo. Activities & Experiment First."
+      },
+      "isGoalHeightClean": true,
+      "isDistanceToFooterClean": true,
+      "isWarpArtifactsGone": true,
+      "status": "PASS",
+      "reason": "PASS: Bottom warp is completely eliminated! #home-goal height is compact, operating guidelines are displayed cleanly, and scroll smoothly reaches end-section and footer."
+    },
+    "screenshots": [
+      "verify_mobile_intro_01_black_tunnel.png",
+      "verify_mobile_intro_02_white_tunnel.png",
+      "verify_mobile_intro_03_whiteout_hold.png",
+      "verify_mobile_intro_04_hero_settled.png",
+      "verify_mobile_05_members.png",
+      "verify_mobile_06_goal_context.png",
+      "verify_mobile_07_mid_goal_check.png",
+      "verify_mobile_08_end_section.png",
+      "verify_mobile_09_footer.png"
+    ]
+  },
+  "summary": {
+    "desktopIntro": "WARN",
+    "desktopBottomWarpRemoval": "PASS",
+    "mobileIntro": "WARN",
+    "mobileBottomWarpRemoval": "PASS",
+    "allPassed": false
+  }
+}
