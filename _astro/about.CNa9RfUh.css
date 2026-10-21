@@ -1311,15 +1311,13 @@ html.is-black-bg #home-goal-texts {
 /* Operating Guidelines Black Background Transition */
 html.is-black-bg body {
   background-color: #000000 !important;
-  transition: background-color 0.6s ease;
 }
 html.is-black-bg #page-container {
   background-color: transparent !important;
 }
 html.is-black-bg #home-goal {
-  background-color: #000000 !important;
+  background-color: transparent !important;
   color: #ffffff !important;
-  transition: background-color 0.6s ease;
 }
 html.is-black-bg #home-goal-title {
   grid-column: 1 / span 7 !important;
@@ -1419,4 +1417,13 @@ html.is-black-bg #footer {
     line-height: 1.75 !important;
     margin-bottom: 1.2em !important;
   }
+}
+
+/* Ensure WebGL canvas and tube are always visible behind content */
+#home-goal, #home-goal-context, #home-goal-context-inner {
+  background: transparent !important;
+}
+html.is-black-bg #home-goal,
+html.is-black-bg #home-goal-context {
+  background: transparent !important;
 }
