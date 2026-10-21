@@ -136,81 +136,81 @@ function solveNaturalC2Spline(points) {
 function buildTrajectorySegments() {
   const waypoints = [
     // ----------------------------------------------------
-    // SECTION 1: REEL HEADLINE TO BUTTON
+    // SECTION 1: REEL HEADLINE TO BUTTON (RIGHT TO LEFT CROSSING)
     // Color: Cd = 0.0 -> 0.20 Cyan/Blue
-    // Enters gracefully from top-left of Reel (X ~ -0.05, Y ~ -0.78),
-    // swoops across under the Reel headline in an elegant sweeping arch toward right (X ~ 0.88, Y ~ -1.15),
-    // curves under "HOW IT WORKS" button to offscreen right (X ~ 1.15, Y ~ -1.35).
+    // Enters gracefully from top-right of Reel (X ~ 1.05, Y ~ -0.78),
+    // swoops across under the Reel headline in an elegant sweeping arch toward left (X ~ 0.12, Y ~ -1.15),
+    // curves under "HOW IT WORKS" button to offscreen left (X ~ -0.15, Y ~ -1.35).
     // ----------------------------------------------------
-    { x: -0.05, y: -0.78, name: '1A: Reel Headline Entry',        cd: 0.00 },
-    { x:  0.42, y: -0.96, name: '1B: Reel Headline Sweeping Arch', cd: 0.00 },
-    { x:  0.88, y: -1.15, name: '1C: Reel Arch toward Right',     cd: 0.00 },
-    { x:  1.15, y: -1.35, name: '1D: Under Button to Offscreen R', cd: 0.00 },
+    { x:  1.05, y: -0.78, name: '1A: Reel Headline Entry Right',     cd: 0.00 },
+    { x:  0.58, y: -0.96, name: '1B: Reel Headline Sweeping Arch',     cd: 0.00 },
+    { x:  0.15, y: -1.15, name: '1C: Reel Arch toward Left',          cd: 0.00 },
+    { x: -0.15, y: -1.35, name: '1D: Under Button to Offscreen Left', cd: 0.00 },
 
     // ----------------------------------------------------
-    // OFFSCREEN TURN 1 -> 2 (Right side, x > 1.0)
+    // OFFSCREEN TURN 1 -> 2 (Left side, x < 0.0)
     // Cd transitions 0.00 -> 0.20
     // ----------------------------------------------------
-    { x:  1.20, y: -1.45, name: 'T12: Turn 1->2 Offscreen Apex',  cd: 0.10 },
-    { x:  1.05, y: -1.55, name: 'T12: Section 2 Re-entry',        cd: 0.20 },
+    { x: -0.20, y: -1.45, name: 'T12: Turn 1->2 Offscreen Apex',      cd: 0.10 },
+    { x: -0.05, y: -1.55, name: 'T12: Section 2 Re-entry',            cd: 0.20 },
 
     // ----------------------------------------------------
     // SECTION 2: ACTIVE INITIATIVES HEADER & CARDS 1&2
     // Color: Cd = 0.20 -> 0.40 Crimson Red
-    // Swoops diagonally down-left across Active Initiatives header and
-    // between Card 1 & Card 2 in a wide flowing S-curve (X ~ -0.15, Y ~ -2.45). NO LOOPS!
+    // Swoops diagonally down-right across Active Initiatives header and
+    // between Card 1 & Card 2 in a wide flowing S-curve (X ~ 1.15, Y ~ -2.45).
     // ----------------------------------------------------
-    { x:  0.50, y: -1.95, name: '2A: Across Initiatives Header',   cd: 0.20 },
-    { x:  0.18, y: -2.22, name: '2B: Cards 1&2 Flowing S-Curve',   cd: 0.20 },
-    { x: -0.15, y: -2.45, name: '2C: Cards 1&2 to Offscreen Left', cd: 0.20 },
+    { x:  0.50, y: -1.95, name: '2A: Across Initiatives Header',       cd: 0.20 },
+    { x:  0.82, y: -2.22, name: '2B: Cards 1&2 Flowing S-Curve',       cd: 0.20 },
+    { x:  1.15, y: -2.45, name: '2C: Cards 1&2 to Offscreen Right',    cd: 0.20 },
 
     // ----------------------------------------------------
-    // OFFSCREEN TURN 2 -> 3 (Left side, x < 0.0)
+    // OFFSCREEN TURN 2 -> 3 (Right side, x > 1.0)
     // Cd transitions 0.20 -> 0.40
     // ----------------------------------------------------
-    { x: -0.20, y: -2.55, name: 'T23: Turn 2->3 Offscreen Apex',  cd: 0.30 },
-    { x: -0.05, y: -2.65, name: 'T23: Section 3 Re-entry',        cd: 0.40 },
+    { x:  1.20, y: -2.55, name: 'T23: Turn 2->3 Offscreen Apex',      cd: 0.30 },
+    { x:  1.05, y: -2.65, name: 'T23: Section 3 Re-entry',            cd: 0.40 },
 
     // ----------------------------------------------------
     // SECTION 3: INITIATIVES MID AVENUE BETWEEN CARDS 2 & 3
     // Color: Cd = 0.40 -> 0.60 Emerald Green
-    // Glides in a majestic wave across the cards toward right (X ~ 1.15, Y ~ -3.45).
+    // Glides in a majestic wave across the cards toward left (X ~ -0.15, Y ~ -3.45).
     // ----------------------------------------------------
-    { x:  0.48, y: -3.02, name: '3A: Mid Avenue Wave Crest',       cd: 0.40 },
-    { x:  0.92, y: -3.28, name: '3B: Wave Across Cards to Right',  cd: 0.40 },
-    { x:  1.15, y: -3.45, name: '3C: Mid Avenue to Offscreen R',   cd: 0.40 },
+    { x:  0.52, y: -3.02, name: '3A: Mid Avenue Wave Crest',           cd: 0.40 },
+    { x:  0.08, y: -3.28, name: '3B: Wave Across Cards to Left',      cd: 0.40 },
+    { x: -0.15, y: -3.45, name: '3C: Mid Avenue to Offscreen Left',   cd: 0.40 },
 
     // ----------------------------------------------------
-    // OFFSCREEN TURN 3 -> 4 (Right side, x > 1.0)
+    // OFFSCREEN TURN 3 -> 4 (Left side, x < 0.0)
     // Cd transitions 0.40 -> 0.60
     // ----------------------------------------------------
-    { x:  1.20, y: -3.55, name: 'T34: Turn 3->4 Offscreen Apex',  cd: 0.50 },
-    { x:  1.05, y: -3.65, name: 'T34: Section 4 Re-entry',        cd: 0.60 },
+    { x: -0.20, y: -3.55, name: 'T34: Turn 3->4 Offscreen Apex',      cd: 0.50 },
+    { x: -0.05, y: -3.65, name: 'T34: Section 4 Re-entry',            cd: 0.60 },
 
     // ----------------------------------------------------
     // SECTION 4: INITIATIVES CARDS 3 & 4
     // Color: Cd = 0.60 -> 0.80 Purple/Violet
-    // Swoops diagonally across lower cards toward left (X ~ -0.15, Y ~ -4.35).
+    // Swoops diagonally across lower cards toward right (X ~ 1.15, Y ~ -4.35).
     // ----------------------------------------------------
-    { x:  0.52, y: -3.98, name: '4A: Cards 3&4 Diagonal Swoop',    cd: 0.60 },
-    { x:  0.16, y: -4.20, name: '4B: Lower Cards Crossing Wave',   cd: 0.60 },
-    { x: -0.15, y: -4.35, name: '4C: Lower Cards to Offscreen L',  cd: 0.60 },
+    { x:  0.48, y: -3.98, name: '4A: Cards 3&4 Diagonal Swoop',        cd: 0.60 },
+    { x:  0.84, y: -4.20, name: '4B: Lower Cards Crossing Wave',       cd: 0.60 },
+    { x:  1.15, y: -4.35, name: '4C: Lower Cards to Offscreen Right',   cd: 0.60 },
 
     // ----------------------------------------------------
-    // OFFSCREEN TURN 4 -> 5 (Left side, x < 0.0)
+    // OFFSCREEN TURN 4 -> 5 (Right side, x > 1.0)
     // Cd transitions 0.60 -> 0.80
     // ----------------------------------------------------
-    { x: -0.20, y: -4.45, name: 'T45: Turn 4->5 Offscreen Apex',  cd: 0.70 },
-    { x: -0.05, y: -4.55, name: 'T45: Section 5 Re-entry',        cd: 0.80 },
+    { x:  1.20, y: -4.45, name: 'T45: Turn 4->5 Offscreen Apex',      cd: 0.70 },
+    { x:  1.05, y: -4.55, name: 'T45: Section 5 Re-entry',            cd: 0.80 },
 
     // ----------------------------------------------------
     // SECTION 5: MEMBERS INTO GOAL
     // Color: Cd = 0.80 -> 1.00 Gold / Aurora
-    // Weaves smoothly across the Core Players members and flourishes gracefully toward Goal (X ~ 0.95, Y ~ -5.35).
+    // Weaves smoothly across the Core Players members and flourishes toward Goal (X ~ 0.05, Y ~ -5.35).
     // ----------------------------------------------------
-    { x:  0.48, y: -4.92, name: '5A: Core Players Members Weave',  cd: 0.80 },
-    { x:  0.82, y: -5.18, name: '5B: Flourish toward Goal',        cd: 0.90 },
-    { x:  0.95, y: -5.35, name: '5C: Grand Goal Outro Finish',     cd: 1.00 }
+    { x:  0.52, y: -4.92, name: '5A: Core Players Members Weave',      cd: 0.80 },
+    { x:  0.18, y: -5.18, name: '5B: Flourish toward Goal',            cd: 0.90 },
+    { x:  0.05, y: -5.35, name: '5C: Grand Goal Outro Finish',         cd: 1.00 }
   ];
 
   const sol = solveNaturalC2Spline(waypoints);
