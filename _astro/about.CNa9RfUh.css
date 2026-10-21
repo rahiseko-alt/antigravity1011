@@ -408,17 +408,7 @@ html.is-black-bg #header-home-btn:hover, html.is-blue-bg #header-home-btn:hover 
   left: 0 !important;
 }
 html.is-black-bg #home-goal-title {
-  grid-column: 1 / span 7 !important;
-  font-size: clamp(2rem, 3.8vw, 4.5rem) !important;
-  line-height: 1.25 !important;
   color: #ffffff !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.02em !important;
-  width: auto !important;
-  max-width: 100% !important;
-  margin-top: 2em !important;
-  margin-bottom: 0.5em !important;
-  left: 0 !important;
 }
 .goal-title-line-wrapper {
   overflow: visible !important;
@@ -433,12 +423,7 @@ html.is-black-bg #home-goal-title {
   color: rgba(255, 255, 255, 0.88) !important;
 }
 html.is-black-bg #home-goal-texts {
-  position: relative !important;
-  left: auto !important;
-  top: auto !important;
-  grid-column: 8 / span 5 !important;
-  margin-top: 2.2em !important;
-  color: rgba(255, 255, 255, 0.88) !important;
+  color: rgba(255, 255, 255, 0.92) !important;
 }
 #home-goal-texts .home-goal-texts-paragraph {
   font-size: clamp(1rem, 1.2vw, 1.35rem) !important;
@@ -1308,56 +1293,12 @@ html.is-black-bg #home-goal-texts {
   visibility: hidden !important;
 }
 
-/* Operating Guidelines Black Background Transition */
-html.is-black-bg body {
-  background-color: #000000 !important;
-}
-html.is-black-bg #page-container {
-  background-color: transparent !important;
-}
-html.is-black-bg #home-goal {
-  background-color: transparent !important;
-  color: #ffffff !important;
-}
-html.is-black-bg #home-goal-title {
-  grid-column: 1 / span 7 !important;
-  font-size: clamp(2rem, 3.8vw, 4.5rem) !important;
-  line-height: 1.25 !important;
-  color: #ffffff !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.02em !important;
-  width: auto !important;
-  max-width: 100% !important;
-  margin-top: 2em !important;
-  margin-bottom: 0.5em !important;
-  left: 0 !important;
-}
-html.is-black-bg #home-goal-texts .home-goal-texts-paragraph {
-  font-size: clamp(1rem, 1.2vw, 1.35rem) !important;
-  line-height: 1.85 !important;
-  margin-bottom: 1.6em !important;
-  color: rgba(255, 255, 255, 0.88) !important;
-  letter-spacing: 0.015em !important;
-  font-weight: 400 !important;
-  word-break: break-word !important;
-}
-html.is-black-bg #end-section {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-}
-html.is-black-bg #end-section-subtitle-text {
-  color: rgba(255, 255, 255, 0.75) !important;
-}
-html.is-black-bg #footer {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-}
-
-/* Fixed Operating Guidelines Layout & Black BG */
+/* Operating Guidelines Clean Non-Shifting Layout & Styling */
 #home-goal {
   padding-top: 5rem !important;
   padding-bottom: 6rem !important;
   position: relative !important;
+  background: transparent !important;
 }
 #home-goal-context {
   position: relative !important;
@@ -1365,6 +1306,7 @@ html.is-black-bg #footer {
   max-width: 1200px !important;
   margin: 0 auto !important;
   padding: 0 1.5rem !important;
+  background: transparent !important;
 }
 #home-goal-context-inner {
   display: flex !important;
@@ -1372,6 +1314,7 @@ html.is-black-bg #footer {
   justify-content: space-between !important;
   align-items: flex-start !important;
   gap: 3rem !important;
+  background: transparent !important;
 }
 #home-goal-title {
   flex: 0 0 45% !important;
@@ -1379,11 +1322,16 @@ html.is-black-bg #footer {
   font-weight: 700 !important;
   line-height: 1.25 !important;
   color: #ffffff !important;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.15) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: 0 !important;
+  top: 0 !important;
 }
 #home-goal-texts {
   flex: 1 1 50% !important;
   color: rgba(255, 255, 255, 0.92) !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 #home-goal-texts .home-goal-texts-paragraph {
   font-size: clamp(0.95rem, 1.15vw, 1.15rem) !important;
@@ -1419,11 +1367,31 @@ html.is-black-bg #footer {
   }
 }
 
-/* Ensure WebGL canvas and tube are always visible behind content */
-#home-goal, #home-goal-context, #home-goal-context-inner {
+/* Zero-shift dark mode overrides (ONLY color/shadow, NEVER layout/margin/padding!) */
+html.is-black-bg body {
+  background-color: #000000 !important;
+}
+html.is-black-bg #page-container,
+html.is-black-bg #home-goal,
+html.is-black-bg #home-goal-context,
+html.is-black-bg #home-goal-context-inner {
   background: transparent !important;
 }
-html.is-black-bg #home-goal,
-html.is-black-bg #home-goal-context {
-  background: transparent !important;
+html.is-black-bg #home-goal-title {
+  color: #ffffff !important;
+  text-shadow: 0 0 25px rgba(255, 255, 255, 0.18) !important;
+}
+html.is-black-bg #home-goal-texts .home-goal-texts-paragraph {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+html.is-black-bg #end-section {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+html.is-black-bg #end-section-subtitle-text {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+html.is-black-bg #footer {
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
