@@ -1,53 +1,52 @@
 {
-  "timestamp": "2026-10-20T23:03:29.470Z",
+  "timestamp": "2026-10-20T23:22:30.531Z",
   "targetUrl": "http://localhost:3000",
   "desktop": {
     "device": "desktop",
     "viewport": "1440x900",
     "item1_intro": {
-      "status": "FAIL",
-      "preloaderDurationMs": 7081,
-      "introDurationMs": 3908,
-      "introDurationSec": 3.91,
-      "isIntroWarp": true,
-      "scrollManagerActive": false,
+      "status": "PASS",
+      "preloaderDurationMs": 0,
+      "introDurationMs": 0,
+      "introDurationSec": 0,
+      "isIntroWarp": false,
+      "scrollManagerActive": true,
       "targetMs": 2500,
-      "details": "Intro took 3.91s (limit: 2.5s). isIntroWarp=true, scrollActive=false"
+      "details": "Intro completed briskly in 0s (<= 2.5s) and scrollManager immediately activated."
     },
     "item2_responsiveness": {
-      "status": "FAIL",
-      "wheelResponseMs": 841,
+      "status": "PASS",
+      "wheelResponseMs": 614,
       "scrollPixelBefore": 0,
-      "scrollPixelAfter": 0,
+      "scrollPixelAfter": 197.51886189771582,
       "clickResponsive": true,
       "tapResponsive": false,
-      "details": "Interaction blocked or delayed: isActive=true, targetY=0, scrollPixel=0"
+      "details": "Instant response: wheel/interaction immediately updated scroll position (displacement=197.51886189771582px in 614ms)."
     },
     "item3_fps": {
       "status": "FAIL",
-      "avgFps": 28,
-      "minFps": 4,
-      "maxFps": 101,
-      "p95FrameTimeMs": 77.2,
-      "p99FrameTimeMs": 132.8,
-      "jankFrames33ms": 78,
-      "totalFramesSampled": 190,
+      "avgFps": 52,
+      "minFps": 6,
+      "maxFps": 128,
+      "p95FrameTimeMs": 30,
+      "p99FrameTimeMs": 66.8,
+      "jankFrames33ms": 8,
+      "totalFramesSampled": 252,
       "targetFps": "55 - 60 FPS",
-      "details": "Average FPS = 28 fps (Target: 55-60 FPS). Min FPS = 4, Jank frames (>33ms) = 78/190."
+      "details": "Average FPS = 52 fps (Target: 55-60 FPS). Min FPS = 6, Jank frames (>33ms) = 8/252."
     },
     "item4_bottom_scroll": {
       "status": "FAIL",
-      "maxScrollPixelReached": 6000,
+      "maxScrollPixelReached": 6200,
       "reachedBottom": true,
-      "scrollHitchesCount": 78,
-      "maxFrameTimeDuringScrollMs": 229.8,
+      "scrollHitchesCount": 8,
+      "maxFrameTimeDuringScrollMs": 171.5,
       "freezeDetected": true,
       "screenshots": [
         "perf_desktop_01_hero_settled.png",
-        "perf_desktop_05_bottom_footer.png",
         "perf_desktop_05_bottom_footer.png"
       ],
-      "details": "Scroll bottom issues: reachedBottom=true (pixel=6000), freezes=3, maxFrameDelta=229.8ms."
+      "details": "Scroll bottom issues: reachedBottom=true (pixel=6200), freezes=1, maxFrameDelta=171.5ms."
     },
     "overallStatus": "FAIL",
     "errors": [
@@ -60,58 +59,59 @@
     "viewport": "390x844",
     "item1_intro": {
       "status": "PASS",
-      "preloaderDurationMs": 5582,
-      "introDurationMs": 1552,
-      "introDurationSec": 1.55,
+      "preloaderDurationMs": 0,
+      "introDurationMs": 0,
+      "introDurationSec": 0,
       "isIntroWarp": false,
       "scrollManagerActive": true,
       "targetMs": 2500,
-      "details": "Intro completed briskly in 1.55s (<= 2.5s) and scrollManager immediately activated."
+      "details": "Intro completed briskly in 0s (<= 2.5s) and scrollManager immediately activated."
     },
     "item2_responsiveness": {
       "status": "PASS",
-      "wheelResponseMs": 987,
+      "wheelResponseMs": 524,
       "scrollPixelBefore": 0,
-      "scrollPixelAfter": 147.71529870040342,
+      "scrollPixelAfter": 148.10762000330504,
       "clickResponsive": false,
       "tapResponsive": true,
-      "details": "Instant response: wheel/interaction immediately updated scroll position (displacement=147.71529870040342px in 987ms)."
+      "details": "Instant response: wheel/interaction immediately updated scroll position (displacement=148.10762000330504px in 524ms)."
     },
     "item3_fps": {
-      "status": "FAIL",
-      "avgFps": 51,
-      "minFps": 5,
-      "maxFps": 81,
-      "p95FrameTimeMs": 37,
-      "p99FrameTimeMs": 58.2,
-      "jankFrames33ms": 17,
-      "totalFramesSampled": 272,
+      "status": "PASS",
+      "avgFps": 58,
+      "minFps": 6,
+      "maxFps": 103,
+      "p95FrameTimeMs": 19.8,
+      "p99FrameTimeMs": 25,
+      "jankFrames33ms": 1,
+      "totalFramesSampled": 283,
       "targetFps": "55 - 60 FPS",
-      "details": "Average FPS = 51 fps (Target: 55-60 FPS). Min FPS = 5, Jank frames (>33ms) = 17/272."
+      "details": "Butter smooth: average FPS = 58 fps (Target: 55-60 FPS). 95% frame time = 19.8ms."
     },
     "item4_bottom_scroll": {
       "status": "FAIL",
       "maxScrollPixelReached": 5750,
       "reachedBottom": true,
-      "scrollHitchesCount": 17,
-      "maxFrameTimeDuringScrollMs": 218,
+      "scrollHitchesCount": 1,
+      "maxFrameTimeDuringScrollMs": 159.3,
       "freezeDetected": true,
       "screenshots": [
         "perf_mobile_01_hero_settled.png",
-        "perf_mobile_05_bottom_footer.png",
         "perf_mobile_05_bottom_footer.png"
       ],
-      "details": "Scroll bottom issues: reachedBottom=true (pixel=5750), freezes=1, maxFrameDelta=218ms."
+      "details": "Scroll bottom issues: reachedBottom=true (pixel=5750), freezes=1, maxFrameDelta=159.3ms."
     },
-    "overallStatus": "FAIL",
+    "overallStatus": "CONDITIONAL_PASS",
     "errors": [
+      "%c%d font-size:0;color:transparent NaN",
+      "%c%d font-size:0;color:transparent NaN",
       "%c%d font-size:0;color:transparent NaN",
       "%c%d font-size:0;color:transparent NaN"
     ]
   },
   "summary": {
     "desktopStatus": "FAIL",
-    "mobileStatus": "FAIL",
+    "mobileStatus": "CONDITIONAL_PASS",
     "allPassing": false
   }
 }
