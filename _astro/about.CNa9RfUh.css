@@ -1395,3 +1395,13 @@ html.is-black-bg #footer {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
+
+/* Phase 2: Perfect 0.0px Seamless Text Rollup */
+.end-section-title-link-word .char-wrapper {
+  height: 1em !important;
+  line-height: 1 !important;
+}
+.end-section-title-link-word .char-wrapper .char {
+  height: 1em !important;
+  line-height: 1 !important;
+}
