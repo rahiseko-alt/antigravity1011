@@ -128,6 +128,15 @@
       "bio": "おもに個人事業主のマーケティング支援のために、SNS・出版・公認ネットラジオ局による冠番組等をプロデュース。未経験からの伴走型起業支援を提供。",
       "image": "./assets/images/aiueo/member-okamoto.jpg",
       "imageOriginal": "https://aiueo-lp.vercel.app/images/japanese/avatar-okamoto-v1.jpg"
+    },
+    {
+      "id": "saki-yamaki",
+      "name": "八巻 早紀",
+      "nameEn": "Saki Yamaki",
+      "role": "AIコミュニティ運営 / 編集者",
+      "bio": "個人がネットを活用して、自分の商品やサービスを届けるための発信、集客、導線づくり、AI活用をサポート。AIを使う、使わない両方の手段で商品づくりから販売につながる流れまで、初心者にもわかりやすく整理します。AI・WEB活用コミュニティも運営中。",
+      "image": "./assets/images/aiueo/member-yamaki.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100029230621734"
     }
   ],
   "activities": [
