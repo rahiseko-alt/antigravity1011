@@ -494,8 +494,17 @@
   #header-container {
     pointer-events: auto !important;
   }
-  /* Ensure opening black warp sequence is completely clear and unblurred */
+  /* Dark mode sections: Keep header visible with seamless dark frosted gradient */
   html.is-black-bg #header {
+    background: linear-gradient(180deg, rgba(4, 5, 8, 0.55) 0%, rgba(4, 5, 8, 0.15) 70%, transparent 100%) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+  }
+  /* Opening black warp sequence ONLY: hide header completely so warp tunnel is pure black */
+  #intro-warp-title:not([style*="display: none"]) ~ #header {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
     background: transparent !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
