@@ -74,6 +74,14 @@ export default defineConfig({
           fs.cpSync(astroSrc, astroDest, { recursive: true, force: true });
           console.log('[build] Copied _astro to dist/_astro');
         }
+        // Copy guidelines.html
+        const guidelinesSrc = path.resolve(process.cwd(), 'guidelines.html');
+        const guidelinesDest = path.join(distDir, 'guidelines.html');
+        if (fs.existsSync(guidelinesSrc)) {
+          fs.copyFileSync(guidelinesSrc, guidelinesDest);
+          console.log('[build] Copied guidelines.html to dist/guidelines.html');
+        }
+
         // GitHub Pages ignores directories starting with _ without .nojekyll
         fs.writeFileSync(path.join(distDir, '.nojekyll'), '', 'utf8');
         console.log('[build] Created .nojekyll in dist');
@@ -81,3 +89,4 @@ export default defineConfig({
     }
   ]
 });
+

@@ -1,0 +1,500 @@
+import fs from 'fs';
+import path from 'path';
+
+const GUIDELINES_HTML = `<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>運営のかかわり方・スタンス（Operating Guidelines） | AI League AIueo</title>
+  <meta name="description" content="AIueoの運営方針・スタンス・7つのガイドライン。やりたいことを持つ人と参加したい人が出会う呼びかけの場としての基本原則。">
+  <link rel="icon" type="image/x-icon" href="./assets/meta/favicon.ico">
+  <style>
+    :root {
+      --bg-color: #030712;
+      --card-bg: rgba(13, 18, 30, 0.85);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --card-hover-border: rgba(255, 255, 255, 0.28);
+      --text-main: #f3f4f6;
+      --text-sub: #9ca3af;
+      --accent-cyan: #00f0ff;
+      --accent-line: #06C755;
+      --accent-blue: #0016ec;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(0, 240, 255, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 100% 50%, rgba(6, 199, 85, 0.05) 0%, transparent 40%);
+    }
+
+    /* Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(3, 7, 18, 0.75);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 16px 24px;
+    }
+
+    .header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-link {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo-badge {
+      font-size: 0.65rem;
+      padding: 2px 7px;
+      border-radius: 9999px;
+      background: rgba(0, 240, 255, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: all 0.25s ease;
+    }
+
+    .back-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.35);
+      transform: translateX(-3px);
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-cyan);
+      margin-bottom: 12px;
+      padding: 4px 12px;
+      background: rgba(0, 240, 255, 0.08);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      border-radius: 9999px;
+    }
+
+    .hero-title {
+      font-size: clamp(1.8rem, 4.5vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, #ffffff 40%, #9ca3af 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      font-size: clamp(0.95rem, 1.8vw, 1.125rem);
+      color: var(--text-sub);
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Summary Card */
+    .summary-card {
+      background: rgba(0, 240, 255, 0.03);
+      border: 1px solid rgba(0, 240, 255, 0.18);
+      border-radius: 20px;
+      padding: clamp(24px, 3.5vw, 36px);
+      margin-bottom: 50px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .summary-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--accent-cyan), #0016ec);
+    }
+
+    .summary-card-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .summary-card-p {
+      color: #d1d5db;
+      font-size: 0.975rem;
+      line-height: 1.8;
+      margin-bottom: 12px;
+    }
+
+    .summary-card-p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Articles Grid */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+
+    .article-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: clamp(20px, 2.5vw, 28px);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+
+    .article-card:hover {
+      border-color: var(--card-hover-border);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .article-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .article-num {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      background: rgba(0, 240, 255, 0.1);
+      padding: 2px 8px;
+      border-radius: 6px;
+      letter-spacing: 0.05em;
+    }
+
+    .article-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    .article-content {
+      color: #9ca3af;
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
+    /* Propose Section / Bottom CTA */
+    .propose-section {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: clamp(32px, 4vw, 48px) 24px;
+      margin-top: 40px;
+    }
+
+    .propose-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .propose-desc {
+      color: var(--text-sub);
+      font-size: 0.95rem;
+      max-width: 540px;
+      margin: 0 auto 28px;
+    }
+
+    .cta-buttons-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 13px 26px;
+      border-radius: 9999px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .cta-line {
+      background: var(--accent-line);
+      color: #ffffff;
+      box-shadow: 0 4px 16px rgba(6, 199, 85, 0.3);
+    }
+
+    .cta-line:hover {
+      background: #05b04c;
+      box-shadow: 0 6px 24px rgba(6, 199, 85, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .cta-mail {
+      background: var(--accent-blue);
+      color: #ffffff;
+      box-shadow: 0 4px 16px rgba(0, 22, 236, 0.3);
+    }
+
+    .cta-mail:hover {
+      background: #000eb3;
+      box-shadow: 0 6px 24px rgba(0, 22, 236, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .cta-back {
+      background: rgba(255, 255, 255, 0.08);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .cta-back:hover {
+      background: rgba(255, 255, 255, 0.18);
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 24px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      .cta-buttons-row {
+        flex-direction: column;
+        width: 100%;
+      }
+      .cta-btn {
+        width: 100%;
+        max-width: 320px;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="./" class="logo-link">
+        <span>AI League AIueo</span>
+        <span class="logo-badge">GUIDELINES</span>
+      </a>
+      <a href="./" class="back-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M8 12.243 3.757 8m0 0L8 3.757M3.757 8h8.486"></path></svg>
+        <span>TOPへ戻る</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero-section">
+      <span class="eyebrow">Operating Guidelines</span>
+      <h1 class="hero-title">運営のかかわり方・スタンス</h1>
+      <p class="hero-desc">AIueoの基本理念と、安心・対等に活動を進めるための7つの行動原則</p>
+    </div>
+
+    <!-- Summary Box -->
+    <div class="summary-card">
+      <div class="summary-card-title">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-cyan)"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        基本理念（スタンステキスト）
+      </div>
+      <p class="summary-card-p">
+        AIueoは、やりたいことを持つ人と参加したい人が出会う「呼びかけの場」です。企画・参加・金銭の当事者ではありません。主催者と参加者が、それぞれの責任で自由に行動し、場を乱さず楽しむことを基本とします。
+      </p>
+      <p class="summary-card-p">
+        参加だけなら会員登録は一切不要。企画を立てる人だけが会員登録（Googleログイン）を行います。利用料・会費・参加費などの金銭は預かりません。分からない場合は、すべて割り勘から始めることを推奨しています。
+      </p>
+    </div>
+
+    <!-- Detailed 7 Articles -->
+    <div class="articles-grid">
+      <!-- Article 01 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第01条</span>
+          <h2 class="article-title">AIueoの立場</h2>
+        </div>
+        <p class="article-content">
+          AIueoは、企画を持ち込む人と参加したい人が対等に出会う「呼びかけの場」です。AIueo自身は、個別の企画・イベントの主催者、共催者、金銭の仲介者ではありません。全ての企画は、主催者が自己の責任において企画・運営・実施するものです。
+        </p>
+      </div>
+
+      <!-- Article 02 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第02条</span>
+          <h2 class="article-title">イベント登録と参加</h2>
+        </div>
+        <p class="article-content">
+          AIueoに参加するだけなら会員登録は不要です。どなたでも自由にイベントへ参加できます。自らイベントを立ち上げ、呼びかけを行いたい方のみ、会員登録（Googleアカウントによる認証）が必要です。
+        </p>
+      </div>
+
+      <!-- Article 03 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第03条</span>
+          <h2 class="article-title">個人情報・認証</h2>
+        </div>
+        <p class="article-content">
+          AIueoでは、イベント主催者の本人性確認のため、Googleアカウントによるログインを利用しています。取得する情報は認証に必要な最小限に留め、利用者のプライバシーを尊重します。
+        </p>
+      </div>
+
+      <!-- Article 04 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第04条</span>
+          <h2 class="article-title">禁止事項と措置</h2>
+        </div>
+        <p class="article-content">
+          AIueoは、この場を乱す行為を認めません。無断でイベントを立てる、参加者を困らせる、虚偽の告知をする、他人を傷つける、マルチ商法などの勧誘に使う、アダルト系イベントを登録するといった行為は禁止です。
+        </p>
+      </div>
+
+      <!-- Article 05 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第05条</span>
+          <h2 class="article-title">費用について</h2>
+        </div>
+        <p class="article-content">
+          AIueoは、利用料・会費・イベント参加費など、いかなる金銭も受け取りません。参加費・報酬・経費・交通費などの決定、支払い、精算にも関与しません。イベントごとの金銭条件は、主催者が事前に明記してください。まずは全て割り勘から始めることをおすすめします。
+        </p>
+      </div>
+
+      <!-- Article 06 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第06条</span>
+          <h2 class="article-title">イベントの取り消し</h2>
+        </div>
+        <p class="article-content">
+          イベントの取り消しは主催者に一任します。参加者が1名でも集まっている場合、主催者は自己責任で会員へ説明してください。
+        </p>
+      </div>
+
+      <!-- Article 07 -->
+      <div class="article-card">
+        <div class="article-header">
+          <span class="article-num">第07条</span>
+          <h2 class="article-title">著作権・掲載情報</h2>
+        </div>
+        <p class="article-content">
+          AIueoに掲載・登録された文章、画像、企画情報などの著作権の一切はAIueoに帰属します。掲載内容に問題がある場合は、AIueoへお知らせください。把握した内容を確認し、必要に応じて非公開・削除などの対応を行います。
+        </p>
+      </div>
+    </div>
+
+    <!-- Bottom Propose Section -->
+    <div class="propose-section">
+      <h3 class="propose-title">企画を提案する</h3>
+      <p class="propose-desc">「こういうのやりたい」というアイデアがあれば、LINEまたはメールでお気軽にお知らせください。</p>
+      <div class="cta-buttons-row">
+        <a class="cta-btn cta-line" href="https://line.me/ti/p/~kosehirakouhei" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+          <span>LINEで企画を提案する</span>
+        </a>
+        <a class="cta-btn cta-mail" href="mailto:info@kouheikosehira.com?subject=%E3%80%90AIueo%E3%80%91%E4%BC%81%E7%94%BB%E3%81%AE%E3%81%94%E6%8F%90%E6%A1%88">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <span>メールで企画を提案する</span>
+        </a>
+        <a class="cta-btn cta-back" href="./">
+          <span>TOPへ戻る</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 AI League AIueo. Activities & Experiment First.</p>
+  </footer>
+
+</body>
+</html>
+`;
+
+fs.writeFileSync(path.resolve('guidelines.html'), GUIDELINES_HTML, 'utf8');
+console.log('Successfully wrote guidelines.html');
