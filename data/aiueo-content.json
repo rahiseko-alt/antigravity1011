@@ -142,6 +142,7 @@
   "activities": [
     {
       "id": "activity-sns-automation",
+      "published": false,
       "title": "SNS運用の自動化",
       "tags": [
         "#AI",
@@ -156,6 +157,7 @@
     },
     {
       "id": "activity-ai-chatbot",
+      "published": false,
       "title": "自社特化型 AIチャットボット",
       "tags": [
         "#AI",
@@ -170,6 +172,7 @@
     },
     {
       "id": "activity-voice-medical-record",
+      "published": false,
       "title": "音声カルテ作成アプリ",
       "tags": [
         "#AI",
@@ -184,6 +187,7 @@
     },
     {
       "id": "activity-doc-automation",
+      "published": false,
       "title": "書類業務の半自動化アプリ",
       "tags": [
         "#AI",
