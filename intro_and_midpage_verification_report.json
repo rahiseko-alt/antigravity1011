@@ -1,0 +1,289 @@
+{
+  "errors": [],
+  "captures": [
+    {
+      "target": {
+        "id": "a_pure_black",
+        "time": 0.25,
+        "label": "(a) Pure Black Interval"
+      },
+      "shotPath": "shot_intro_a_pure_black.png",
+      "state": {
+        "r": 0.3286000000238419,
+        "bTitleRatio": 0.25,
+        "bTunnelRatio": -0.31250000000000006,
+        "curStage": "GoalTunnels",
+        "titleInDom": true,
+        "wrapperInDom": true,
+        "wrapperDisplay": "none",
+        "titleParentId": "intro-tunnel-title-wrapper",
+        "titleVisibility": "",
+        "titleOpacity": "",
+        "titleTransform": "translateZ(0px)",
+        "rect": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "b_text_fading_in",
+        "time": 0.85,
+        "label": "(b) Text Fading In Centered"
+      },
+      "shotPath": "shot_intro_b_text_fading_in.png",
+      "state": {
+        "r": 0.8791000000238418,
+        "bTitleRatio": 0.3832142857142857,
+        "bTunnelRatio": -0.25699404761904765,
+        "curStage": "GoalTunnels",
+        "titleInDom": true,
+        "wrapperInDom": true,
+        "wrapperDisplay": "block",
+        "titleParentId": "intro-tunnel-title-wrapper",
+        "titleVisibility": "visible",
+        "titleOpacity": "1",
+        "titleTransform": "translate3d(0px, 6302.95px, 0px) scale(1) translateY(0px) translateY(0.25em)",
+        "rect": {
+          "top": 569,
+          "bottom": 569,
+          "left": 0,
+          "width": 1920,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "c_text_spreading",
+        "time": 1.55,
+        "label": "(c) Text Spreading & Scaling"
+      },
+      "shotPath": "shot_intro_c_text_spreading.png",
+      "state": {
+        "r": 1.577800000011921,
+        "bTitleRatio": 0.6338928571556295,
+        "bTunnelRatio": -0.15254464285182107,
+        "curStage": "GoalTunnels",
+        "titleInDom": true,
+        "wrapperInDom": true,
+        "wrapperDisplay": "block",
+        "titleParentId": "intro-tunnel-title-wrapper",
+        "titleVisibility": "visible",
+        "titleOpacity": "1",
+        "titleTransform": "translate3d(0px, 8889.46px, 0px) scale(1.00015) translateY(0px) translateY(0.25em)",
+        "rect": {
+          "top": 569,
+          "bottom": 569,
+          "left": 0,
+          "width": 1920,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "d_text_huge_flythrough",
+        "time": 2.3,
+        "label": "(d) Text Huge Flying Past"
+      },
+      "shotPath": "shot_intro_d_text_huge_flythrough.png",
+      "state": {
+        "r": 2.326800000011921,
+        "bTitleRatio": 0.9003214285842011,
+        "bTunnelRatio": -0.04153273808991623,
+        "curStage": "GoalTunnels",
+        "titleInDom": true,
+        "wrapperInDom": true,
+        "wrapperDisplay": "block",
+        "titleParentId": "intro-tunnel-title-wrapper",
+        "titleVisibility": "visible",
+        "titleOpacity": "1",
+        "titleTransform": "translate3d(0px, 11638.5px, 0px) scale(5.3533) translateY(0px) translateY(0.25em)",
+        "rect": {
+          "top": 694,
+          "bottom": 694,
+          "left": -4179,
+          "width": 10278,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "e_black_tunnel",
+        "time": 3.8,
+        "label": "(e) Black Tunnel Entered"
+      },
+      "shotPath": "shot_intro_e_black_tunnel.png",
+      "state": {
+        "r": 3.871400000035763,
+        "bTitleRatio": 1.9509250000268215,
+        "bTunnelRatio": 0.39621875001117574,
+        "curStage": "GoalTunnels",
+        "titleInDom": true,
+        "wrapperInDom": false,
+        "wrapperDisplay": null,
+        "titleParentId": "home-goal",
+        "titleVisibility": "hidden",
+        "titleOpacity": "",
+        "titleTransform": "translateZ(0px)",
+        "rect": {
+          "top": 7596,
+          "bottom": 7596,
+          "left": 96,
+          "width": 1728,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "f1_white_tunnel",
+        "time": 6,
+        "label": "(f1) White Tunnel Supersonic"
+      },
+      "shotPath": "shot_intro_f1_white_tunnel.png",
+      "state": {
+        "r": 6.018699999988079,
+        "bTitleRatio": 3.5608000000268216,
+        "bTunnelRatio": 1.067000000011176,
+        "curStage": "GoalTunnels",
+        "titleInDom": true,
+        "wrapperInDom": false,
+        "wrapperDisplay": null,
+        "titleParentId": "home-goal",
+        "titleVisibility": "hidden",
+        "titleOpacity": "",
+        "titleTransform": "translateZ(0px)",
+        "rect": {
+          "top": 7596,
+          "bottom": 7596,
+          "left": 96,
+          "width": 1728,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "f2_white_hold",
+        "time": 6.8,
+        "label": "(f2) White Pure Hold"
+      },
+      "shotPath": "shot_intro_f2_white_hold.png",
+      "state": {
+        "r": 6.913900000035762,
+        "bTitleRatio": 3.9843250000178805,
+        "bTunnelRatio": 1.2434687500074504,
+        "curStage": "HomeBalloons",
+        "titleInDom": true,
+        "wrapperInDom": false,
+        "wrapperDisplay": null,
+        "titleParentId": "home-goal",
+        "titleVisibility": "hidden",
+        "titleOpacity": "",
+        "titleTransform": "translateZ(0px)",
+        "rect": {
+          "top": 7596,
+          "bottom": 7596,
+          "left": 96,
+          "width": 1728,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "f3_hero_fade",
+        "time": 7.7,
+        "label": "(f3) Hero Fade-in"
+      },
+      "shotPath": "shot_intro_f3_hero_fade.png",
+      "state": {
+        "r": 7.715800000011921,
+        "bTitleRatio": 3.9843250000178805,
+        "bTunnelRatio": 1.2434687500074504,
+        "curStage": "HomeBalloons",
+        "titleInDom": true,
+        "wrapperInDom": false,
+        "wrapperDisplay": null,
+        "titleParentId": "home-goal",
+        "titleVisibility": "hidden",
+        "titleOpacity": "",
+        "titleTransform": "translateZ(0px)",
+        "rect": {
+          "top": 7596,
+          "bottom": 7596,
+          "left": 96,
+          "width": 1728,
+          "height": 0
+        }
+      }
+    },
+    {
+      "target": {
+        "id": "f4_hero_settled",
+        "time": 8.8,
+        "label": "(f4) Hero Settled Interactive"
+      },
+      "shotPath": "shot_intro_f4_hero_settled.png",
+      "state": {
+        "r": 8.831300000011922,
+        "bTitleRatio": -0.9148395895133757,
+        "bTunnelRatio": -0.7978498289639068,
+        "curStage": "HomeBalloons",
+        "titleInDom": true,
+        "wrapperInDom": false,
+        "wrapperDisplay": null,
+        "titleParentId": "home-goal",
+        "titleVisibility": "hidden",
+        "titleOpacity": "",
+        "titleTransform": "translateZ(0px)",
+        "rect": {
+          "top": 7596,
+          "bottom": 7596,
+          "left": 96,
+          "width": 1728,
+          "height": 0
+        }
+      }
+    }
+  ],
+  "midCheck": {
+    "scrollPixel": 14260.782627852901,
+    "bTitleRatio": 0.4672819300145664,
+    "parentTag": "DIV",
+    "parentId": "home-goal",
+    "inlineVis": "visible",
+    "inlineOp": "1",
+    "compVis": "visible",
+    "compOp": "1",
+    "transform": "translate3d(0px, 7170.36px, 0px) scale(1) translateY(-198.703px) translateY(0.25em)",
+    "rect": {
+      "top": 336,
+      "bottom": 336,
+      "left": 96,
+      "width": 1728,
+      "height": 0
+    },
+    "spans": [
+      {
+        "text": "場をつくる。",
+        "transform": "translateX(0px)"
+      },
+      {
+        "text": "場を乱さない。",
+        "transform": "translateX(0px)"
+      },
+      {
+        "text": "まずは1つの草活動から。",
+        "transform": "translateX(0px)"
+      }
+    ]
+  }
+}

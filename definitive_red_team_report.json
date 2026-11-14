@@ -1,0 +1,407 @@
+{
+  "timestamp": "2026-10-24T00:53:32.305Z",
+  "viewports": {
+    "sp_375x667": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12,
+        "u_radius": 0.026,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.1407188143882346,
+          "y": -1.1542475836327735,
+          "z": 0.8791355214220351
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "scrollPixel": 600
+      },
+      "goalDiag": {
+        "scrollPixel": 5800,
+        "bgHex": "#eeeff8",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      }
+    },
+    "sp_390x844": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12,
+        "u_radius": 0.026,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.1407188143882346,
+          "y": -1.1542475836327735,
+          "z": 0.8791355214220351
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "scrollPixel": 600
+      },
+      "goalDiag": {
+        "scrollPixel": 5800,
+        "bgHex": "#edeef7",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      }
+    },
+    "sp_414x896": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12,
+        "u_radius": 0.026,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.1407188143882346,
+          "y": -1.1542475836327735,
+          "z": 0.8791355214220351
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "scrollPixel": 600
+      },
+      "goalDiag": {
+        "scrollPixel": 5800,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      }
+    },
+    "tablet_768x1024": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12857142857142856,
+        "u_radius": 0.018,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.07693678685506436,
+          "y": -1.1837135967150285,
+          "z": 0.8735429015927587
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "scrollPixel": 800
+      },
+      "goalDiag": {
+        "scrollPixel": 6400,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      }
+    },
+    "pc_1280x800": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12857142857142856,
+        "u_radius": 0.018,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.07693678685506436,
+          "y": -1.1837135967150285,
+          "z": 0.8735429015927587
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "scrollPixel": 800
+      },
+      "goalDiag": {
+        "scrollPixel": 6400,
+        "bgHex": "#000000",
+        "isBlackBg": true,
+        "isWhiteBg": false,
+        "isIntroWarp": false
+      }
+    },
+    "pc_1440x900": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12857142857142856,
+        "u_radius": 0.018,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.07693678685506436,
+          "y": -1.1837135967150285,
+          "z": 0.8735429015927587
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "scrollPixel": 800
+      },
+      "goalDiag": {
+        "scrollPixel": 6400,
+        "bgHex": "#000000",
+        "isBlackBg": true,
+        "isWhiteBg": false,
+        "isIntroWarp": false
+      }
+    },
+    "pc_1920x1080": {
+      "errors": [],
+      "warnings": [],
+      "tubeDiag": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "u_showRatio": 0.12857142857142856,
+        "u_radius": 0.018,
+        "color0": "#00f0ff",
+        "circlePos": {
+          "x": 0.07693678685506436,
+          "y": -1.1837135967150285,
+          "z": 0.8735429015927587
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "scrollPixel": 800
+      },
+      "goalDiag": {
+        "scrollPixel": 6400,
+        "bgHex": "#2c2c2e",
+        "isBlackBg": true,
+        "isWhiteBg": false,
+        "isIntroWarp": false
+      }
+    }
+  },
+  "scrollStressTest": {
+    "idleStart": 0,
+    "idleEnd": 0,
+    "idleDrift": 0,
+    "isIdleRunawayFree": true,
+    "trajectory": [
+      {
+        "cycle": 0,
+        "downSp": 989.032192711135,
+        "upSp": 19.423698426019577
+      },
+      {
+        "cycle": 1,
+        "downSp": 987.4976026801372,
+        "upSp": 21.1376804129223
+      },
+      {
+        "cycle": 2,
+        "downSp": 989.5932591824165,
+        "upSp": 14.560704254796953
+      },
+      {
+        "cycle": 3,
+        "downSp": 988.6324970630852,
+        "upSp": 29.06564246677079
+      },
+      {
+        "cycle": 4,
+        "downSp": 986.3593448969804,
+        "upSp": 17.5045108465402
+      }
+    ],
+    "settledSp": 0,
+    "settledSpAfter2s": 0,
+    "postScrollDrift": 0,
+    "isPostScrollStable": true,
+    "autoScrollSpeed": 0
+  },
+  "capTrackingAccuracy": [
+    {
+      "sp": 300,
+      "sample": {
+        "showRatio": 0,
+        "radius": 0.018,
+        "circleX": 1.0499716997146606,
+        "circleY": -0.7800697088241577,
+        "circleZ": 0,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": false,
+        "meshVisible": false
+      }
+    },
+    {
+      "sp": 400,
+      "sample": {
+        "showRatio": 0.023449797371907864,
+        "radius": 0.018,
+        "circleX": 0.8696987475822237,
+        "circleY": -0.8466872601723942,
+        "circleZ": 0.8043690147401388,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 500,
+      "sample": {
+        "showRatio": 0.04934132405362031,
+        "radius": 0.018,
+        "circleX": 0.6715750568728848,
+        "circleY": -0.9228876290028764,
+        "circleZ": 0.034744431069296096,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 600,
+      "sample": {
+        "showRatio": 0.07518492053539581,
+        "radius": 0.018,
+        "circleX": 0.4760245020195615,
+        "circleY": -1.0041883070920277,
+        "circleZ": 0.18084402762093618,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 700,
+      "sample": {
+        "showRatio": 0.10084896232247022,
+        "radius": 0.018,
+        "circleX": 0.28373774843410887,
+        "circleY": -1.0895541761216514,
+        "circleZ": 0.0901602149966706,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 800,
+      "sample": {
+        "showRatio": 0.12648084522392392,
+        "radius": 0.018,
+        "circleX": 0.09237039865965738,
+        "circleY": -1.1763964283018309,
+        "circleZ": 0.9575652275146549,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 900,
+      "sample": {
+        "showRatio": 0.15223125816558447,
+        "radius": 0.018,
+        "circleX": -0.08699856243616831,
+        "circleY": -1.2862189675838243,
+        "circleZ": 0.9707880620374041,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 1000,
+      "sample": {
+        "showRatio": 0.17791595442472238,
+        "radius": 0.018,
+        "circleX": -0.19890897615170047,
+        "circleY": -1.4565356533094422,
+        "circleZ": 0.9127517995046907,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    },
+    {
+      "sp": 1100,
+      "sample": {
+        "showRatio": 0.18,
+        "radius": 0.018,
+        "circleX": -0.19210266922382602,
+        "circleY": -1.4720931260129237,
+        "circleZ": 0.8187109115275838,
+        "circleScaleX": 0.018,
+        "circleScaleY": 0.018,
+        "circleVisible": true,
+        "meshVisible": true
+      }
+    }
+  ],
+  "darkTransitionCheck": {},
+  "domIntegrityCheck": {
+    "hasHeroTitle": true,
+    "heroTitleText": "「今度何かやりましょう」を、 「こういうのやるので、一緒にどうですか？」に変える。",
+    "hasReelDesc": true,
+    "reelDescText": "名刺交換を重ねるよりも、まず実際の企画やイベントを1つやってみる。ジャンルは自由です。やりたいことを持ち込む人と、参加したい人が出会い、準備して、実行する。草野球のように集まり、AIを触り、1つのプロトタイプを作る草AI同盟。0はいくら集めても0。まずは1つの草活動から。",
+    "hasMembersSection": true,
+    "hasGoalSection": true,
+    "hasOperatingGuidelines": true,
+    "hasFooter": false
+  },
+  "webglShaderCheck": {
+    "meshDefines": {
+      "IS_LINE": true
+    },
+    "meshTransparent": true,
+    "meshDepthTest": false,
+    "circleTransparent": true,
+    "circleDepthTest": false,
+    "meshVertexShaderSnippet": "#define GLSLIFY 1\nattribute vec3 CP;attribute float Cd;varying float v_cd;varying float v_lineRatio;varying float v_s;un",
+    "meshFragmentShaderSnippet": "#define GLSLIFY 1\nvarying float v_cd;varying float v_lineRatio;varying float v_s;uniform float u_showRatio;uniform vec3 ",
+    "circleVertexShaderSnippet": "#define GLSLIFY 1\nvarying vec2 v_uv;void main(){v_uv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);",
+    "circleFragmentShaderSnippet": "#define GLSLIFY 1\nuniform float u_cd;uniform float u_lineRatio;varying vec2 v_uv;vec3 getTubeColor(float t){t=clamp(t,0."
+  },
+  "overallVerdict": "ALL_TESTS_PASSED_RIGOROUS",
+  "findings": []
+}

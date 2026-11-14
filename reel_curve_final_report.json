@@ -1,0 +1,326 @@
+{
+  "webglCanvas": {},
+  "domLayering": {
+    "canvas": {
+      "id": "canvas",
+      "tagName": "CANVAS",
+      "position": "fixed",
+      "zIndex": "auto",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pointerEvents": "auto",
+      "display": "block"
+    },
+    "ui": {
+      "id": "ui",
+      "tagName": "DIV",
+      "position": "fixed",
+      "zIndex": "auto",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pointerEvents": "auto",
+      "display": "block"
+    },
+    "pageContainer": {
+      "id": "page-container",
+      "tagName": "DIV",
+      "position": "static",
+      "zIndex": "auto",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pointerEvents": "auto",
+      "display": "block"
+    },
+    "homeReel": {
+      "id": "home-reel",
+      "tagName": "DIV",
+      "position": "relative",
+      "zIndex": "auto",
+      "mixBlendMode": "normal",
+      "opacity": "1",
+      "pointerEvents": "auto",
+      "display": "grid"
+    }
+  },
+  "threeJsObjects": {
+    "rendererCanvas": {
+      "id": "canvas",
+      "width": 1920,
+      "height": 1080
+    },
+    "visualsStages": [
+      {
+        "name": "HomeBalloons",
+        "isActive": true
+      },
+      {
+        "name": "GoalTunnels",
+        "isActive": false
+      }
+    ],
+    "currentStage3D": "HomeBalloons",
+    "parentHierarchy": [
+      "Scene (preUfx.scene)",
+      "Object3D (homePage.preUfxContainer)",
+      "Object3D (lineVisual.container)",
+      "Object3D (lineVisual.innerContainer)",
+      "Mesh (lineVisual.mesh) & Mesh (lineVisual.circle)"
+    ],
+    "lineMesh": {
+      "constructor": "Mesh",
+      "renderOrder": 200,
+      "frustumCulled": false,
+      "geometry": {
+        "type": "BufferGeometry",
+        "attributes": [
+          "CP",
+          "position",
+          "Cd"
+        ],
+        "vertexCount": 640,
+        "cpCount": 640,
+        "cdCount": 640
+      },
+      "material": {
+        "type": "ShaderMaterial",
+        "transparent": true,
+        "depthTest": false,
+        "depthWrite": true,
+        "defines": {
+          "IS_LINE": true
+        },
+        "derivatives": true,
+        "color0_hex": "#5a90ff",
+        "color0_rgb": {
+          "r": 0.35294117647058826,
+          "g": 0.5647058823529412,
+          "b": 1
+        },
+        "color1_hex": "#2a38ee",
+        "color1_rgb": {
+          "r": 0.16470588235294117,
+          "g": 0.2196078431372549,
+          "b": 0.9333333333333333
+        },
+        "radiusUniform": 0.008,
+        "aoThreshold": 0.555,
+        "margin": {
+          "x": -0.05,
+          "y": -0.8
+        },
+        "aspect": {
+          "x": 0.8715755371245493,
+          "y": 0.49026123963255896
+        }
+      }
+    },
+    "headCircleMesh": {
+      "constructor": "Mesh",
+      "renderOrder": 200,
+      "geometry": {
+        "type": "PlaneGeometry",
+        "parameters": {
+          "width": 2,
+          "height": 2,
+          "widthSegments": 1,
+          "heightSegments": 1
+        }
+      },
+      "material": {
+        "type": "ShaderMaterial",
+        "transparent": true,
+        "depthTest": false,
+        "color0_hex": "#5a90ff",
+        "color1_hex": "#2a38ee"
+      }
+    }
+  },
+  "desktopSequence": [
+    {
+      "step": "desktop_1_entry",
+      "description": "Reel top entering screen (showRatio ~0.03)",
+      "screenshot": "desktop_1_entry.png",
+      "state": {
+        "scrollPixel": 700,
+        "reelRect": {
+          "top": 380,
+          "height": 825.84375
+        },
+        "containerVisible": true,
+        "showRatio": 0.0027434842249657062,
+        "radius": 0.008,
+        "scrollYUniform": -380,
+        "circlePos": [
+          -0.004130272629341663,
+          0.7098579375836157,
+          0.8770450667469637
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0.0054794417442388665
+      }
+    },
+    {
+      "step": "desktop_2_mid_curve",
+      "description": "Reel header visible, curve drawing (showRatio ~0.20)",
+      "screenshot": "desktop_2_mid_curve.png",
+      "state": {
+        "scrollPixel": 1100,
+        "reelRect": {
+          "top": -20,
+          "height": 825.84375
+        },
+        "containerVisible": true,
+        "showRatio": 0.20728727851234974,
+        "radius": 0.008,
+        "scrollYUniform": 20,
+        "circlePos": [
+          0.31782652759129487,
+          0.44823133615740635,
+          0.12087173895867094
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0.37160654119164305
+      }
+    },
+    {
+      "step": "desktop_3_half_drawn",
+      "description": "Curve extending across reel content (showRatio ~0.53)",
+      "screenshot": "desktop_3_half_drawn.png",
+      "state": {
+        "scrollPixel": 1450,
+        "reelRect": {
+          "top": -370,
+          "height": 825.84375
+        },
+        "containerVisible": true,
+        "showRatio": 0.6323041209081096,
+        "radius": 0.008,
+        "scrollYUniform": 370,
+        "circlePos": [
+          0.44937456411332655,
+          0.40237996763829215,
+          0.707187596552045
+        ],
+        "circleAo": 0.9996093749999999,
+        "circleMixRatio": 0.8647997404988419
+      }
+    },
+    {
+      "step": "desktop_4_fully_settled",
+      "description": "Curve fully drawn across reel (showRatio ~0.92)",
+      "screenshot": "desktop_4_fully_settled.png",
+      "state": {
+        "scrollPixel": 1850,
+        "reelRect": {
+          "top": -770,
+          "height": 825.84375
+        },
+        "containerVisible": true,
+        "showRatio": 0.9586001736998888,
+        "radius": 0.008,
+        "scrollYUniform": 770,
+        "circlePos": [
+          0.938141567440088,
+          0.0444488914841423,
+          0.8000896535305414
+        ],
+        "circleAo": 0.9996093749999999,
+        "circleMixRatio": 0.9982860543823207
+      }
+    }
+  ],
+  "mobileSequence": [
+    {
+      "step": "mobile_1_entry",
+      "description": "Mobile reel entering screen (showRatio ~0.03)",
+      "screenshot": "mobile_1_entry.png",
+      "state": {
+        "scrollPixel": 550,
+        "reelRect": {
+          "top": 294,
+          "height": 684.6875
+        },
+        "containerVisible": true,
+        "showRatio": 0.0031581399855317295,
+        "radius": 0.016,
+        "scrollYUniform": -294,
+        "circlePos": [
+          -0.003243261299258021,
+          0.7097224917522912,
+          0.009618692700388802
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0.006306306122895178
+      }
+    },
+    {
+      "step": "mobile_2_mid_curve",
+      "description": "Mobile curve drawing (showRatio ~0.20)",
+      "screenshot": "mobile_2_mid_curve.png",
+      "state": {
+        "scrollPixel": 850,
+        "reelRect": {
+          "top": -6,
+          "height": 684.6875
+        },
+        "containerVisible": true,
+        "showRatio": 0.19613933933710428,
+        "radius": 0.016,
+        "scrollYUniform": 6,
+        "circlePos": [
+          0.31130218462841913,
+          0.47136365395729335,
+          0.5667608288400363
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0.35380803823861273
+      }
+    },
+    {
+      "step": "mobile_3_half_drawn",
+      "description": "Mobile curve half drawn (showRatio ~0.48)",
+      "screenshot": "mobile_3_half_drawn.png",
+      "state": {
+        "scrollPixel": 1100,
+        "reelRect": {
+          "top": -256,
+          "height": 684.6875
+        },
+        "containerVisible": true,
+        "showRatio": 0.5786627652212261,
+        "radius": 0.016,
+        "scrollYUniform": 256,
+        "circlePos": [
+          0.33450520710997644,
+          0.4151265957712584,
+          0.5962981280897632
+        ],
+        "circleAo": 0.9996093749999999,
+        "circleMixRatio": 0.8224749345889764
+      }
+    },
+    {
+      "step": "mobile_4_fully_settled",
+      "description": "Mobile curve fully drawn (showRatio ~0.87)",
+      "screenshot": "mobile_4_fully_settled.png",
+      "state": {
+        "scrollPixel": 1400,
+        "reelRect": {
+          "top": -556,
+          "height": 684.6875
+        },
+        "containerVisible": true,
+        "showRatio": 0.9311325590782303,
+        "radius": 0.016,
+        "scrollYUniform": 556,
+        "circlePos": [
+          0.9135971019225936,
+          0.09785167621959423,
+          0.037576947348651704
+        ],
+        "circleAo": 0.9996093749999999,
+        "circleMixRatio": 0.9952572755808866
+      }
+    }
+  ]
+}

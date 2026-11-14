@@ -1,0 +1,10 @@
+Starting debug_nav...
+[2026-10-21T22:56:19.135Z] Navigating with domcontentloaded to http://localhost:3000/ ...
+[2026-10-21T22:57:21.303Z] Error: TimeoutError: Navigation timeout of 60000 ms exceeded
+    at new Deferred (file:///C:/Users/user/Documents/antigravity/intelligent-babbage/node_modules/puppeteer-core/lib/puppeteer/util/Deferred.js:57:34)
+    at Deferred.create (file:///C:/Users/user/Documents/antigravity/intelligent-babbage/node_modules/puppeteer-core/lib/puppeteer/util/Deferred.js:18:16)
+    at new LifecycleWatcher (file:///C:/Users/user/Documents/antigravity/intelligent-babbage/node_modules/puppeteer-core/lib/puppeteer/cdp/LifecycleWatcher.js:70:46)
+    at CdpFrame.goto (file:///C:/Users/user/Documents/antigravity/intelligent-babbage/node_modules/puppeteer-core/lib/puppeteer/cdp/Frame.js:152:29)
+    at CdpFrame.<anonymous> (file:///C:/Users/user/Documents/antigravity/intelligent-babbage/node_modules/puppeteer-core/lib/puppeteer/util/decorators.js:101:27)
+    at CdpPage.goto (file:///C:/Users/user/Documents/antigravity/intelligent-babbage/node_modules/puppeteer-core/lib/puppeteer/api/Page.js:582:43)
+    at main (C:\Users\user\Documents\antigravity\intelligent-babbage\debug_nav.js:33:14)

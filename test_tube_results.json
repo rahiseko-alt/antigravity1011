@@ -1,0 +1,405 @@
+{
+  "desktop": {
+    "650": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 184.5,
+          "y": 552.0479476418972,
+          "z": 0
+        },
+        "scale": {
+          "x": 1092.8571428571427,
+          "y": 1028.4463894967178,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": -0.09276542305573292,
+          "y": -1.3018761519689686,
+          "z": 0.4967816034942085
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.018,
+          "y": 0.018,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.1539222997704839
+      }
+    },
+    "1800": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 184.5,
+          "y": 1700.4165437620054,
+          "z": 0
+        },
+        "scale": {
+          "x": 1092.8571428571427,
+          "y": 1028.4463894967178,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.8537936118132456,
+          "y": -2.2420075260819945,
+          "z": 0.9208786390141069
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.018,
+          "y": 0.018,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.33961202072694124
+      }
+    },
+    "2800": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 184.5,
+          "y": 2702.752850122482,
+          "z": 0
+        },
+        "scale": {
+          "x": 1092.8571428571427,
+          "y": 1028.4463894967178,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.5211911994379422,
+          "y": -3.019309695398211,
+          "z": 0.5214893196734364
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.018,
+          "y": 0.018,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.49999729094171685
+      }
+    },
+    "3800": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 184.5,
+          "y": 3700.0590386545455,
+          "z": 0
+        },
+        "scale": {
+          "x": 1092.8571428571427,
+          "y": 1028.4463894967178,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.05948404396602126,
+          "y": -3.7081962430034077,
+          "z": 0.33878233091965126
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.018,
+          "y": 0.018,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.6499899753571425
+      }
+    },
+    "5000": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 184.5,
+          "y": 4902.548132795431,
+          "z": 0
+        },
+        "scale": {
+          "x": 1092.8571428571427,
+          "y": 1028.4463894967178,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.739585751550821,
+          "y": -4.758350702778892,
+          "z": 0.4665283659165669
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.018,
+          "y": 0.018,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.8882903752482643
+      }
+    },
+    "6000": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 184.5,
+          "y": 5902.420674099052,
+          "z": 0
+        },
+        "scale": {
+          "x": 1092.8571428571427,
+          "y": 1028.4463894967178,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.04998699575662613,
+          "y": -5.349999904632568,
+          "z": 0
+        },
+        "visible": false,
+        "scale": {
+          "x": 0.018,
+          "y": 0.018,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.9999979054900396
+      }
+    }
+  },
+  "mobile": {
+    "500": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 38.025,
+          "y": 695.6772789439334,
+          "z": 0
+        },
+        "scale": {
+          "x": 320.35714285714283,
+          "y": 1225.382932166302,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": -0.0715841829873767,
+          "y": -1.288400830425184,
+          "z": 0.6937875953508189
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.026,
+          "y": 0.026,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.15085459858288672
+      }
+    },
+    "1800": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 38.025,
+          "y": 1992.4788285613347,
+          "z": 0
+        },
+        "scale": {
+          "x": 320.35714285714283,
+          "y": 1225.382932166302,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.9983280171735586,
+          "y": -2.3251865871731763,
+          "z": 0.6227996119013193
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.026,
+          "y": 0.026,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.35999057215466634
+      }
+    },
+    "3000": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 38.025,
+          "y": 3193.5199856053296,
+          "z": 0
+        },
+        "scale": {
+          "x": 320.35714285714283,
+          "y": 1225.382932166302,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.1528839415461868,
+          "y": -3.234477920143102,
+          "z": 0.19962042062432517
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.026,
+          "y": 0.026,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.5521544548339775
+      }
+    },
+    "4200": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 38.025,
+          "y": 4394.05751144526,
+          "z": 0
+        },
+        "scale": {
+          "x": 320.35714285714283,
+          "y": 1225.382932166302,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.7227330508279535,
+          "y": -4.1382833488380655,
+          "z": 0.31421190423489564
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.026,
+          "y": 0.026,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.7466692085339663
+      }
+    },
+    "5400": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 38.025,
+          "y": 5594.05999939773,
+          "z": 0
+        },
+        "scale": {
+          "x": 320.35714285714283,
+          "y": 1225.382932166302,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.5317769251113417,
+          "y": -4.913605974452103,
+          "z": 0.12658107541642583
+        },
+        "visible": true,
+        "scale": {
+          "x": 0.026,
+          "y": 0.026,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.9199966239182098
+      }
+    },
+    "6400": {
+      "exists": true,
+      "containerVisible": true,
+      "innerContainer": {
+        "position": {
+          "x": 38.025,
+          "y": 6594.471006106525,
+          "z": 0
+        },
+        "scale": {
+          "x": 320.35714285714283,
+          "y": 1225.382932166302,
+          "z": 1
+        },
+        "visible": true
+      },
+      "circle": {
+        "position": {
+          "x": 0.04998699575662613,
+          "y": -5.349999904632568,
+          "z": 0
+        },
+        "visible": false,
+        "scale": {
+          "x": 0.026,
+          "y": 0.026,
+          "z": 1
+        }
+      },
+      "meshUniforms": {
+        "u_showRatio": 0.9999990012226383
+      }
+    }
+  },
+  "errors": [
+    "[Mobile PageError] Cannot read properties of undefined (reading 'attributes')"
+  ]
+}

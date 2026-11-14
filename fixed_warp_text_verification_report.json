@@ -1,0 +1,1237 @@
+{
+  "results": {
+    "intro": [
+      {
+        "targetRatio": 0.1,
+        "tau": 0.2821801402140409,
+        "blackTitleRatio": 0.366467527965215,
+        "titleInternalRatio": 0.366467527965215,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 6130.15px, 0px) scale(1) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 5960.25)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 370,
+            "left": 96,
+            "width": 1728,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -6130.15px, 0px)",
+          "rect": {
+            "top": -5590,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 598,
+            "width": 230
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(0px)",
+            "left": 864,
+            "width": 459
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 539,
+            "width": 230
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(0px)",
+            "left": 805,
+            "width": 576
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(0px)",
+            "left": 272,
+            "width": 346
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0px)",
+            "left": 653,
+            "width": 268
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(0px)",
+            "left": 957,
+            "width": 691
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.25,
+        "tau": 0.5874276530463247,
+        "blackTitleRatio": 0.48307431434023806,
+        "titleInternalRatio": 0.48307431434023806,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 7333.31px, 0px) scale(1) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 7163.4)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 370,
+            "left": 96,
+            "width": 1728,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -7333.31px, 0px)",
+          "rect": {
+            "top": -6793,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 598,
+            "width": 230
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(0px)",
+            "left": 864,
+            "width": 459
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 539,
+            "width": 230
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(0px)",
+            "left": 805,
+            "width": 576
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(0px)",
+            "left": 272,
+            "width": 346
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0px)",
+            "left": 653,
+            "width": 268
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(0px)",
+            "left": 957,
+            "width": 691
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.4,
+        "tau": 0.8899980840738864,
+        "blackTitleRatio": 0.5925077327800748,
+        "titleInternalRatio": 0.5925077327800748,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 8462.45px, 0px) scale(1) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 8292.54)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 370,
+            "left": 96,
+            "width": 1728,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -8462.45px, 0px)",
+          "rect": {
+            "top": -7922,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-45.6564px)",
+            "left": 552,
+            "width": 230
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(45.6564px)",
+            "left": 910,
+            "width": 459
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-40.3083px)",
+            "left": 498,
+            "width": 230
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(40.3083px)",
+            "left": 846,
+            "width": 576
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-15.9973px)",
+            "left": 256,
+            "width": 346
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0007111px)",
+            "left": 653,
+            "width": 268
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(15.9987px)",
+            "left": 973,
+            "width": 691
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.5,
+        "tau": 1.0916664969641718,
+        "blackTitleRatio": 0.6720082152488148,
+        "titleInternalRatio": 0.6720082152488148,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 9282.73px, 0px) scale(1.02167) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1.02167, 0, 0, 1.02167, 0, 9109.15)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 366,
+            "left": 77,
+            "width": 1765,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -9282.73px, 0px)",
+          "rect": {
+            "top": -8743,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-488.51px)",
+            "left": 91,
+            "width": 235
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(488.51px)",
+            "left": 1361,
+            "width": 468
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-431.287px)",
+            "left": 89,
+            "width": 235
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(431.287px)",
+            "left": 1242,
+            "width": 588
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-171.166px)",
+            "left": 82,
+            "width": 353
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0076094px)",
+            "left": 647,
+            "width": 274
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(171.182px)",
+            "left": 1132,
+            "width": 706
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.6,
+        "tau": 1.2933333178516477,
+        "blackTitleRatio": 0.740314045354876,
+        "titleInternalRatio": 0.740314045354876,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 9987.52px, 0px) scale(1.31985) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1.31985, 0, 0, 1.31985, 0, 9763.27)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 316,
+            "left": -180,
+            "width": 2281,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -9987.52px, 0px)",
+          "rect": {
+            "top": -9448,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-501.547px)",
+            "left": -180,
+            "width": 304
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(501.547px)",
+            "left": 1495,
+            "width": 605
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-442.797px)",
+            "left": -180,
+            "width": 304
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(442.797px)",
+            "left": 1340,
+            "width": 760
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-175.734px)",
+            "left": -180,
+            "width": 456
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0078125px)",
+            "left": 555,
+            "width": 353
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(175.75px)",
+            "left": 1188,
+            "width": 912
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.75,
+        "tau": 1.5958333330694587,
+        "blackTitleRatio": 0.8634504131535923,
+        "titleInternalRatio": 0.8634504131535923,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 11258px, 0px) scale(3.82809) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(3.82809, 0, 0, 3.82809, 0, 10607.6)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": -110,
+            "left": -2347,
+            "width": 6615,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -11258px, 0px)",
+          "rect": {
+            "top": -10718,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-501.547px)",
+            "left": -2347,
+            "width": 882
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(501.547px)",
+            "left": 2512,
+            "width": 1755
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-442.797px)",
+            "left": -2347,
+            "width": 882
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(442.797px)",
+            "left": 2062,
+            "width": 2205
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-175.734px)",
+            "left": -2347,
+            "width": 1323
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0078125px)",
+            "left": -214,
+            "width": 1025
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(175.75px)",
+            "left": 1621,
+            "width": 2646
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.9,
+        "tau": 1.8983333326410505,
+        "blackTitleRatio": 0.9715991733012338,
+        "titleInternalRatio": 0.9715991733012338,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "intro-tunnel-title-wrapper",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "0.378678",
+          "computedOpacity": "0.378678",
+          "inlineTransform": "translate3d(0px, 12373.9px, 0px) scale(9.68523) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(9.68523, 0, 0, 9.68523, 0, 10728.4)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": -1106,
+            "left": -7408,
+            "width": 16736,
+            "height": 0
+          }
+        },
+        "wrapper": {
+          "visibility": "visible",
+          "display": "block",
+          "transform": "translate3d(0px, -12373.9px, 0px)",
+          "rect": {
+            "top": -11834,
+            "left": 0,
+            "width": 1920
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-501.547px)",
+            "left": -7408,
+            "width": 2232
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(501.547px)",
+            "left": 4887,
+            "width": 4441
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-442.797px)",
+            "left": -7408,
+            "width": 2232
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(442.797px)",
+            "left": 3749,
+            "width": 5579
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-175.734px)",
+            "left": -7408,
+            "width": 3347
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0078125px)",
+            "left": -2010,
+            "width": 2593
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(175.75px)",
+            "left": 2634,
+            "width": 6694
+          }
+        ]
+      }
+    ],
+    "native": [
+      {
+        "targetRatio": 0.1,
+        "blackTitleRatio": 0.3255658125013671,
+        "scrollPixel": 12798.550314583334,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 5708.13px, 0px) scale(0.994692) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(0.994692, 0, 0, 0.994692, 0, 5539.13)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 337,
+            "left": 101,
+            "width": 1719,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 599,
+            "width": 229
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(0px)",
+            "left": 864,
+            "width": 456
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 541,
+            "width": 229
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(0px)",
+            "left": 806,
+            "width": 573
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(0px)",
+            "left": 275,
+            "width": 344
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0px)",
+            "left": 655,
+            "width": 266
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(0px)",
+            "left": 957,
+            "width": 688
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.25,
+        "blackTitleRatio": 0.45389529286593233,
+        "scrollPixel": 14122.658794458126,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 7032.24px, 0px) scale(1) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 6862.33)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 336,
+            "left": 96,
+            "width": 1728,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 598,
+            "width": 230
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(0px)",
+            "left": 864,
+            "width": 459
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(0px)",
+            "left": 539,
+            "width": 230
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(0px)",
+            "left": 805,
+            "width": 576
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(0px)",
+            "left": 272,
+            "width": 346
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0px)",
+            "left": 653,
+            "width": 268
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(0px)",
+            "left": 957,
+            "width": 691
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.4,
+        "blackTitleRatio": 0.5816669105023505,
+        "scrollPixel": 15441.01122539664,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 8350.59px, 0px) scale(1) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1, 0, 0, 1, 0, 8180.69)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 336,
+            "left": 96,
+            "width": 1728,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-18.8762px)",
+            "left": 579,
+            "width": 230
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(18.8762px)",
+            "left": 883,
+            "width": 459
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-16.6651px)",
+            "left": 522,
+            "width": 230
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(16.6651px)",
+            "left": 822,
+            "width": 576
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-6.61394px)",
+            "left": 265,
+            "width": 346
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.000294px)",
+            "left": 653,
+            "width": 268
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(6.61452px)",
+            "left": 964,
+            "width": 691
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.5,
+        "blackTitleRatio": 0.6527901665572633,
+        "scrollPixel": 16174.863697884482,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 9084.44px, 0px) scale(1.00448) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1.00448, 0, 0, 1.00448, 0, 8913.78)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 335,
+            "left": 92,
+            "width": 1736,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-439.002px)",
+            "left": 155,
+            "width": 231
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(439.002px)",
+            "left": 1304,
+            "width": 461
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-387.578px)",
+            "left": 148,
+            "width": 231
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(387.578px)",
+            "left": 1194,
+            "width": 579
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-153.819px)",
+            "left": 114,
+            "width": 347
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0068382px)",
+            "left": 652,
+            "width": 269
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(153.833px)",
+            "left": 1112,
+            "width": 694
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.6,
+        "blackTitleRatio": 0.7275023211346738,
+        "scrollPixel": 16945.74656240344,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 9855.32px, 0px) scale(1.22465) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(1.22465, 0, 0, 1.22465, 0, 9647.25)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": 298,
+            "left": -98,
+            "width": 2116,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-501.547px)",
+            "left": -98,
+            "width": 282
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(501.547px)",
+            "left": 1457,
+            "width": 562
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-442.797px)",
+            "left": -98,
+            "width": 282
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(442.797px)",
+            "left": 1313,
+            "width": 705
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-175.734px)",
+            "left": -98,
+            "width": 423
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0078125px)",
+            "left": 584,
+            "width": 328
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(175.75px)",
+            "left": 1172,
+            "width": 846
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.75,
+        "blackTitleRatio": 0.8411537028094337,
+        "scrollPixel": 18118.405859374998,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "1",
+          "computedOpacity": "1",
+          "inlineTransform": "translate3d(0px, 11028px, 0px) scale(3.10662) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(3.10662, 0, 0, 3.10662, 0, 10500.2)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": -22,
+            "left": -1724,
+            "width": 5368,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-501.547px)",
+            "left": -1724,
+            "width": 716
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(501.547px)",
+            "left": 2220,
+            "width": 1424
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-442.797px)",
+            "left": -1724,
+            "width": 716
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(442.797px)",
+            "left": 1855,
+            "width": 1789
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-175.734px)",
+            "left": -1724,
+            "width": 1074
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0078125px)",
+            "left": 7,
+            "width": 832
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(175.75px)",
+            "left": 1497,
+            "width": 2147
+          }
+        ]
+      },
+      {
+        "targetRatio": 0.9,
+        "blackTitleRatio": 0.9591227657138542,
+        "scrollPixel": 19335.615156185628,
+        "totalLineHeight": 397.40625,
+        "container": {
+          "id": "home-goal-tunnel-title",
+          "parentId": "home-goal",
+          "visibility": "visible",
+          "computedVisibility": "visible",
+          "opacity": "0.54503",
+          "computedOpacity": "0.54503",
+          "inlineTransform": "translate3d(0px, 12245.2px, 0px) scale(8.78067) translateY(-198.703px) translateY(0.25em)",
+          "computedTransform": "matrix(8.78067, 0, 0, 8.78067, 0, 10753.3)",
+          "fontSize": "115.2px",
+          "fontFamily": "Aeonik",
+          "rect": {
+            "top": -986,
+            "left": -6626,
+            "width": 15173,
+            "height": 0
+          }
+        },
+        "lines": [
+          {
+            "text": "場をつくる。",
+            "rect": {}
+          },
+          {
+            "text": "場を乱さない。",
+            "rect": {}
+          },
+          {
+            "text": "まずは1つの草活動から。",
+            "rect": {}
+          }
+        ],
+        "spans": [
+          {
+            "text": "場を",
+            "transform": "translateX(-501.547px)",
+            "left": -6626,
+            "width": 2023
+          },
+          {
+            "text": "つくる。",
+            "transform": "translateX(501.547px)",
+            "left": 4521,
+            "width": 4026
+          },
+          {
+            "text": "場を",
+            "transform": "translateX(-442.797px)",
+            "left": -6626,
+            "width": 2023
+          },
+          {
+            "text": "乱さない。",
+            "transform": "translateX(442.797px)",
+            "left": 3489,
+            "width": 5058
+          },
+          {
+            "text": "まずは",
+            "transform": "translateX(-175.734px)",
+            "left": -6626,
+            "width": 3035
+          },
+          {
+            "text": "1つの",
+            "transform": "translateX(0.0078125px)",
+            "left": -1733,
+            "width": 2351
+          },
+          {
+            "text": "草活動から。",
+            "transform": "translateX(175.75px)",
+            "left": 2477,
+            "width": 6069
+          }
+        ]
+      }
+    ]
+  },
+  "consoleErrors": [
+    "%c%d font-size:0;color:transparent NaN",
+    "%c%d font-size:0;color:transparent NaN"
+  ]
+}

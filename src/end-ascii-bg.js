@@ -352,7 +352,9 @@ class EndAsciiBackground {
     const f = 0.00045 * elapsed;
     const s = 1.2 + ((Math.cos(f) + 1) / 2) * (0.5 - 1.2);
 
-    ctx.clearRect(0, 0, viewW, viewH);
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = "#000000";
+    ctx.fillRect(0, 0, viewW, viewH);
     ctx.font = `600 ${Math.floor(cellH * 0.72)}px "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace`;
     ctx.textBaseline = "middle";
     ctx.textAlign = "center";

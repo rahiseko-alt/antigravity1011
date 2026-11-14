@@ -1,0 +1,168 @@
+{
+  "remote": {
+    "url": "https://rahiseko-alt.github.io/antigravity1011/",
+    "name": "github_pages",
+    "consoleErrors": [
+      {
+        "viewport": "desktop",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "viewport": "desktop",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "viewport": "desktop",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "viewport": "desktop",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "viewport": "mobile",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "viewport": "mobile",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "viewport": "mobile",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "viewport": "mobile",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      }
+    ],
+    "consoleWarnings": [],
+    "pageErrors": [
+      {
+        "viewport": "desktop",
+        "error": "RangeError: start offset of Int16Array should be a multiple of 2\nnew Int16Array (<anonymous>)",
+        "stack": "RangeError: start offset of Int16Array should be a multiple of 2\nnew Int16Array (<anonymous>)\n    at _onLoad (https://rahiseko-alt.github.io/antigravity1011/assets/index-DPger_0H.js:4235:2480)\n    at _onXmlHttpChange (https://rahiseko-alt.github.io/antigravity1011/assets/index-DPger_0H.js:3597:183502)\n    at e.onreadystatechange (https://rahiseko-alt.github.io/antigravity1011/assets/index-DPger_0H.js:3597:183190)"
+      },
+      {
+        "viewport": "mobile",
+        "error": "RangeError: start offset of Int16Array should be a multiple of 2\nnew Int16Array (<anonymous>)"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://player.vimeo.com/video/761102167?title=0&byline=0&controls=0&app_id=122963",
+        "status": 401
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-W2XC5XK9QJ&gtm=45je6ae1v9165630968za208zd9165630968xf1&_p=1792313746732&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1589143265.1792313750&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=800x600&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.40%7CChromium%3B155.0.8059.40%7CNot(A%253ABrand%3B24.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=ja&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792313750&sct=1&seg=0&dl=https%3A%2F%2Frahiseko-alt.github.io%2Fantigravity1011%2F&dt=AI%20League%20AIueo%20-%20%E8%8D%89AI%E5%90%8C%E7%9B%9F%20%7C%20%E4%BB%B2%E9%96%93%E3%82%92%E9%9B%86%E3%82%81%E3%82%8B%E5%A0%B4&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3640",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures//tunnels/desktop.png",
+        "status": 404
+      },
+      {
+        "url": "https://rahiseko-alt.github.io/antigravity1011/assets/textures//tunnels/tablet.png",
+        "status": 404
+      },
+      {
+        "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a4c6538e5a28f338/26tgwdzMU9SfNb80TTwU7IK8pnxqObFNWv3lCs6_dq0-1792313750-1.2.1.1-jTK7Zb2inohjTC9syL7o3xxl2wsjcNLLFn9PZ9WLq9LekdmqmiOGanfhHzeqR4BG",
+        "error": "net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a4c6538e5a28f338/1792313754989/35735c307a179ef6f2ad49ecee6f8d0bb090aadd79d7569ceb1f2e9e79024b2e/I55z05Qjty_4Ri86ETI_nxesADi2tv6eKk5Nj86IaX0-1792313754-1.3.1.1-gkBSrdbr0WYhNdFWuPd9FAb8PBFYpd85cJkaQomrs7RPG8OfUV5_MjyI1BUV.reHMefa.NVG3E5oYp4gVCV6FqvzvGOoe45K337sK3fmqH_kVih8NQPj3SI5veq9TJAyzi_ppUB1W.8cC6T2Q3tb1uai0nhjlcsVaNK6SGNzGH_BhGnpVQyepAB89lwWG66zN2VdF5Sm51haDD7CidC36qCqr4ceMH3huxDmwBk0d54s9NXgKaQrl_bcI9_dJax3ZUOOmM6ptya2eaK7W46BvLQmXKjmGKIZOn5934HpYl5QCR01Bj35pXxw6XBc9MhIAm3pokLNW7ty_AAfemrzvL7dvmOLC5BdbRVnaM0PIcSdZh7jLXny12yS3ec6dOvR8Z1H3ASRM3b4Ngv.EnSjsjc8S.CU711JwSm2wqbgQsdNjNHRobS.L.dqRu32whO3GI0Xxnkdf0vfxD02ExxPJh0JLrpd29u40wKmqzwF65V.DTtSiC3DBY04J8USdXjukbIEzcWFpbA0c_cz61L6UadKuOCx_u5yCu96wt1P_yNTwVyVawU4a_p1ZHbDtgtxhm89LfhXoa5MykwKTKiGd8zEUfxLvY2uY_npxJ8NCIIUx7X__RQMTQmFkVI_RSuAF2wGHs6TuqMSLFWeqYH7K0fIjUP8rJMMS_fiyOO5CX3VMDSpV8xHkF39nmeI8PbaEVt5o8TNvXXFGvDL4WluyBE5HAHd_44Y_fNm67Xo0R_TDYV.uIEoBIEVH9vvS6V2tEKCcSu8BETL_9dhW13OZ6pg7Xk1W.vmO4G.5RhUswao8la9EVuw0QOuN0EKMeFU",
+        "status": 401
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-W2XC5XK9QJ&gtm=45je6ae1v9165630968za200zd9165630968xf1&_p=1792313746732&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=1589143265.1792313750&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=800x600&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.40%7CChromium%3B155.0.8059.40%7CNot(A%253ABrand%3B24.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=ja&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792313750&sct=1&seg=0&dl=https%3A%2F%2Frahiseko-alt.github.io%2Fantigravity1011%2F&dt=AI%20League%20AIueo%20-%20%E8%8D%89AI%E5%90%8C%E7%9B%9F%20%7C%20%E4%BB%B2%E9%96%93%E3%82%92%E9%9B%86%E3%82%81%E3%82%8B%E5%A0%B4&en=scroll&epn.percent_scrolled=90&_et=77&tfd=9502",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "webglIssues": [
+      {
+        "canvasCount": 3,
+        "details": [
+          {
+            "id": "canvas",
+            "className": "",
+            "width": 1920,
+            "height": 1080,
+            "styleWidth": "1920px",
+            "styleHeight": "1080px",
+            "glError": 0,
+            "isContextLost": false
+          }
+        ],
+        "windowScrollManager": true,
+        "scrollPixel": 0
+      }
+    ],
+    "measurements": {}
+  },
+  "local": {
+    "url": "http://localhost:3000",
+    "name": "localhost",
+    "consoleErrors": [
+      {
+        "viewport": "desktop",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "viewport": "desktop",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "viewport": "mobile",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "viewport": "mobile",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      }
+    ],
+    "consoleWarnings": [],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-W2XC5XK9QJ&gtm=45je6ae1v9165630968za208zd9165630968xf1&_p=1792313813916&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=496085456.1792313816&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=800x600&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.40%7CChromium%3B155.0.8059.40%7CNot(A%253ABrand%3B24.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=ja&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034&sid=1792313816&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=AI%20League%20AIueo%20-%20%E8%8D%89AI%E5%90%8C%E7%9B%9F%20%7C%20%E4%BB%B2%E9%96%93%E3%82%92%E9%9B%86%E3%82%81%E3%82%8B%E5%A0%B4&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2493",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://player.vimeo.com/video/761102167?title=0&byline=0&controls=0&app_id=122963",
+        "status": 401
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-W2XC5XK9QJ&gtm=45je6ae1v9165630968za200zd9165630968xf1&_p=1792313813916&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=496085456.1792313816&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=800x600&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B155.0.8059.40%7CChromium%3B155.0.8059.40%7CNot(A%253ABrand%3B24.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=ja&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034&sid=1792313816&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=AI%20League%20AIueo%20-%20%E8%8D%89AI%E5%90%8C%E7%9B%9F%20%7C%20%E4%BB%B2%E9%96%93%E3%82%92%E9%9B%86%E3%82%81%E3%82%8B%E5%A0%B4&en=scroll&epn.percent_scrolled=90&_et=23&tfd=7522",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a4c655423b9d967e/PN8uG_pHSloN6HyaGge1OUV2bTSDxvfvrtPDC.t0yes-1792313820-1.2.1.1-1acfM5NKl5LPQgaENooVE9jOQGETiyyWtc3x6_aWzzLyNjKOlXifyfQ.V3DF4H8t",
+        "error": "net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a4c655423b9d967e/1792313836262/addffa53555b8258099ab5c605419fbc40d50eecaf2f607beb8f9ffbec16c956/p41o2yiuY97nVzie3ebtsgCE5TL6okiWixdvYHAsuiM-1792313836-1.3.1.1-F_AFNT4lcs81MmiG6E6c7SEWGX7f7h38nbw9ovpt4JLFgyeh7OOAwOkxabstwsm.UF_q_gvfA3YvqsvfPAiGErej78wFw81PrvkI8XS3Nlqg6dRSP7JUg1iEei1Is.WanntIQuo9pAS7dYErEhf1Yp7ffDNAbdBeZIW1AVP0LMJokeZWDxIfyn6O88lTcnSRto1WYurr2WH5qCkvzfuGeRw8opqUUIerqBiFHbNwz6f5gGdSDkpwgB.niAUhUkWJIQJoKeQR_FHzukMRj5X4LcPE9WamH2O7kovSL3BQU6U6apbtAGCUicvEGvp9h8lhpN0qnBuq3T_NIYF_xN9e6Yrv5HK91kSsbq8eHbXBXFqzAlfBnKfW9BShr9pGzhwH65dPY2RqMoke01OwoqKybvVrGfiDuYSX8mGYyeV45g7P9eg7viLjg6npyvlRYTzZqFfLAXtHTz9TNCd01eIfDqfnomWy.Zs6w0LjL9Kl13.6G_O_QPN8Ae4QThv306nPGrJAah2B.4P47DpPkefYvIUX3BNNKBGkbtBabusuO_z2ehzNY7DfUShfCNj1CBLEwL6GfV7phDZY6PBsvIuD9jxLwIe_3ndlqLDbbabKH0NQWCxrCNatvo98BE9Ue7yf9EXq4OXfrijwgjYyT1sgs9h3GcJTfST9RFJ31deMz4V4chfzpPZzyFs46gxKyk8DzKXz6XdXcJc8QH4RgDbwrO2NXSzqUoJ35A4i.Kej.Vkr6pdDh9uheKmrVCq4s0DKfM2S6LMTfpRCGQSBJPozfaSC72.3g11nPdZiyqx39tBE9b0IIBRn7cKpJ.gv1XN.",
+        "status": 401
+      }
+    ],
+    "webglIssues": [
+      {
+        "canvasCount": 3,
+        "details": [
+          {
+            "id": "canvas",
+            "className": "",
+            "width": 1920,
+            "height": 1080,
+            "styleWidth": "1920px",
+            "styleHeight": "1080px",
+            "glError": 0,
+            "isContextLost": false
+          }
+        ],
+        "windowScrollManager": true,
+        "scrollPixel": 0
+      }
+    ],
+    "measurements": {}
+  }
+}

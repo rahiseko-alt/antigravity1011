@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-10-20T22:06:40.867Z",
+  "desktop": {
+    "intro": {
+      "scrollManagerActive": true,
+      "heroVisible": "1",
+      "whiteoutOpacity": "0",
+      "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう",
+      "status": "PASS"
+    },
+    "goalWarpRemoval": {
+      "preScrollMetrics": {
+        "members": {
+          "top": 4301.859375,
+          "height": 1281.90625
+        },
+        "goal": {
+          "top": 5583.765625,
+          "height": 39633.890625,
+          "clientHeight": 39634,
+          "tunnelTitleExists": true,
+          "tunnelTitleDisplay": "block",
+          "tunnelTitleOpacity": "0",
+          "goalContextTitle": "運営のかかわり方・スタンス（OperatingGuidelines）"
+        },
+        "endSection": {
+          "top": 45217.65625,
+          "height": 3150
+        },
+        "footer": {
+          "top": 48367.65625,
+          "height": 900
+        }
+      },
+      "goalContextEvaluation": {
+        "contextExists": true,
+        "contextVisible": true,
+        "contextBoundingBox": {
+          "top": 1248.595703125,
+          "left": 72,
+          "width": 1296,
+          "height": 435.15625
+        },
+        "titleText": "運営のかかわり方・スタンス（OperatingGuidelines）",
+        "paragraphCount": 2,
+        "tunnelTitleActive": false
+      },
+      "isGoalWarpRemoved": false,
+      "isEndSectionReachable": false,
+      "status": "FAIL",
+      "reason": "Bottom warp STILL PRESENT: #home-goal height is 39633.890625px (4200vh empty scroll remaining)."
+    },
+    "screenshots": [
+      "verify_desktop_intro_01_black_tunnel.png",
+      "verify_desktop_intro_02_white_tunnel.png",
+      "verify_desktop_intro_03_hero_settled.png",
+      "verify_desktop_01_members.png",
+      "verify_desktop_02_goal_context.png",
+      "verify_desktop_03_end_section.png",
+      "verify_desktop_04_footer.png"
+    ]
+  },
+  "mobile": {
+    "intro": {
+      "scrollManagerActive": true,
+      "heroVisible": "1",
+      "whiteoutOpacity": "0",
+      "heroText": "「今度何かやりましょう」を、「こういうのやるので、一緒にどう",
+      "status": "PASS"
+    },
+    "goalWarpRemoval": {
+      "preScrollMetrics": {
+        "members": {
+          "top": 4103.015625,
+          "height": 2374.125
+        },
+        "goal": {
+          "top": 6477.140625,
+          "height": 36544.546875,
+          "clientHeight": 36545,
+          "tunnelTitleExists": true,
+          "tunnelTitleDisplay": "block",
+          "tunnelTitleOpacity": "0",
+          "goalContextTitle": "運営のかかわり方・スタンス（Operating Guidelines）"
+        },
+        "endSection": {
+          "top": 43021.6875,
+          "height": 2954
+        },
+        "footer": {
+          "top": 45975.6875,
+          "height": 1013.96875
+        }
+      },
+      "goalContextEvaluation": {
+        "contextExists": true,
+        "contextVisible": true,
+        "contextBoundingBox": {
+          "top": 2394.1787109375,
+          "left": 15,
+          "width": 359.984375,
+          "height": 509.78125
+        },
+        "titleText": "運営のかかわり方・スタンス（Operating Guidelines）",
+        "paragraphCount": 2,
+        "tunnelTitleActive": false
+      },
+      "isGoalWarpRemoved": false,
+      "isEndSectionReachable": false,
+      "status": "FAIL",
+      "reason": "Bottom warp STILL PRESENT: #home-goal height is 36544.546875px (4200vh empty scroll remaining)."
+    },
+    "screenshots": [
+      "verify_mobile_intro_01_black_tunnel.png",
+      "verify_mobile_intro_02_white_tunnel.png",
+      "verify_mobile_intro_03_hero_settled.png",
+      "verify_mobile_01_members.png",
+      "verify_mobile_02_goal_context.png",
+      "verify_mobile_03_end_section.png",
+      "verify_mobile_04_footer.png"
+    ]
+  },
+  "overallStatus": "FAIL_GOAL_WARP_PRESENT"
+}

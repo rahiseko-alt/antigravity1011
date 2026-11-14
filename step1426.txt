@@ -1,0 +1,48 @@
+The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.
+
+<SYSTEM_MESSAGE>
+[Message] timestamp=2026-10-13T22:59:36Z sender=8d41b0d4-aec1-47fb-98be-4caa1da5374d priority=MESSAGE_PRIORITY_HIGH content=# AIueo コンテンツ抽出 & index.html マッピング設計 完了レポート
+
+親エージェントへ報告します。
+元サイト（https://aiueo-lp.vercel.app/）からの全テキスト・イベント・メンバー・活動実績・スタンス・画像アセットの完全抽出および、既存サイトのレイアウト構造（AGENTS.md ルール3厳守）への1:1対応マッピング設計を完了しました。
+
+また、AIエージェントが今後指示一つで即座にイベント追加・更新できるよう、一元管理用JSONファイル `data/aiueo-content.json` を構築し、全画像アセットも `assets/images/aiueo/` にローカル保存済みです。
+
+---
+
+## 1. 抽出したデータ構造の一元管理 (`data/aiueo-content.json`)
+保存場所: `c:\Users\user\Documents\antigravity\intelligent-babbage\data\aiueo-content.json`
+ダウンロード済み画像: `assets/images/aiueo/` (計11ファイル、正常取得確認済み)
+
+### 含まれるデータセクション:
+1. **meta**: サイトタイトル、OGP説明文、連絡先メール (`info@kouheikosehira.com`)、GitHubリンク
+2. **hero**: メインキャッチコピー、サブコピー、スクロール文言
+3. **concept** (Reel): ビジョン、Who We Are、How It Works（3ステップの利用フロー）
+4. **events**: 進行中の企画2件（AI小技 発表会、AIアート展覧会を重要文化財で開催する）の詳細・日時・費用・主催者・画像
+5. **organizers**: 運営コアメンバー3名＋顧問1名（小齊平恒平、伊藤良二、堺彬、岡本ジュンイチ）の写真・肩書・プロフィール
+6. **activities**: 実績・活動アーカイブ4件（SNS運用自動化、AIチャットボッ
+<truncated 6947 bytes>
+me-goal-tunnel-title-line-2` | `and let your` | `場を乱さない。` |
+| `#home-goal-tunnel-title-line-3` | `imagination run wild` | `まずは1つの草活動から。` |
+| **#end-section** (コンタクト / CTA) | | |
+| `#end-section-subtitle-text` | `Is Your Big Idea Ready to Go Wild?` | `「こういうのやるんですけど、一緒にどうですか？」` |
+| `#end-section-title-link` | `Let's work <br> together!` | `Join / Propose <br> 企画を持ち込む・参加する` |
+| `#end-bottom-text` | `CONTINUE TO SCROLL` | `CONTINUE TO SCROLL`（現状維持） |
+| **#footer-section** (フッターリンク & クレジット) | | |
+| `#footer-contact-address` | Suite 2, 9 Marsh Street... | `AI League AIueo`<br>`Tokyo, Japan & Online`<br>`草AI同盟（草野球のように集まりAIを遊ぶ）`<br>`info@kouheikosehira.com` |
+| `#footer-contact-socials` | Twitter / Instagram / LinkedIn | GitHub (`rahiseko-alt/AIueo-LP`) / Captain GitHub / X (Twitter) |
+| `#footer-contact-enquires` | `General enquires: hello@lusion.co` | `お問い合わせ: info@kouheikosehira.com` |
+| `#footer-contact-business` | `New business: business@lusion.co` | `企画の提案・相談: info@kouheikosehira.com` |
+| `#footer-newsletter-header` | `Subscribe to our newsletter` | `AIueoの最新企画通知を受け取る` |
+| `#footer-bottom-copyright` | `©2026 LUSION Creative Studio` | `© 2026 AI League AIueo. Activities & Experiment First.` |
+| `#footer-bottom-tagline` | `Built by Lusion with ❤️` | `Grassroots AI Alliance with ❤️` |
+
+---
+
+## 3. 次のステップの準備完了
+1. `data/aiueo-content.json` の作成完了
+2. `assets/images/aiueo/` への全実アセットダウンロード完了
+3. 上記マッピングに基づき、`index.html` への安全なテキスト置換（枠組み一切破壊なし）を行う準備が完全に整いました。
+
+ご確認いただき、本マッピング計画に沿って `index.html` へのコンテンツ適用フェーズへ進めていただけます。
+</SYSTEM_MESSAGE>

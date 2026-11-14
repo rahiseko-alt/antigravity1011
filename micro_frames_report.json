@@ -1,0 +1,342 @@
+[
+  {
+    "r": 4.6498,
+    "homePageTime": 0,
+    "dollyOffset": 100,
+    "curtainOpacity": "1",
+    "b0": {
+      "x": 4.4897,
+      "y": -5.2352,
+      "z": 1.342
+    },
+    "b1": {
+      "x": -1.883,
+      "y": -4.5746,
+      "z": -1.9841
+    },
+    "screenshot": "micro_frame_00.png"
+  },
+  {
+    "r": 4.9658,
+    "homePageTime": 0.1306,
+    "dollyOffset": 100,
+    "curtainOpacity": "0.8689",
+    "b0": {
+      "x": 4.0035,
+      "y": -4.5464,
+      "z": 1.7228
+    },
+    "b1": {
+      "x": -1.756,
+      "y": -4.1164,
+      "z": -1.5175
+    },
+    "screenshot": "micro_frame_01.png"
+  },
+  {
+    "r": 5.6415,
+    "homePageTime": 0.8359,
+    "dollyOffset": 29.8,
+    "curtainOpacity": "0.1632",
+    "b0": {
+      "x": 2.1814,
+      "y": -2.5965,
+      "z": 2.2661
+    },
+    "b1": {
+      "x": -1.5564,
+      "y": -3.3492,
+      "z": -0.8913
+    },
+    "screenshot": "micro_frame_02.png"
+  },
+  {
+    "r": 6.3197,
+    "homePageTime": 1.5045,
+    "dollyOffset": -6.3,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 1.6877,
+      "y": -1.7459,
+      "z": 2.911
+    },
+    "b1": {
+      "x": -1.6155,
+      "y": -3.3154,
+      "z": -0.8062
+    },
+    "screenshot": "micro_frame_03.png"
+  },
+  {
+    "r": 7.0049,
+    "homePageTime": 2.1832,
+    "dollyOffset": -8.09,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 1.2533,
+      "y": -1.7034,
+      "z": 2.9923
+    },
+    "b1": {
+      "x": -1.5303,
+      "y": -3.1803,
+      "z": -0.8178
+    },
+    "screenshot": "micro_frame_04.png"
+  },
+  {
+    "r": 7.7067,
+    "homePageTime": 2.8712,
+    "dollyOffset": -0.36,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 0.7973,
+      "y": -1.6342,
+      "z": 2.9795
+    },
+    "b1": {
+      "x": -1.4666,
+      "y": -3.0747,
+      "z": -0.8583
+    },
+    "screenshot": "micro_frame_05.png"
+  },
+  {
+    "r": 8.3461,
+    "homePageTime": 3.5171,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 0.6579,
+      "y": -1.7012,
+      "z": 2.9717
+    },
+    "b1": {
+      "x": -1.42,
+      "y": -2.8925,
+      "z": -0.9206
+    },
+    "screenshot": "micro_frame_06.png"
+  },
+  {
+    "r": 9.0004,
+    "homePageTime": 4.1707,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 0.5689,
+      "y": -1.7132,
+      "z": 2.8549
+    },
+    "b1": {
+      "x": -1.3386,
+      "y": -2.6584,
+      "z": -0.9448
+    },
+    "screenshot": "micro_frame_07.png"
+  },
+  {
+    "r": 9.6836,
+    "homePageTime": 4.8283,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 0.5082,
+      "y": -1.6437,
+      "z": 2.7254
+    },
+    "b1": {
+      "x": -1.2524,
+      "y": -2.519,
+      "z": -0.9005
+    },
+    "screenshot": "micro_frame_08.png"
+  },
+  {
+    "r": 10.3311,
+    "homePageTime": 5.4761,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 0.4078,
+      "y": -1.6307,
+      "z": 2.6468
+    },
+    "b1": {
+      "x": -1.1727,
+      "y": -2.4613,
+      "z": -0.8438
+    },
+    "screenshot": "micro_frame_09.png"
+  },
+  {
+    "r": 10.9723,
+    "homePageTime": 6.1219,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": 0.1744,
+      "y": -1.6446,
+      "z": 2.5968
+    },
+    "b1": {
+      "x": -1.1612,
+      "y": -2.4326,
+      "z": -0.8781
+    },
+    "screenshot": "micro_frame_10.png"
+  },
+  {
+    "r": 11.5981,
+    "homePageTime": 6.758,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.0089,
+      "y": -1.6401,
+      "z": 2.5107
+    },
+    "b1": {
+      "x": -1.1601,
+      "y": -2.4302,
+      "z": -0.9377
+    },
+    "screenshot": "micro_frame_11.png"
+  },
+  {
+    "r": 12.2371,
+    "homePageTime": 7.3927,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.0367,
+      "y": -1.5663,
+      "z": 2.5447
+    },
+    "b1": {
+      "x": -1.1553,
+      "y": -2.3716,
+      "z": -0.9638
+    },
+    "screenshot": "micro_frame_12.png"
+  },
+  {
+    "r": 12.8922,
+    "homePageTime": 8.0557,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.1277,
+      "y": -1.4982,
+      "z": 2.63
+    },
+    "b1": {
+      "x": -1.1368,
+      "y": -2.3411,
+      "z": -0.9426
+    },
+    "screenshot": "micro_frame_13.png"
+  },
+  {
+    "r": 13.5307,
+    "homePageTime": 8.6897,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.2192,
+      "y": -1.4543,
+      "z": 2.6773
+    },
+    "b1": {
+      "x": -1.1496,
+      "y": -2.2864,
+      "z": -0.9574
+    },
+    "screenshot": "micro_frame_14.png"
+  },
+  {
+    "r": 14.1723,
+    "homePageTime": 9.3202,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.2995,
+      "y": -1.4168,
+      "z": 2.6953
+    },
+    "b1": {
+      "x": -1.156,
+      "y": -2.2458,
+      "z": -0.97
+    },
+    "screenshot": "micro_frame_15.png"
+  },
+  {
+    "r": 14.784,
+    "homePageTime": 9.9516,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.3842,
+      "y": -1.3705,
+      "z": 2.71
+    },
+    "b1": {
+      "x": -1.1541,
+      "y": -2.2009,
+      "z": -0.9818
+    },
+    "screenshot": "micro_frame_16.png"
+  },
+  {
+    "r": 15.4645,
+    "homePageTime": 10.6258,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.4849,
+      "y": -1.3245,
+      "z": 2.72
+    },
+    "b1": {
+      "x": -1.1475,
+      "y": -2.1756,
+      "z": -0.9845
+    },
+    "screenshot": "micro_frame_17.png"
+  },
+  {
+    "r": 16.1353,
+    "homePageTime": 11.2865,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.5993,
+      "y": -1.2718,
+      "z": 2.7358
+    },
+    "b1": {
+      "x": -1.1425,
+      "y": -2.1575,
+      "z": -0.9813
+    },
+    "screenshot": "micro_frame_18.png"
+  },
+  {
+    "r": 16.777,
+    "homePageTime": 11.918,
+    "dollyOffset": 0,
+    "curtainOpacity": "0",
+    "b0": {
+      "x": -0.7308,
+      "y": -1.2069,
+      "z": 2.7569
+    },
+    "b1": {
+      "x": -1.1427,
+      "y": -2.1393,
+      "z": -0.9909
+    },
+    "screenshot": "micro_frame_19.png"
+  }
+]

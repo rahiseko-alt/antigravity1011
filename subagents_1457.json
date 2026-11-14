@@ -1,0 +1,25 @@
+[
+  {
+    "name": "invoke_subagent",
+    "args": {
+      "Subagents": [
+        {
+          "Model": "pro",
+          "Prompt": "Task: Apply AIueo content to Header, Meta, Hero, and Reel sections in index.html, strictly following AGENTS.md Rule 3.\n\nReference data:\n- `data/aiueo-content.json`\n- Mapping table from Subagent 8d41b0d4\n\nSpecific Edits to `index.html`:\n1. `<title>`: Change to `AI League AIueo - 草AI同盟 | 仲間を集める場`\n2. `<meta name=\\\"description\\\">`: Change to `AIを触る仲間を集める場。「今度何かやりましょう」を「こういうのやるので、一緒にどうですか？」に変えます。参加は登録不要。`\n3. Header logo:\n   Update logo text/markup to `AI League AIueo` (or `AIueo`).\n4. Header buttons & links:\n   - Update \\\"Let's talk\\\" to `Join / Contact` with href `mailto:info@kouheikosehira.com`.\n   - Update nav links to: Home, About, Events, Contact.\n5. `#home-hero` section:\n   - `#home-hero-title`: Change text to:\n     `「今度何かやりましょう」を、<br>「こういうのやるので、一緒にどうですか？」に変える。`\n   - Keep `#home-hero-visual-container` and `#home-hero-scroll` untouched!\n6. `#home-reel` section:\n   - `#home-reel-title-line-1`: `場をつくる。`\n   - `#home-reel-title-line-2`: `やりたいことを、実行まで。`\n   - `#home-reel-desc`:\n     `名刺交換を重ねるよりも、まず実際の企画やイベントを1つやってみる。ジャンルは自由です。やりたいことを持ち込む人と、参加したい人が出会い、準備して、実行する。草野球のように集まり、AIを触り、1つのプロトタイプを作る草AI同盟。0はいくら集めても0。まずは1つの草活動から。`\n   - `#home-reel-cta`: Text `How It Works ↓` (or `AIueoの使い方 ↓`), keep link structure intact.\n\nVerify index.html syntax and ensure no tag is broken.",
+          "Role": "Hero & Reel Content Integrator",
+          "TypeName": "self",
+          "Workspace": "inherit"
+        },
+        {
+          "Model": "pro",
+          "Prompt": "Task: Apply AIueo content to Featured Cards, Goal Guidelines, End CTA, and Footer in index.html, strictly following AGENTS.md Rule 3.\n\nReference data:\n- `data/aiueo-content.json`\n- Mapping table from Subagent 8d41b0d4\n\nSpecific Edits to `index.html`:\n1. `#home-featured`:\n   - `#home-featured-title`: `Active Initiatives & Players`\n   - `#home-featured-disclaimer`: `「こういうのやります」進行中の企画と、一緒に動く草AI同盟のプレイヤーたち。誰かの企画に乗っかるもよし、自分の「やりたい」を立ち上げるもよし。`\n   - Update the 10 project cards in `.project-list` to feature:\n     - Card 1: [Event] AI小技 発表会 (11/11 20:00 • リモート開催 • 視聴申込不要 • 金銭なし)\n     - Card 2: [Event] AIアート展覧会を重要文化財で開催する (2027年1月頃 • 名古屋市市政資料館 • メンバー割り勘)\n     - Card 3: [Member] 小齊平 恒平 (代表 / AI活動家 • play with AI • 専門学校講師)\n     - Card 4: [Member] 伊藤 良二 (プロデューサー • Craft Line Works代表 • 業務効率化)\n     - Card 5: [Member] 堺 彬 (株式会社SakAI Nexus 代表取締役 • AI導入支援 • 開発)\n     - Card 6: [Activity] SNS運用の自動化 (#AI #DEVELOPMENT • 生成から分析までワンストップ)\n     - Card 7: [Activity] 自社特化型 AIチャットボット (#AI #LLM • 定型の問い合わせを自動処理)\n     - Card 8: [Activity] 音声カルテ作成アプリ (#AI #PROTOTYPE • ペット業界向け)\n     - Card 9: [Activity] 書類業務の半自動化アプリ (#AI #LOCAL • 飲食業向け)\n     - Card 10: [Member] 岡本 ジュンイチ (顧問 / SNSマーケター • メディアプロデューサー)\n   - `#home-featured-cta`: `企画を提案する / 参加する →`\n2. `#home-goal`:\n   - `#home-goal-title`: `運営のかかわり方・スタンス（Operating Guidelines）`\n   - `#home-goal-texts`:\n     - Paragraph 1: `AIueoは、やりたいことを持つ人と参加したい人が出会う「呼びかけの場」です。企画・参加・金銭の当事者ではありません。主催者と参加者が、それぞれの責任で自由に行動し、場を乱さず楽しむことを基本とします。`\n     - Paragraph 2: `参加だけなら会員登録は一切不要。企画を立てる人だけが会員登録（Googleログイン）を行います。利用料・会費・参加費などの金銭は預かりません。分からない場合は、すべて割り勘から始めることを推奨しています。`\n   - 3D Tunnel in-text lines:\n     - Line 1: `場をつくる。`\n     - Line 2: `場を乱さない。`\n     - Line 3: `まずは1つの草活動から。`\n3. `#end-section`:\n   - `#end-section-subtitle-text`: `「こういうのやるんですけど、一緒にどうですか？」`\n   - `#end-section-title-link`: `Join / Propose <br> 企画を持ち込む・参加する`\n4. `#footer-section`:\n   - Address / Location: `AI League AIueo`<br>`Tokyo, Japan & Online`<br>`草AI同盟（草野球のように集まりAIを遊ぶ）`<br>`info@kouheikosehira.com`\n   - Social links: GitHub (`https://github.com/rahiseko-alt/AIueo-LP`), Captain GitHub (`https://github.com/rahiseko-alt`), X (Twitter)\n   - Enquiries / Business: `info@kouheikosehira.com`\n   - Newsletter: `AIueoの最新企画通知を受け取る`\n   - Copyright: `© 2026 AI League AIueo. Activities & Experiment First.`\n   - Tagline: `Grassroots AI Alliance with ❤️`\n\nVerify index.html syntax and ensure valid structure.",
+          "Role": "Featured, Goal & Footer Integrator",
+          "TypeName": "self",
+          "Workspace": "inherit"
+        }
+      ],
+      "toolAction": "Invoking content migration subagents",
+      "toolSummary": "Launch subagents for index.html content migration"
+    }
+  }
+]

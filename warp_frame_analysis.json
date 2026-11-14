@@ -1,0 +1,268 @@
+[
+  {
+    "target": 0,
+    "elapsed": 0,
+    "file": "warp_frame_00_0ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": false,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "flex",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 100,
+    "elapsed": 911,
+    "file": "warp_frame_01_100ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 200,
+    "elapsed": 1190,
+    "file": "warp_frame_02_200ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 300,
+    "elapsed": 1381,
+    "file": "warp_frame_03_300ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 400,
+    "elapsed": 1645,
+    "file": "warp_frame_04_400ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 500,
+    "elapsed": 2002,
+    "file": "warp_frame_05_500ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 600,
+    "elapsed": 2725,
+    "file": "warp_frame_06_600ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 700,
+    "elapsed": 2954,
+    "file": "warp_frame_07_700ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 800,
+    "elapsed": 3194,
+    "file": "warp_frame_08_800ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 900,
+    "elapsed": 3390,
+    "file": "warp_frame_09_900ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 1000,
+    "elapsed": 3588,
+    "file": "warp_frame_10_1000ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 1200,
+    "elapsed": 3779,
+    "file": "warp_frame_11_1200ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 1500,
+    "elapsed": 3976,
+    "file": "warp_frame_12_1500ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  },
+  {
+    "target": 2000,
+    "elapsed": 4170,
+    "file": "warp_frame_13_2000ms.png",
+    "state": {
+      "isIntroWarp": false,
+      "scrollActive": true,
+      "p1Display": "1",
+      "p2Display": "0",
+      "itDisplay": "none",
+      "itOpacity": "0",
+      "itTransform": "",
+      "woOpacity": null,
+      "pcOpacity": "1",
+      "gtActive": false,
+      "gtBlackTunnelActive": false,
+      "gtWhiteTunnelActive": false
+    }
+  }
+]

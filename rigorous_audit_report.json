@@ -1,0 +1,282 @@
+{
+  "timestamp": "2026-10-24T00:47:46.722Z",
+  "systemCheck": {},
+  "viewports": {
+    "sp_375x667": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": false
+      },
+      "goalDiag": {
+        "scrollPixel": 7600,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    },
+    "sp_390x844": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": false
+      },
+      "goalDiag": {
+        "scrollPixel": 7600,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    },
+    "sp_414x896": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": false
+      },
+      "goalDiag": {
+        "scrollPixel": 7600,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    },
+    "tablet_768x1024": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": false
+      },
+      "goalDiag": {
+        "scrollPixel": 8000,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    },
+    "pc_1280x800": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": false
+      },
+      "goalDiag": {
+        "scrollPixel": 8000,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    },
+    "pc_1440x900": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "circleVisible": true,
+        "scrollPixel": 1400,
+        "u_showRatio": 0.18,
+        "u_radius": 0.018,
+        "circle_pos": {
+          "x": -0.19210266922382602,
+          "y": -1.4720931260129237
+        },
+        "circle_scale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "color0": "#00f0ff"
+      },
+      "goalDiag": {
+        "scrollPixel": 8000,
+        "bgHex": "#000000",
+        "isBlackBg": true,
+        "isWhiteBg": false,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    },
+    "pc_1920x1080": {
+      "heroDiag": {
+        "scrollPixel": 0,
+        "targetScrollPixel": 0,
+        "bgHex": "#f0f1fa",
+        "isIntroWarp": false,
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "tubeState": {
+        "exists": false
+      },
+      "goalDiag": {
+        "scrollPixel": 8000,
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true,
+        "isIntroWarp": false
+      },
+      "runtimeErrors": []
+    }
+  },
+  "tubeInspection": {
+    "tubeGeometryCheck": {
+      "u_showRatio": 0.12857142857142856,
+      "u_radius": 0.018,
+      "circlePos": {
+        "x": 0.07693678685506436,
+        "y": -1.1837135967150285,
+        "z": 0.8735429015927587
+      },
+      "circleScale": {
+        "x": 0.018,
+        "y": 0.018
+      },
+      "circleVisible": true,
+      "meshVisible": true
+    },
+    "microShots": [
+      843.2440540097865,
+      806.1963609986273,
+      887.0340052005089,
+      809.6234926959436,
+      978.6377736222372,
+      868.3913336659598
+    ]
+  },
+  "scrollBehavior": {
+    "idleRunaway": false,
+    "idleDelta": 0,
+    "forwardHistory": [
+      123.78811917830419,
+      308.9223876055071,
+      500.2509214198621,
+      684.2501805188989,
+      888.1864376917733,
+      1082.4010262468332,
+      1274.5570450288994,
+      1444.4240290938785,
+      1662.9217072181448,
+      1868.5182056580193
+    ],
+    "forwardSettled": 2000,
+    "reverseHistory": [
+      1889.6145205745263,
+      1737.9399539472035,
+      1523.6833150407783,
+      1327.1720660618582,
+      1156.433397352942,
+      937.2757542587893,
+      760.2834594225435,
+      530.1921469514516,
+      328.9352436713573,
+      106.15335534827224
+    ],
+    "reverseSettled": 0,
+    "arrowDownPixel": 179.93020361526038,
+    "arrowUpPixel": 83.08577689927274,
+    "autoScrollSpeedDisabled": true
+  },
+  "backgroundWarpAndDark": {},
+  "pageStructure": {
+    "sectionsAudit": [
+      {
+        "tag": "HEADER",
+        "id": "header",
+        "className": "",
+        "offsetHeight": 120,
+        "zIndex": "52",
+        "position": "fixed"
+      },
+      {
+        "tag": "DIV",
+        "id": "page-container-inner",
+        "className": "",
+        "offsetHeight": 5993,
+        "zIndex": "auto",
+        "position": "static"
+      },
+      {
+        "tag": "DIV",
+        "id": "page-extra-sections",
+        "className": "",
+        "offsetHeight": 4363,
+        "zIndex": "auto",
+        "position": "static"
+      }
+    ],
+    "readabilityAudit": {
+      "canvasZIndex": "auto",
+      "reelDesc": {
+        "text": "名刺交換を重ねるよりも、まず実際の企画やイベントを1つやってみる。ジャンルは自由です。やりたいことを",
+        "zIndex": "auto",
+        "opacity": "1"
+      },
+      "ctaBtn": {
+        "text": "HOW IT WORKS",
+        "zIndex": "auto",
+        "pointerEvents": "auto"
+      },
+      "membersHeader": {
+        "text": "AIueoを動かすプレイヤーたち",
+        "zIndex": "auto"
+      }
+    }
+  },
+  "consoleAndErrors": [],
+  "verdict": "FAILED",
+  "issuesFound": [
+    "[FATAL] line0 does not exist in viewport sp_375x667!",
+    "[FATAL] line0 does not exist in viewport sp_390x844!",
+    "[FATAL] line0 does not exist in viewport sp_414x896!",
+    "[FATAL] line0 does not exist in viewport tablet_768x1024!",
+    "[FATAL] line0 does not exist in viewport pc_1280x800!",
+    "[FATAL] line0 does not exist in viewport pc_1920x1080!"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "Desktop": [
+    {
+      "step": {
+        "s": 650,
+        "filename": "verified_dt_650_reel_curve.png"
+      },
+      "diag": {
+        "targetS": 650,
+        "currentScrollPixel": 650,
+        "circlePosition": {
+          "x": 0.57,
+          "y": -1.213,
+          "z": 0.425
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.1308,
+        "u_radius": 0.018,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 1800,
+        "filename": "verified_dt_1800_card1.png"
+      },
+      "diag": {
+        "targetS": 1800,
+        "currentScrollPixel": 1800,
+        "circlePosition": {
+          "x": 0.553,
+          "y": -1.954,
+          "z": 0.449
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.3333,
+        "u_radius": 0.018,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 2800,
+        "filename": "verified_dt_2800_cards2_3.png"
+      },
+      "diag": {
+        "targetS": 2800,
+        "currentScrollPixel": 2800,
+        "circlePosition": {
+          "x": 0.597,
+          "y": -2.928,
+          "z": 0.513
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.5111,
+        "u_radius": 0.018,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 4800,
+        "filename": "verified_dt_4800_members.png"
+      },
+      "diag": {
+        "targetS": 4800,
+        "currentScrollPixel": 4800,
+        "circlePosition": {
+          "x": 0.886,
+          "y": -4.238,
+          "z": 0.253
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.8,
+        "u_radius": 0.018,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 5800,
+        "filename": "verified_dt_5800_goal.png"
+      },
+      "diag": {
+        "targetS": 5800,
+        "currentScrollPixel": 5800,
+        "circlePosition": {
+          "x": 0.169,
+          "y": -5.226,
+          "z": 0.85
+        },
+        "circleScale": {
+          "x": 0.018,
+          "y": 0.018
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.9802,
+        "u_radius": 0.018,
+        "u_color0": "#00f0ff"
+      }
+    }
+  ],
+  "Mobile": [
+    {
+      "step": {
+        "s": 550,
+        "filename": "verified_mb_550_reel_curve.png"
+      },
+      "diag": {
+        "targetS": 550,
+        "currentScrollPixel": 550,
+        "circlePosition": {
+          "x": 0.508,
+          "y": -1.232,
+          "z": 0.03
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.1398,
+        "u_radius": 0.026,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 1800,
+        "filename": "verified_mb_1800_card1.png"
+      },
+      "diag": {
+        "targetS": 1800,
+        "currentScrollPixel": 1800,
+        "circlePosition": {
+          "x": 0.701,
+          "y": -2.099,
+          "z": 0.587
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.3622,
+        "u_radius": 0.026,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 2800,
+        "filename": "verified_mb_2800_cards2_3.png"
+      },
+      "diag": {
+        "targetS": 2800,
+        "currentScrollPixel": 2800,
+        "circlePosition": {
+          "x": 0.482,
+          "y": -3.013,
+          "z": 0.3
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.5311,
+        "u_radius": 0.026,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 4800,
+        "filename": "verified_mb_4800_members.png"
+      },
+      "diag": {
+        "targetS": 4800,
+        "currentScrollPixel": 4800,
+        "circlePosition": {
+          "x": 0.886,
+          "y": -4.238,
+          "z": 0.253
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.8,
+        "u_radius": 0.026,
+        "u_color0": "#00f0ff"
+      }
+    },
+    {
+      "step": {
+        "s": 6000,
+        "filename": "verified_mb_6000_goal.png"
+      },
+      "diag": {
+        "targetS": 6000,
+        "currentScrollPixel": 6000,
+        "circlePosition": {
+          "x": 0.261,
+          "y": -5.1,
+          "z": 0.472
+        },
+        "circleScale": {
+          "x": 0.026,
+          "y": 0.026
+        },
+        "circleVisible": true,
+        "containerVisible": true,
+        "meshVisible": true,
+        "u_showRatio": 0.9583,
+        "u_radius": 0.026,
+        "u_color0": "#00f0ff"
+      }
+    }
+  ]
+}

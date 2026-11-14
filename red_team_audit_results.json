@@ -1,0 +1,156 @@
+{
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "webglErrors": [],
+  "viewports": {
+    "sp_375x667": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 14
+    },
+    "sp_390x844": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 14
+    },
+    "sp_414x896": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 14
+    },
+    "tablet_768x1024": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 14
+    },
+    "pc_1280x800": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 16
+    },
+    "pc_1440x900": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 16
+    },
+    "pc_1920x1080": {
+      "errors": [
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "warnings": [],
+      "heroBalloonsInfo": {
+        "bgHex": "#f0f1fa",
+        "isBlackBg": false,
+        "isWhiteBg": true
+      },
+      "sectionsCount": 16
+    }
+  },
+  "scrollBehavior": {
+    "isAutoScrolling": false,
+    "reverseScrollTrajectory": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "visualChecks": {},
+  "domStructure": [
+    {
+      "tag": "HEADER",
+      "id": "header",
+      "className": "",
+      "text": "AI League AIueo  BACK  HOME JOIN / CONTACT MENU CLOSE HOME H",
+      "zIndex": "52",
+      "position": "fixed"
+    },
+    {
+      "tag": "H3",
+      "id": "header-menu-newsletter-title",
+      "className": "",
+      "text": "Subscribe to our newsletter",
+      "zIndex": "auto",
+      "position": "static"
+    },
+    {
+      "tag": "H1",
+      "id": "home-hero-title",
+      "className": "",
+      "text": "「今度何かやりましょう」を、 「こういうのやるので、一緒にどうですか？」に変える。",
+      "zIndex": "auto",
+      "position": "relative"
+    },
+    {
+      "tag": "H2",
+      "id": "home-reel-desc",
+      "className": "",
+      "text": "名刺交換を重ねるよりも、まず実際の企画やイベントを1つやってみる。ジャンルは自由です。やりたいことを持ち込む人と、参加し",
+      "zIndex": "auto",
+      "position": "static"
+    },
+    {
+      "tag": "H3",
+      "id": "",
+      "className": "members-header-title",
+      "text": "AIueoを動かすプレイヤーたち",
+      "zIndex": "auto",
+      "position": "static"
+    }
+  ]
+}

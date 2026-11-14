@@ -1284,7 +1284,19 @@ html.is-black-bg #home-goal-texts {
 }
 
 #home-goal {
-  padding-bottom: 6rem !important;
+  height: 0px !important;
+  min-height: 0px !important;
+  max-height: 0px !important;
+  padding: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  background: #000000 !important;
 }
 #home-goal-tunnel-title,
 #home-goal-image-in-outer,
@@ -1293,19 +1305,13 @@ html.is-black-bg #home-goal-texts {
   visibility: hidden !important;
 }
 
-/* Operating Guidelines Clean Non-Shifting Layout & Styling */
-#home-goal {
-  padding-top: 5rem !important;
-  padding-bottom: 6rem !important;
-  position: relative !important;
-  background: transparent !important;
-}
+/* Operating Guidelines Clean Non-Shifting Layout & Styling (Collapsed) */
 #home-goal-context {
   position: relative !important;
   width: 100% !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
-  padding: 0 1.5rem !important;
+  padding: 0 !important;
   background: transparent !important;
 }
 #home-goal-context-inner {
@@ -1313,7 +1319,7 @@ html.is-black-bg #home-goal-texts {
   flex-direction: row !important;
   justify-content: space-between !important;
   align-items: flex-start !important;
-  gap: 3rem !important;
+  gap: 0 !important;
   background: transparent !important;
 }
 #home-goal-title {
@@ -1336,25 +1342,30 @@ html.is-black-bg #home-goal-texts {
 #home-goal-texts .home-goal-texts-paragraph {
   font-size: clamp(0.95rem, 1.15vw, 1.15rem) !important;
   line-height: 1.85 !important;
-  margin-bottom: 1.5em !important;
+  margin-bottom: 0 !important;
   color: rgba(255, 255, 255, 0.92) !important;
 }
 
 @media (max-width: 812px) {
   #home-goal {
-    padding-top: 3.5rem !important;
-    padding-bottom: 4.5rem !important;
+    height: 0px !important;
+    min-height: 0px !important;
+    max-height: 0px !important;
+    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
   }
   #home-goal-context-inner {
     flex-direction: column !important;
-    gap: 1.5rem !important;
+    gap: 0 !important;
   }
   #home-goal-title {
     flex: none !important;
     width: 100% !important;
     font-size: clamp(1.6rem, 6vw, 2.2rem) !important;
     line-height: 1.3 !important;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0 !important;
   }
   #home-goal-texts {
     flex: none !important;
@@ -1363,7 +1374,7 @@ html.is-black-bg #home-goal-texts {
   #home-goal-texts .home-goal-texts-paragraph {
     font-size: clamp(0.9rem, 3.8vw, 1.05rem) !important;
     line-height: 1.75 !important;
-    margin-bottom: 1.2em !important;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -1384,12 +1395,17 @@ html.is-black-bg #home-goal-title {
 html.is-black-bg #home-goal-texts .home-goal-texts-paragraph {
   color: rgba(255, 255, 255, 0.92) !important;
 }
+#page-extra-sections,
+#end-section,
+html.is-white-bg #end-section,
 html.is-black-bg #end-section {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
+#end-section-subtitle-text,
+html.is-white-bg #end-section-subtitle-text,
 html.is-black-bg #end-section-subtitle-text {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
 }
 html.is-black-bg #footer {
   background-color: #000000 !important;

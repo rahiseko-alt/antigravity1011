@@ -1,0 +1,252 @@
+{
+  "desktop": {
+    "reelTop": 1080,
+    "positions": {
+      "approach": {
+        "scrollY": 0,
+        "reelBoundingTop": 1080,
+        "reelBoundingBottom": 1905.84375,
+        "containerVisible": false,
+        "lineMeshVisible": true,
+        "showRatio": 0,
+        "radius": 0.008,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      },
+      "mid": {
+        "scrollY": 0,
+        "reelBoundingTop": 1080,
+        "reelBoundingBottom": 1905.84375,
+        "containerVisible": false,
+        "lineMeshVisible": true,
+        "showRatio": 0,
+        "radius": 0.008,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      },
+      "settled": {
+        "scrollY": 0,
+        "reelBoundingTop": 1080,
+        "reelBoundingBottom": 1905.84375,
+        "containerVisible": false,
+        "lineMeshVisible": true,
+        "showRatio": 0,
+        "radius": 0.008,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      },
+      "deep": {
+        "scrollY": 0,
+        "reelBoundingTop": 1080,
+        "reelBoundingBottom": 1905.84375,
+        "containerVisible": false,
+        "lineMeshVisible": true,
+        "showRatio": 0,
+        "radius": 0.008,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      }
+    }
+  },
+  "mobile": {
+    "reelTop": 844,
+    "positions": {
+      "approach": {
+        "scrollY": 0,
+        "reelBoundingTop": 844,
+        "reelBoundingBottom": 1528.6875,
+        "containerVisible": false,
+        "showRatio": 0,
+        "radius": 0.016,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      },
+      "mid": {
+        "scrollY": 0,
+        "reelBoundingTop": 844,
+        "reelBoundingBottom": 1528.6875,
+        "containerVisible": false,
+        "showRatio": 0,
+        "radius": 0.016,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      },
+      "settled": {
+        "scrollY": 0,
+        "reelBoundingTop": 844,
+        "reelBoundingBottom": 1528.6875,
+        "containerVisible": false,
+        "showRatio": 0,
+        "radius": 0.016,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      },
+      "deep": {
+        "scrollY": 0,
+        "reelBoundingTop": 844,
+        "reelBoundingBottom": 1528.6875,
+        "containerVisible": false,
+        "showRatio": 0,
+        "radius": 0.016,
+        "circlePosition": [
+          -0.009999990463256836,
+          0.7107512950897217,
+          0
+        ],
+        "circleAo": 1,
+        "circleMixRatio": 0
+      }
+    }
+  },
+  "threeJsDetails": {
+    "isInsideThreeJsCanvas": true,
+    "canvasElement": {
+      "id": "canvas",
+      "width": 1920,
+      "height": 1080
+    },
+    "visualsStages": [
+      {
+        "name": "HomeBalloons",
+        "type": "Scene",
+        "isActive": true
+      },
+      {
+        "name": "GoalTunnels",
+        "type": "Scene",
+        "isActive": false
+      }
+    ],
+    "currentStage3D": "HomeBalloons",
+    "parentHierarchy": [
+      {
+        "type": "Mesh",
+        "constructor": "Mesh",
+        "name": "(unnamed)",
+        "visible": true,
+        "renderOrder": 200
+      },
+      {
+        "type": "Object3D",
+        "constructor": "Object3D",
+        "name": "(unnamed)",
+        "visible": true,
+        "renderOrder": 0
+      },
+      {
+        "type": "Object3D",
+        "constructor": "Object3D",
+        "name": "(unnamed)",
+        "visible": false,
+        "renderOrder": 0
+      },
+      {
+        "type": "Object3D",
+        "constructor": "Object3D",
+        "name": "(unnamed)",
+        "visible": true,
+        "renderOrder": 0
+      },
+      {
+        "type": "Scene",
+        "constructor": "Scene",
+        "name": "(unnamed)",
+        "visible": true,
+        "renderOrder": 0
+      }
+    ],
+    "lineMesh": {
+      "name": "homeReelLineMesh",
+      "type": "Mesh",
+      "constructor": "Mesh",
+      "renderOrder": 200,
+      "frustumCulled": false,
+      "geometry": {
+        "type": "BufferGeometry",
+        "attributes": [
+          "CP",
+          "position",
+          "Cd"
+        ],
+        "vertexCount": 640,
+        "hasCP": true,
+        "hasCd": true,
+        "hasPosition": true
+      },
+      "material": {
+        "type": "ShaderMaterial",
+        "transparent": true,
+        "depthTest": false,
+        "depthWrite": true,
+        "defines": {
+          "IS_LINE": true
+        },
+        "derivatives": true,
+        "color0": "#5a90ff",
+        "color1": "#2a38ee",
+        "showRatio": 0,
+        "radius": 0.008,
+        "aoThreshold": 0.555,
+        "margin": {
+          "x": -0.05,
+          "y": -0.8
+        },
+        "aspect": {
+          "x": 0.8715755371245493,
+          "y": 0.49026123963255896
+        },
+        "scrollY": -1080
+      }
+    },
+    "headCircleMesh": {
+      "name": "homeReelLineHeadCircle",
+      "type": "Mesh",
+      "constructor": "Mesh",
+      "renderOrder": 200,
+      "material": {
+        "type": "ShaderMaterial",
+        "transparent": true,
+        "depthTest": false,
+        "color0": "#5a90ff",
+        "color1": "#2a38ee",
+        "ao": 1,
+        "mixRatio": 0
+      }
+    }
+  }
+}

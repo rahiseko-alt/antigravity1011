@@ -1,0 +1,1267 @@
+{
+  "errors": [],
+  "warnings": [],
+  "milestones": [
+    {
+      "label": "veil_00_start",
+      "targetR": 7.4,
+      "actualR": 7.476,
+      "curtainOpacity": "0.8731",
+      "dollyOffset": 91.9,
+      "camZ": 24.39,
+      "homePageTime": 0.05,
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\screenshot_veil_00_start.png",
+      "desc": "Veil dissolve start (r=7.40s): 100% white hold ending, zoom starts from beginning"
+    },
+    {
+      "label": "veil_25_pct",
+      "targetR": 7.65,
+      "actualR": 7.66,
+      "curtainOpacity": "0.5931",
+      "dollyOffset": 72.74,
+      "camZ": 22.96,
+      "homePageTime": 0.181,
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\screenshot_veil_25_pct.png",
+      "desc": "Veil 25% dissolved (r=7.65s): content appearing, zoom actively in progress"
+    },
+    {
+      "label": "veil_50_pct",
+      "targetR": 7.9,
+      "actualR": 7.9,
+      "curtainOpacity": "0.2629",
+      "dollyOffset": 42.18,
+      "camZ": 20.66,
+      "homePageTime": 0.45,
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\screenshot_veil_50_pct.png",
+      "desc": "Veil 50% dissolved (r=7.90s): half dissolved, scale visibly changing, blocks moving"
+    },
+    {
+      "label": "veil_75_pct",
+      "targetR": 8.15,
+      "actualR": 8.155,
+      "curtainOpacity": "0.0696",
+      "dollyOffset": 21.33,
+      "camZ": 19.1,
+      "homePageTime": 0.725,
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\screenshot_veil_75_pct.png",
+      "desc": "Veil 75% dissolved (r=8.15s): veil lifting, typography unfolding"
+    },
+    {
+      "label": "veil_100_end",
+      "targetR": 8.4,
+      "actualR": 8.413,
+      "curtainOpacity": "0.0006",
+      "dollyOffset": 16.03,
+      "camZ": 18.7,
+      "homePageTime": 0.822,
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\screenshot_veil_100_end.png",
+      "desc": "Veil 100% dissolved (r=8.40s): veil completely clear, zoom completing glide"
+    },
+    {
+      "label": "hero_settled",
+      "targetR": 9,
+      "actualR": 9.003,
+      "curtainOpacity": "0",
+      "dollyOffset": 0.83,
+      "camZ": 17.56,
+      "homePageTime": 1.436,
+      "file": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\screenshot_hero_settled.png",
+      "desc": "Hero settled (r=9.00s): zoom at rest, page interactive"
+    }
+  ],
+  "continuityAtEnd": {
+    "prevR": 8.3685,
+    "currR": 8.419,
+    "prevDolly": 11.725,
+    "currDolly": 9.854,
+    "dollySpeed": 37.05,
+    "prevCamZ": 18.379,
+    "currCamZ": 18.239,
+    "camZSpeed": 2.77,
+    "prevTime": 0.919,
+    "currTime": 0.9686,
+    "dt": 0.0505
+  },
+  "maxDollySpeed": 4169.117676293974,
+  "maxCamZSpeed": 14.923076923077124,
+  "samples": [
+    {
+      "timestamp": 10972.100000023842,
+      "r": 6.5882,
+      "time": 0,
+      "dollyOffset": 15.24,
+      "camZ": 25,
+      "camFov": 45,
+      "curtainOpacity": "0.9823",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 11.511,
+      "body0Speed": 13.725,
+      "body0Pos": {
+        "x": 4.217,
+        "y": -5.399,
+        "z": 0.408
+      }
+    },
+    {
+      "timestamp": 10975.5,
+      "r": 6.5916,
+      "time": 0,
+      "dollyOffset": 1.065,
+      "camZ": 25,
+      "camFov": 45,
+      "curtainOpacity": "0.9876",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 11.511,
+      "body0Speed": 13.725,
+      "body0Pos": {
+        "x": 4.217,
+        "y": -5.399,
+        "z": 0.408
+      }
+    },
+    {
+      "timestamp": 10981.400000035763,
+      "r": 6.5975,
+      "time": 0,
+      "dollyOffset": 0.743,
+      "camZ": 25,
+      "camFov": 45,
+      "curtainOpacity": "0.9956",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 11.511,
+      "body0Speed": 13.725,
+      "body0Pos": {
+        "x": 4.217,
+        "y": -5.399,
+        "z": 0.408
+      }
+    },
+    {
+      "timestamp": 11214.800000011921,
+      "r": 6.8308,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 3.637,
+      "body0Speed": 3.699,
+      "body0Pos": {
+        "x": 4.13,
+        "y": -5.228,
+        "z": 0.461
+      }
+    },
+    {
+      "timestamp": 11222.200000047684,
+      "r": 6.8383,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.047,
+      "body0Speed": 4.053,
+      "body0Pos": {
+        "x": 4.062,
+        "y": -5.107,
+        "z": 0.496
+      }
+    },
+    {
+      "timestamp": 11235.700000047684,
+      "r": 6.8517,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.215,
+      "body0Speed": 4.123,
+      "body0Pos": {
+        "x": 4.038,
+        "y": -5.061,
+        "z": 0.517
+      }
+    },
+    {
+      "timestamp": 11314.5,
+      "r": 6.9306,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.824,
+      "body0Speed": 4.301,
+      "body0Pos": {
+        "x": 3.923,
+        "y": -4.874,
+        "z": 0.582
+      }
+    },
+    {
+      "timestamp": 11318.800000011921,
+      "r": 6.9349,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.886,
+      "body0Speed": 4.236,
+      "body0Pos": {
+        "x": 3.918,
+        "y": -4.853,
+        "z": 0.597
+      }
+    },
+    {
+      "timestamp": 11333.800000011921,
+      "r": 6.9499,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.064,
+      "body0Speed": 4.25,
+      "body0Pos": {
+        "x": 3.894,
+        "y": -4.802,
+        "z": 0.621
+      }
+    },
+    {
+      "timestamp": 11427.300000011921,
+      "r": 7.0434,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.671,
+      "body0Speed": 4.255,
+      "body0Pos": {
+        "x": 3.799,
+        "y": -4.605,
+        "z": 0.688
+      }
+    },
+    {
+      "timestamp": 11431.800000011921,
+      "r": 7.0479,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.721,
+      "body0Speed": 4.243,
+      "body0Pos": {
+        "x": 3.796,
+        "y": -4.583,
+        "z": 0.699
+      }
+    },
+    {
+      "timestamp": 11435.300000011921,
+      "r": 7.0514,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.695,
+      "body0Speed": 4.235,
+      "body0Pos": {
+        "x": 3.79,
+        "y": -4.568,
+        "z": 0.706
+      }
+    },
+    {
+      "timestamp": 11534.100000023842,
+      "r": 7.1502,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.11,
+      "body0Speed": 4.166,
+      "body0Pos": {
+        "x": 3.691,
+        "y": -4.374,
+        "z": 0.763
+      }
+    },
+    {
+      "timestamp": 11538.700000047684,
+      "r": 7.1547,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.114,
+      "body0Speed": 4.149,
+      "body0Pos": {
+        "x": 3.686,
+        "y": -4.355,
+        "z": 0.769
+      }
+    },
+    {
+      "timestamp": 11549.700000047684,
+      "r": 7.1658,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.167,
+      "body0Speed": 4.151,
+      "body0Pos": {
+        "x": 3.666,
+        "y": -4.314,
+        "z": 0.782
+      }
+    },
+    {
+      "timestamp": 11646.200000047684,
+      "r": 7.2622,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.39,
+      "body0Speed": 4.196,
+      "body0Pos": {
+        "x": 3.564,
+        "y": -4.119,
+        "z": 0.838
+      }
+    },
+    {
+      "timestamp": 11650.200000047684,
+      "r": 7.2663,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.375,
+      "body0Speed": 4.193,
+      "body0Pos": {
+        "x": 3.557,
+        "y": -4.101,
+        "z": 0.843
+      }
+    },
+    {
+      "timestamp": 11667.700000047684,
+      "r": 7.2838,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.395,
+      "body0Speed": 4.21,
+      "body0Pos": {
+        "x": 3.526,
+        "y": -4.042,
+        "z": 0.86
+      }
+    },
+    {
+      "timestamp": 11763.400000035763,
+      "r": 7.3795,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.445,
+      "body0Speed": 4.256,
+      "body0Pos": {
+        "x": 3.416,
+        "y": -3.846,
+        "z": 0.914
+      }
+    },
+    {
+      "timestamp": 11767.800000011921,
+      "r": 7.3838,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 6.121,
+      "body0Speed": 4.253,
+      "body0Pos": {
+        "x": 3.406,
+        "y": -3.825,
+        "z": 0.921
+      }
+    },
+    {
+      "timestamp": 11783.100000023842,
+      "r": 7.3992,
+      "time": 0,
+      "dollyOffset": 100,
+      "camZ": 25,
+      "camFov": 18.134,
+      "curtainOpacity": "1",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.977,
+      "body0Speed": 4.263,
+      "body0Pos": {
+        "x": 3.375,
+        "y": -3.768,
+        "z": 0.937
+      }
+    },
+    {
+      "timestamp": 11883.400000035763,
+      "r": 7.4995,
+      "time": 0.05,
+      "dollyOffset": 91.896,
+      "camZ": 24.392,
+      "camFov": 18.134,
+      "curtainOpacity": "0.8194",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.181",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.635,
+      "body0Speed": 4.286,
+      "body0Pos": {
+        "x": 3.26,
+        "y": -3.573,
+        "z": 0.989
+      }
+    },
+    {
+      "timestamp": 11892.300000011921,
+      "r": 7.5084,
+      "time": 0.0593,
+      "dollyOffset": 90.439,
+      "camZ": 24.283,
+      "camFov": 18.134,
+      "curtainOpacity": "0.8023",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.198",
+      "isIntroWarp": true,
+      "avgBodySpeed": 5.175,
+      "body0Speed": 4.283,
+      "body0Pos": {
+        "x": 3.242,
+        "y": -3.538,
+        "z": 0.998
+      }
+    },
+    {
+      "timestamp": 11898.800000011921,
+      "r": 7.5149,
+      "time": 0.0676,
+      "dollyOffset": 89.151,
+      "camZ": 24.186,
+      "camFov": 18.134,
+      "curtainOpacity": "0.788",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.212",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.983,
+      "body0Speed": 4.289,
+      "body0Pos": {
+        "x": 3.224,
+        "y": -3.508,
+        "z": 1.006
+      }
+    },
+    {
+      "timestamp": 11916.900000035763,
+      "r": 7.533,
+      "time": 0.0842,
+      "dollyOffset": 86.613,
+      "camZ": 23.996,
+      "camFov": 18.134,
+      "curtainOpacity": "0.7588",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.241",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.704,
+      "body0Speed": 4.377,
+      "body0Pos": {
+        "x": 3.186,
+        "y": -3.446,
+        "z": 1.022
+      }
+    },
+    {
+      "timestamp": 11932.900000035763,
+      "r": 7.549,
+      "time": 0.1011,
+      "dollyOffset": 84.079,
+      "camZ": 23.806,
+      "camFov": 18.134,
+      "curtainOpacity": "0.7297",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.27",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.339,
+      "body0Speed": 4.53,
+      "body0Pos": {
+        "x": 3.146,
+        "y": -3.38,
+        "z": 1.037
+      }
+    },
+    {
+      "timestamp": 11948.800000011921,
+      "r": 7.5648,
+      "time": 0.1177,
+      "dollyOffset": 81.638,
+      "camZ": 23.623,
+      "camFov": 18.134,
+      "curtainOpacity": "0.7017",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.298",
+      "isIntroWarp": true,
+      "avgBodySpeed": 4.093,
+      "body0Speed": 4.565,
+      "body0Pos": {
+        "x": 3.107,
+        "y": -3.315,
+        "z": 1.052
+      }
+    },
+    {
+      "timestamp": 11965.5,
+      "r": 7.5816,
+      "time": 0.1345,
+      "dollyOffset": 79.217,
+      "camZ": 23.441,
+      "camFov": 18.134,
+      "curtainOpacity": "0.6737",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.326",
+      "isIntroWarp": true,
+      "avgBodySpeed": 3.868,
+      "body0Speed": 4.125,
+      "body0Pos": {
+        "x": 3.068,
+        "y": -3.258,
+        "z": 1.07
+      }
+    },
+    {
+      "timestamp": 11989.900000035763,
+      "r": 7.606,
+      "time": 0.1577,
+      "dollyOffset": 75.952,
+      "camZ": 23.196,
+      "camFov": 18.134,
+      "curtainOpacity": "0.6358",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.364",
+      "isIntroWarp": true,
+      "avgBodySpeed": 3.643,
+      "body0Speed": 3.953,
+      "body0Pos": {
+        "x": 3.017,
+        "y": -3.187,
+        "z": 1.098
+      }
+    },
+    {
+      "timestamp": 12041.900000035763,
+      "r": 7.658,
+      "time": 0.2077,
+      "dollyOffset": 69.224,
+      "camZ": 22.692,
+      "camFov": 18.134,
+      "curtainOpacity": "0.5558",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.444",
+      "isIntroWarp": true,
+      "avgBodySpeed": 3.372,
+      "body0Speed": 3.844,
+      "body0Pos": {
+        "x": 2.895,
+        "y": -3.033,
+        "z": 1.157
+      }
+    },
+    {
+      "timestamp": 12091.300000011921,
+      "r": 7.7074,
+      "time": 0.2557,
+      "dollyOffset": 63.151,
+      "camZ": 22.236,
+      "camFov": 18.134,
+      "curtainOpacity": "0.4866",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.513",
+      "isIntroWarp": true,
+      "avgBodySpeed": 3.037,
+      "body0Speed": 3.773,
+      "body0Pos": {
+        "x": 2.776,
+        "y": -2.893,
+        "z": 1.213
+      }
+    },
+    {
+      "timestamp": 12136.600000023842,
+      "r": 7.7527,
+      "time": 0.3028,
+      "dollyOffset": 57.547,
+      "camZ": 21.816,
+      "camFov": 18.134,
+      "curtainOpacity": "0.423",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.577",
+      "isIntroWarp": true,
+      "avgBodySpeed": 2.808,
+      "body0Speed": 3.718,
+      "body0Pos": {
+        "x": 2.657,
+        "y": -2.759,
+        "z": 1.264
+      }
+    },
+    {
+      "timestamp": 12182.400000035763,
+      "r": 7.7985,
+      "time": 0.3491,
+      "dollyOffset": 52.371,
+      "camZ": 21.428,
+      "camFov": 18.134,
+      "curtainOpacity": "0.3649",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.635",
+      "isIntroWarp": true,
+      "avgBodySpeed": 2.423,
+      "body0Speed": 3.667,
+      "body0Pos": {
+        "x": 2.538,
+        "y": -2.63,
+        "z": 1.31
+      }
+    },
+    {
+      "timestamp": 12229,
+      "r": 7.8451,
+      "time": 0.3951,
+      "dollyOffset": 47.547,
+      "camZ": 21.066,
+      "camFov": 18.134,
+      "curtainOpacity": "0.3115",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.689",
+      "isIntroWarp": true,
+      "avgBodySpeed": 2.132,
+      "body0Speed": 2.95,
+      "body0Pos": {
+        "x": 2.479,
+        "y": -2.525,
+        "z": 1.332
+      }
+    },
+    {
+      "timestamp": 12275.900000035763,
+      "r": 7.892,
+      "time": 0.4424,
+      "dollyOffset": 42.904,
+      "camZ": 20.718,
+      "camFov": 18.134,
+      "curtainOpacity": "0.2611",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.739",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.965,
+      "body0Speed": 2.552,
+      "body0Pos": {
+        "x": 2.435,
+        "y": -2.438,
+        "z": 1.356
+      }
+    },
+    {
+      "timestamp": 12323.900000035763,
+      "r": 7.9399,
+      "time": 0.4887,
+      "dollyOffset": 38.662,
+      "camZ": 20.4,
+      "camFov": 18.134,
+      "curtainOpacity": "0.2156",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.784",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.809,
+      "body0Speed": 2.283,
+      "body0Pos": {
+        "x": 2.394,
+        "y": -2.377,
+        "z": 1.395
+      }
+    },
+    {
+      "timestamp": 12369.300000011921,
+      "r": 7.9853,
+      "time": 0.5349,
+      "dollyOffset": 34.718,
+      "camZ": 20.104,
+      "camFov": 18.134,
+      "curtainOpacity": "0.1751",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.825",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.703,
+      "body0Speed": 2.119,
+      "body0Pos": {
+        "x": 2.348,
+        "y": -2.325,
+        "z": 1.442
+      }
+    },
+    {
+      "timestamp": 12415.100000023842,
+      "r": 8.0312,
+      "time": 0.5824,
+      "dollyOffset": 30.953,
+      "camZ": 19.821,
+      "camFov": 18.134,
+      "curtainOpacity": "0.1379",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.862",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.593,
+      "body0Speed": 1.999,
+      "body0Pos": {
+        "x": 2.297,
+        "y": -2.278,
+        "z": 1.494
+      }
+    },
+    {
+      "timestamp": 12463.5,
+      "r": 8.0796,
+      "time": 0.6287,
+      "dollyOffset": 27.554,
+      "camZ": 19.567,
+      "camFov": 18.134,
+      "curtainOpacity": "0.1054",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.895",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.516,
+      "body0Speed": 1.913,
+      "body0Pos": {
+        "x": 2.244,
+        "y": -2.237,
+        "z": 1.545
+      }
+    },
+    {
+      "timestamp": 12511.900000035763,
+      "r": 8.128,
+      "time": 0.6783,
+      "dollyOffset": 24.2,
+      "camZ": 19.315,
+      "camFov": 18.134,
+      "curtainOpacity": "0.0757",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.924",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.443,
+      "body0Speed": 1.839,
+      "body0Pos": {
+        "x": 2.185,
+        "y": -2.192,
+        "z": 1.595
+      }
+    },
+    {
+      "timestamp": 12562.700000047684,
+      "r": 8.1787,
+      "time": 0.7278,
+      "dollyOffset": 21.135,
+      "camZ": 19.085,
+      "camFov": 18.134,
+      "curtainOpacity": "0.0509",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.949",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.37,
+      "body0Speed": 1.773,
+      "body0Pos": {
+        "x": 2.125,
+        "y": -2.148,
+        "z": 1.641
+      }
+    },
+    {
+      "timestamp": 12608.800000011921,
+      "r": 8.2249,
+      "time": 0.7751,
+      "dollyOffset": 18.46,
+      "camZ": 18.884,
+      "camFov": 18.134,
+      "curtainOpacity": "0.0318",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.968",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.289,
+      "body0Speed": 1.713,
+      "body0Pos": {
+        "x": 2.068,
+        "y": -2.107,
+        "z": 1.681
+      }
+    },
+    {
+      "timestamp": 12658.300000011921,
+      "r": 8.2743,
+      "time": 0.8229,
+      "dollyOffset": 15.996,
+      "camZ": 18.7,
+      "camFov": 18.134,
+      "curtainOpacity": "0.017",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.983",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.136,
+      "body0Speed": 1.657,
+      "body0Pos": {
+        "x": 2.01,
+        "y": -2.066,
+        "z": 1.717
+      }
+    },
+    {
+      "timestamp": 12705.200000047684,
+      "r": 8.3212,
+      "time": 0.8699,
+      "dollyOffset": 13.797,
+      "camZ": 18.535,
+      "camFov": 18.134,
+      "curtainOpacity": "0.0069",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.993",
+      "isIntroWarp": true,
+      "avgBodySpeed": 1.043,
+      "body0Speed": 1.61,
+      "body0Pos": {
+        "x": 1.952,
+        "y": -2.023,
+        "z": 1.746
+      }
+    },
+    {
+      "timestamp": 12752.400000035763,
+      "r": 8.3685,
+      "time": 0.919,
+      "dollyOffset": 11.725,
+      "camZ": 18.379,
+      "camFov": 18.134,
+      "curtainOpacity": "0.0012",
+      "curtainDisplay": "block",
+      "pageContOpacity": "0.999",
+      "isIntroWarp": true,
+      "avgBodySpeed": 0.907,
+      "body0Speed": 1.562,
+      "body0Pos": {
+        "x": 1.892,
+        "y": -1.979,
+        "z": 1.772
+      }
+    },
+    {
+      "timestamp": 12802.900000035763,
+      "r": 8.419,
+      "time": 0.9686,
+      "dollyOffset": 9.854,
+      "camZ": 18.239,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "block",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.847,
+      "body0Speed": 1.491,
+      "body0Pos": {
+        "x": 1.835,
+        "y": -1.943,
+        "z": 1.802
+      }
+    },
+    {
+      "timestamp": 12853.700000047684,
+      "r": 8.4697,
+      "time": 1.0186,
+      "dollyOffset": 8.181,
+      "camZ": 18.114,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "block",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.793,
+      "body0Speed": 1.429,
+      "body0Pos": {
+        "x": 1.779,
+        "y": -1.909,
+        "z": 1.829
+      }
+    },
+    {
+      "timestamp": 12904.400000035763,
+      "r": 8.5205,
+      "time": 1.0686,
+      "dollyOffset": 6.709,
+      "camZ": 18.003,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "block",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.773,
+      "body0Speed": 1.375,
+      "body0Pos": {
+        "x": 1.724,
+        "y": -1.878,
+        "z": 1.853
+      }
+    },
+    {
+      "timestamp": 12956.300000011921,
+      "r": 8.5723,
+      "time": 1.1186,
+      "dollyOffset": 5.425,
+      "camZ": 17.907,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.741,
+      "body0Speed": 1.33,
+      "body0Pos": {
+        "x": 1.67,
+        "y": -1.848,
+        "z": 1.875
+      }
+    },
+    {
+      "timestamp": 13009,
+      "r": 8.6251,
+      "time": 1.1686,
+      "dollyOffset": 4.316,
+      "camZ": 17.824,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.746,
+      "body0Speed": 1.242,
+      "body0Pos": {
+        "x": 1.624,
+        "y": -1.819,
+        "z": 1.886
+      }
+    },
+    {
+      "timestamp": 13062.200000047684,
+      "r": 8.6783,
+      "time": 1.2186,
+      "dollyOffset": 3.37,
+      "camZ": 17.753,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.754,
+      "body0Speed": 1.178,
+      "body0Pos": {
+        "x": 1.581,
+        "y": -1.791,
+        "z": 1.893
+      }
+    },
+    {
+      "timestamp": 13107.100000023842,
+      "r": 8.7232,
+      "time": 1.2648,
+      "dollyOffset": 2.629,
+      "camZ": 17.697,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.747,
+      "body0Speed": 0.88,
+      "body0Pos": {
+        "x": 1.57,
+        "y": -1.772,
+        "z": 1.909
+      }
+    },
+    {
+      "timestamp": 13153.700000047684,
+      "r": 8.7698,
+      "time": 1.3109,
+      "dollyOffset": 2.006,
+      "camZ": 17.65,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.715,
+      "body0Speed": 0.49,
+      "body0Pos": {
+        "x": 1.57,
+        "y": -1.773,
+        "z": 1.923
+      }
+    },
+    {
+      "timestamp": 13199.300000011921,
+      "r": 8.8154,
+      "time": 1.3569,
+      "dollyOffset": 1.492,
+      "camZ": 17.612,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.69,
+      "body0Speed": 0.332,
+      "body0Pos": {
+        "x": 1.573,
+        "y": -1.779,
+        "z": 1.933
+      }
+    },
+    {
+      "timestamp": 13248.600000023842,
+      "r": 8.8647,
+      "time": 1.405,
+      "dollyOffset": 1.057,
+      "camZ": 17.579,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.666,
+      "body0Speed": 0.263,
+      "body0Pos": {
+        "x": 1.574,
+        "y": -1.786,
+        "z": 1.941
+      }
+    },
+    {
+      "timestamp": 13296.200000047684,
+      "r": 8.9123,
+      "time": 1.4504,
+      "dollyOffset": 0.733,
+      "camZ": 17.555,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.598,
+      "body0Speed": 0.227,
+      "body0Pos": {
+        "x": 1.575,
+        "y": -1.795,
+        "z": 1.948
+      }
+    },
+    {
+      "timestamp": 13341.400000035763,
+      "r": 8.9574,
+      "time": 1.4958,
+      "dollyOffset": 0.483,
+      "camZ": 17.536,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.572,
+      "body0Speed": 0.179,
+      "body0Pos": {
+        "x": 1.581,
+        "y": -1.801,
+        "z": 1.957
+      }
+    },
+    {
+      "timestamp": 13386.900000035763,
+      "r": 9.003,
+      "time": 1.5409,
+      "dollyOffset": 0.298,
+      "camZ": 17.522,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.529,
+      "body0Speed": 0.141,
+      "body0Pos": {
+        "x": 1.589,
+        "y": -1.805,
+        "z": 1.965
+      }
+    },
+    {
+      "timestamp": 13430.300000011921,
+      "r": 9.0464,
+      "time": 1.5854,
+      "dollyOffset": 0.169,
+      "camZ": 17.513,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.484,
+      "body0Speed": 0.113,
+      "body0Pos": {
+        "x": 1.597,
+        "y": -1.807,
+        "z": 1.972
+      }
+    },
+    {
+      "timestamp": 13476.200000047684,
+      "r": 9.0923,
+      "time": 1.6317,
+      "dollyOffset": 0.082,
+      "camZ": 17.506,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.454,
+      "body0Speed": 0.102,
+      "body0Pos": {
+        "x": 1.603,
+        "y": -1.807,
+        "z": 1.977
+      }
+    },
+    {
+      "timestamp": 13520.200000047684,
+      "r": 9.1362,
+      "time": 1.6766,
+      "dollyOffset": 0.032,
+      "camZ": 17.502,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.433,
+      "body0Speed": 0.114,
+      "body0Pos": {
+        "x": 1.609,
+        "y": -1.804,
+        "z": 1.981
+      }
+    },
+    {
+      "timestamp": 13573.5,
+      "r": 9.1895,
+      "time": 1.7241,
+      "dollyOffset": 0.007,
+      "camZ": 17.501,
+      "camFov": 18.134,
+      "curtainOpacity": "0",
+      "curtainDisplay": "none",
+      "pageContOpacity": "1",
+      "isIntroWarp": false,
+      "avgBodySpeed": 0.414,
+      "body0Speed": 0.144,
+      "body0Pos": {
+        "x": 1.613,
+        "y": -1.797,
+        "z": 1.983
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "name": "01_card1_flagship",
+    "scroll": 1800,
+    "desc": "企画カード1 (重要文化財企画)",
+    "filename": "verify_tube_mobile_01_card1_flagship.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.284,
+      "innerPosY": 1165,
+      "visiblePointsCount": 491,
+      "screenBounds": {
+        "minScreenX": 75,
+        "maxScreenX": 349,
+        "minScreenY": -47,
+        "maxScreenY": 398
+      }
+    }
+  },
+  {
+    "name": "02_card2_meetup",
+    "scroll": 2350,
+    "desc": "企画カード2 (交流会)",
+    "filename": "verify_tube_mobile_02_card2_meetup.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.448,
+      "innerPosY": 2073,
+      "visiblePointsCount": 210,
+      "screenBounds": {
+        "minScreenX": 146,
+        "maxScreenX": 439,
+        "minScreenY": 85,
+        "maxScreenY": 460
+      }
+    }
+  },
+  {
+    "name": "03_card3_sns",
+    "scroll": 2750,
+    "desc": "企画カード3 (SNS運用の自動化)",
+    "filename": "verify_tube_mobile_03_card3_sns.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.489,
+      "innerPosY": 2261,
+      "visiblePointsCount": 303,
+      "screenBounds": {
+        "minScreenX": -33,
+        "maxScreenX": 419,
+        "minScreenY": -48,
+        "maxScreenY": 420
+      }
+    }
+  },
+  {
+    "name": "04_card4_bot",
+    "scroll": 3100,
+    "desc": "企画カード4 (自社特化型AIチャットボット)",
+    "filename": "verify_tube_mobile_04_card4_bot.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.559,
+      "innerPosY": 2839,
+      "visiblePointsCount": 126,
+      "screenBounds": {
+        "minScreenX": -49,
+        "maxScreenX": 101,
+        "minScreenY": 65,
+        "maxScreenY": 344
+      }
+    }
+  },
+  {
+    "name": "05_card5_medical",
+    "scroll": 3450,
+    "desc": "企画カード5 (音声カルテ作成アプリ)",
+    "filename": "verify_tube_mobile_05_card5_medical.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.654,
+      "innerPosY": 3267,
+      "visiblePointsCount": 202,
+      "screenBounds": {
+        "minScreenX": 159,
+        "maxScreenX": 439,
+        "minScreenY": -49,
+        "maxScreenY": 386
+      }
+    }
+  },
+  {
+    "name": "06_card6_docs",
+    "scroll": 3800,
+    "desc": "企画カード6 (書類業務の半自動化アプリ)",
+    "filename": "verify_tube_mobile_06_card6_docs.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.716,
+      "innerPosY": 3542,
+      "visiblePointsCount": 200,
+      "screenBounds": {
+        "minScreenX": 195,
+        "maxScreenX": 439,
+        "minScreenY": -47,
+        "maxScreenY": 457
+      }
+    }
+  },
+  {
+    "name": "07_blue_cta_btn",
+    "scroll": 4050,
+    "desc": "青ボタン (企画を提案する / 参加する)",
+    "filename": "verify_tube_mobile_07_blue_cta_btn.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.738,
+      "innerPosY": 3625,
+      "visiblePointsCount": 245,
+      "screenBounds": {
+        "minScreenX": 98,
+        "maxScreenX": 439,
+        "minScreenY": 11,
+        "maxScreenY": 472
+      }
+    }
+  },
+  {
+    "name": "08_members_header",
+    "scroll": 4250,
+    "desc": "メンバー見出し (AIueoを動かすプレイヤーたち)",
+    "filename": "verify_tube_mobile_08_members_header.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.781,
+      "innerPosY": 3904,
+      "visiblePointsCount": 269,
+      "screenBounds": {
+        "minScreenX": -46,
+        "maxScreenX": 318,
+        "minScreenY": -47,
+        "maxScreenY": 462
+      }
+    }
+  },
+  {
+    "name": "09_member01_kosehira",
+    "scroll": 4600,
+    "desc": "メンバー01 (小齊平 恒平)",
+    "filename": "verify_tube_mobile_09_member01_kosehira.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.798,
+      "innerPosY": 4003,
+      "visiblePointsCount": 262,
+      "screenBounds": {
+        "minScreenX": -46,
+        "maxScreenX": 241,
+        "minScreenY": -47,
+        "maxScreenY": 447
+      }
+    }
+  },
+  {
+    "name": "10_member02_ito",
+    "scroll": 5150,
+    "desc": "メンバー02 (伊藤 良二)",
+    "filename": "verify_tube_mobile_10_member02_ito.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.855,
+      "innerPosY": 4209,
+      "visiblePointsCount": 294,
+      "screenBounds": {
+        "minScreenX": -46,
+        "maxScreenX": 283,
+        "minScreenY": -49,
+        "maxScreenY": 378
+      }
+    }
+  },
+  {
+    "name": "11_member03_sakai",
+    "scroll": 5650,
+    "desc": "メンバー03 (堺 彬)",
+    "filename": "verify_tube_mobile_11_member03_sakai.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.925,
+      "innerPosY": 4547,
+      "visiblePointsCount": 316,
+      "screenBounds": {
+        "minScreenX": 89,
+        "maxScreenX": 326,
+        "minScreenY": -48,
+        "maxScreenY": 338
+      }
+    }
+  },
+  {
+    "name": "12_member04_okamoto",
+    "scroll": 6150,
+    "desc": "メンバー04 (岡本 ジュンイチ)",
+    "filename": "verify_tube_mobile_12_member04_okamoto.png",
+    "info": {
+      "found": true,
+      "containerVisible": true,
+      "showRatio": 0.979,
+      "innerPosY": 4764,
+      "visiblePointsCount": 261,
+      "screenBounds": {
+        "minScreenX": 133,
+        "maxScreenX": 401,
+        "minScreenY": -50,
+        "maxScreenY": 382
+      }
+    }
+  }
+]

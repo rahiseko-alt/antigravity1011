@@ -1,0 +1,30 @@
+const puppeteer = require('puppeteer-core');
+const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+
+(async () => {
+  const browser = await puppeteer.launch({
+    executablePath: chromePath,
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--use-gl=angle', '--enable-webgl', '--window-size=1920,1080']
+  });
+
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1920, height: 1080 });
+  await page.goto('http://localhost:3000', { waitUntil: 'domcontentloaded' });
+  await new Promise(r => setTimeout(r, 6500));
+
+  const scrollTargets = [800, 1500, 2500, 3500, 4500, 5500, 6500];
+
+  for (const s of scrollTargets) {
+    await page.evaluate((target) => {
+      window.scrollManager.scrollPixel = target;
+      window.scrollManager.targetScrollPixel = target;
+      window.scrollTo(0, target);
+    }, s);
+    await new Promise(r => setTimeout(r, 400));
+    await page.screenshot({ path: `current_desktop_${s}.png` });
+    console.log(`Saved current_desktop_${s}.png`);
+  }
+
+  await browser.close();
+})();

@@ -1,0 +1,1440 @@
+{
+  "label": "github_pages",
+  "url": "http://localhost:3000",
+  "loadDuration": 1318,
+  "metrics": {
+    "Timestamp": 546598.410466,
+    "AudioHandlers": 0,
+    "AudioWorkletProcessors": 0,
+    "Documents": 3,
+    "Frames": 5,
+    "JSEventListeners": 193,
+    "LayoutObjects": 1526,
+    "MediaKeySessions": 0,
+    "MediaKeys": 0,
+    "Nodes": 2339,
+    "Resources": 51,
+    "ContextLifecycleStateObservers": 14,
+    "V8PerContextDatas": 2,
+    "WorkerGlobalScopes": 0,
+    "UACSSResources": 0,
+    "RTCPeerConnections": 0,
+    "ResourceFetchers": 3,
+    "AdSubframes": 0,
+    "DetachedScriptStates": 0,
+    "ArrayBufferContents": 147,
+    "LayoutCount": 74,
+    "RecalcStyleCount": 568,
+    "LayoutDuration": 0.651862,
+    "RecalcStyleDuration": 0.40855,
+    "DevToolsCommandDuration": 0.021159,
+    "ScriptDuration": 2.807291,
+    "V8CompileDuration": 0.000272,
+    "TaskDuration": 5.224854,
+    "TaskOtherDuration": 1.33572,
+    "ThreadTime": 4.204783,
+    "ProcessTime": 6.491001,
+    "JSHeapUsedSize": 19364180,
+    "JSHeapTotalSize": 22466560,
+    "FirstMeaningfulPaint": 546588.95065,
+    "DomContentLoaded": 546588.250629,
+    "NavigationStart": 546586.950608
+  },
+  "clientData": {
+    "profile": {
+      "longTasks": [
+        {
+          "startTime": 775,
+          "duration": 114,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 892,
+          "duration": 74,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 1321,
+          "duration": 380,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 1701,
+          "duration": 153,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 1956,
+          "duration": 154,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 2136,
+          "duration": 127,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 2266,
+          "duration": 105,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 2500,
+          "duration": 164,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 2698,
+          "duration": 123,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 3003,
+          "duration": 68,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 3119,
+          "duration": 151,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 3409,
+          "duration": 69,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 3573,
+          "duration": 85,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 3766,
+          "duration": 60,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        },
+        {
+          "startTime": 3826,
+          "duration": 53,
+          "name": "self",
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        }
+      ],
+      "rafCount": 482,
+      "rafDurations": [
+        {
+          "time": 1334,
+          "duration": 145.3
+        },
+        {
+          "time": 2133,
+          "duration": 97.8
+        },
+        {
+          "time": 2383,
+          "duration": 5.5
+        },
+        {
+          "time": 2816,
+          "duration": 7
+        },
+        {
+          "time": 2999,
+          "duration": 65.3
+        },
+        {
+          "time": 3066,
+          "duration": 34.4
+        },
+        {
+          "time": 3116,
+          "duration": 31.9
+        },
+        {
+          "time": 3299,
+          "duration": 37.7
+        },
+        {
+          "time": 3349,
+          "duration": 25.4
+        },
+        {
+          "time": 3382,
+          "duration": 66.5
+        },
+        {
+          "time": 3465,
+          "duration": 37.2
+        },
+        {
+          "time": 3515,
+          "duration": 31.3
+        },
+        {
+          "time": 3549,
+          "duration": 79.1
+        },
+        {
+          "time": 3649,
+          "duration": 31.9
+        },
+        {
+          "time": 3682,
+          "duration": 36.9
+        },
+        {
+          "time": 3732,
+          "duration": 21.6
+        },
+        {
+          "time": 3765,
+          "duration": 57.9
+        },
+        {
+          "time": 3815,
+          "duration": 52.2
+        },
+        {
+          "time": 3882,
+          "duration": 8.5
+        },
+        {
+          "time": 8127,
+          "duration": 5.6
+        }
+      ],
+      "scrollTimeline": [],
+      "webglContexts": 1,
+      "canvasCount": 0,
+      "eventLog": [
+        {
+          "time": 4549,
+          "type": "wheel",
+          "defaultPrevented": false,
+          "scrollY": 0,
+          "pageYOffset": 0
+        },
+        {
+          "time": 7479,
+          "type": "wheel",
+          "defaultPrevented": false,
+          "scrollY": 0,
+          "pageYOffset": 0
+        }
+      ]
+    },
+    "title": "AI League AIueo - 草AI同盟 | 仲間を集める場",
+    "domNodes": 1053
+  },
+  "timelineSamples": [
+    {
+      "elapsed": 0,
+      "state": {
+        "now": 1866,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": false
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 814,
+      "state": {
+        "now": 2136,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": false
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 1083,
+      "state": {
+        "now": 2413,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": false
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 1355,
+      "state": {
+        "now": 2681,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 1658,
+      "state": {
+        "now": 2994,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 1970,
+      "state": {
+        "now": 3309,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 2269,
+      "state": {
+        "now": 3659,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 2653,
+      "state": {
+        "now": 3978,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 2926,
+      "state": {
+        "now": 4237,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 3194,
+      "state": {
+        "now": 4555,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 3510,
+      "state": {
+        "now": 4821,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 3770,
+      "state": {
+        "now": 5081,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 4033,
+      "state": {
+        "now": 5344,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 4295,
+      "state": {
+        "now": 5606,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 4549,
+      "state": {
+        "now": 5859,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 4800,
+      "state": {
+        "now": 6111,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 5060,
+      "state": {
+        "now": 6371,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 5325,
+      "state": {
+        "now": 6636,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 5591,
+      "state": {
+        "now": 6902,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 5858,
+      "state": {
+        "now": 7171,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 6125,
+      "state": {
+        "now": 7491,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 6443,
+      "state": {
+        "now": 7754,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 6711,
+      "state": {
+        "now": 8023,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 6972,
+      "state": {
+        "now": 8282,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 7239,
+      "state": {
+        "now": 8550,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 7505,
+      "state": {
+        "now": 8818,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 7766,
+      "state": {
+        "now": 9077,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 8027,
+      "state": {
+        "now": 9337,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 8293,
+      "state": {
+        "now": 9604,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 8560,
+      "state": {
+        "now": 9871,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 8825,
+      "state": {
+        "now": 10136,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 9091,
+      "state": {
+        "now": 10401,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 9356,
+      "state": {
+        "now": 10667,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 9622,
+      "state": {
+        "now": 10933,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    },
+    {
+      "elapsed": 9884,
+      "state": {
+        "now": 11196,
+        "scrollY": 0,
+        "scrollTopDoc": 0,
+        "scrollTopBody": 0,
+        "bodyOverflow": "",
+        "bodyOverflowY": "",
+        "docOverflow": "",
+        "docOverflowY": "",
+        "scrollManager": {
+          "exists": true,
+          "isActive": true
+        },
+        "scrollPane": null,
+        "canvasElementsCount": 3,
+        "globals": {
+          "hasTHREE": false,
+          "hasScrollManager": true,
+          "hasScrollPane": false,
+          "hasApp": false,
+          "hasLenis": false
+        }
+      }
+    }
+  ],
+  "consoleLogs": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "type": "log",
+      "text": "[WebGL Intercept] getContext('webgl2') called! Total contexts: 1"
+    },
+    {
+      "type": "log",
+      "text": "[HomeBalloons] Generated 3D geometries for A, I, u, e, o!"
+    },
+    {
+      "type": "clear",
+      "text": "console.clear"
+    },
+    {
+      "type": "log",
+      "text": "%c Created by Lusion: https://lusion.co/ border:2px solid gray; padding:5px; font-family:monospace; font-size:11px;"
+    },
+    {
+      "type": "warn",
+      "text": "[Cloudflare Turnstile] Turnstile has already been rendered in this container. The render attempt was rejected."
+    },
+    {
+      "type": "startGroupCollapsed",
+      "text": ""
+    },
+    {
+      "type": "debug",
+      "text": "Error"
+    },
+    {
+      "type": "log",
+      "text": "[regexp RegExp]"
+    },
+    {
+      "type": "log",
+      "text": "[regexp RegExp]"
+    },
+    {
+      "type": "log",
+      "text": "[function Function]"
+    },
+    {
+      "type": "log",
+      "text": "[function Function]"
+    },
+    {
+      "type": "log",
+      "text": "[node HTMLAnchorElement]"
+    },
+    {
+      "type": "log",
+      "text": "[node HTMLAnchorElement]"
+    },
+    {
+      "type": "count",
+      "text": "\u0000: 1"
+    },
+    {
+      "type": "count",
+      "text": "\u0000: 1"
+    },
+    {
+      "type": "debug",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "debug",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "dir",
+      "text": " Error"
+    },
+    {
+      "type": "dir",
+      "text": " Error"
+    },
+    {
+      "type": "dirxml",
+      "text": "%c%d font-size:0;color:transparent Error"
+    },
+    {
+      "type": "dirxml",
+      "text": "%c%d font-size:0;color:transparent Error"
+    },
+    {
+      "type": "error",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "error",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "info",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "info",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "log",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "log",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "table",
+      "text": "%c%d font-size:0;color:transparent Error"
+    },
+    {
+      "type": "table",
+      "text": "%c%d font-size:0;color:transparent Error"
+    },
+    {
+      "type": "trace",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "trace",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "warn",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "warn",
+      "text": "%c%d font-size:0;color:transparent NaN"
+    },
+    {
+      "type": "endGroup",
+      "text": "console.groupEnd"
+    },
+    {
+      "type": "warn",
+      "text": "[Cloudflare Turnstile] Error: 600010."
+    }
+  ]
+}

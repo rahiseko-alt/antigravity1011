@@ -1,0 +1,121 @@
+{
+  "mobile": [
+    {
+      "scrollY": 800,
+      "state": {
+        "u_showRatio": 0.1353942266264541,
+        "u_scrollY": -44,
+        "containerVisible": true,
+        "scrollPixel": 800
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\mobile_line_800.png"
+    },
+    {
+      "scrollY": 1100,
+      "state": {
+        "u_showRatio": 0.2969625161568289,
+        "u_scrollY": 256,
+        "containerVisible": true,
+        "scrollPixel": 1100
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\mobile_line_1100.png"
+    },
+    {
+      "scrollY": 1500,
+      "state": {
+        "u_showRatio": 0.5123869021973286,
+        "u_scrollY": 656,
+        "containerVisible": true,
+        "scrollPixel": 1500
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\mobile_line_1500.png"
+    },
+    {
+      "scrollY": 1900,
+      "state": {
+        "u_showRatio": 0.7278112882378285,
+        "u_scrollY": 1056,
+        "containerVisible": true,
+        "scrollPixel": 1900
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\mobile_line_1900.png"
+    },
+    {
+      "scrollY": 2400,
+      "state": {
+        "u_showRatio": 0.9970917707884532,
+        "u_scrollY": 1556,
+        "containerVisible": true,
+        "scrollPixel": 2400
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\mobile_line_2400.png"
+    },
+    {
+      "scrollY": 2800,
+      "state": {
+        "u_showRatio": 1,
+        "u_scrollY": 1956,
+        "containerVisible": true,
+        "scrollPixel": 2800
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\mobile_line_2800.png"
+    }
+  ],
+  "desktop": [
+    {
+      "scrollY": 900,
+      "state": {
+        "u_showRatio": 0.08333333333333333,
+        "u_scrollY": -180,
+        "meshVisible": true,
+        "containerVisible": true,
+        "scrollPixel": 900
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\desktop_line_900.png"
+    },
+    {
+      "scrollY": 1300,
+      "state": {
+        "u_showRatio": 0.2516835016835017,
+        "u_scrollY": 220,
+        "meshVisible": true,
+        "containerVisible": true,
+        "scrollPixel": 1300
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\desktop_line_1300.png"
+    },
+    {
+      "scrollY": 1800,
+      "state": {
+        "u_showRatio": 0.4621212121212121,
+        "u_scrollY": 720,
+        "meshVisible": true,
+        "containerVisible": true,
+        "scrollPixel": 1800
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\desktop_line_1800.png"
+    },
+    {
+      "scrollY": 2300,
+      "state": {
+        "u_showRatio": 0.6725589225589226,
+        "u_scrollY": 1220,
+        "meshVisible": true,
+        "containerVisible": true,
+        "scrollPixel": 2300
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\desktop_line_2300.png"
+    },
+    {
+      "scrollY": 2900,
+      "state": {
+        "u_showRatio": 0.9250841750841751,
+        "u_scrollY": 1820,
+        "meshVisible": true,
+        "containerVisible": true,
+        "scrollPixel": 2900
+      },
+      "shotPath": "C:\\Users\\user\\Documents\\antigravity\\intelligent-babbage\\desktop_line_2900.png"
+    }
+  ]
+}

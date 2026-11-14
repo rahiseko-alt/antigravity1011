@@ -1,0 +1,1103 @@
+{
+  "introSteps": [
+    {
+      "name": "p1_entry",
+      "time": 0.5,
+      "desc": "Phase 1 (\"PLAY WITH AI\") Entry Fade-in",
+      "metrics": {
+        "elapsedSec": 0.5,
+        "title": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "translate3d(0px, -50%, 0px) scale(1)",
+          "rect": {
+            "top": 540,
+            "left": 0,
+            "width": 1920,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": true,
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "top": 471,
+            "left": 526,
+            "width": 869,
+            "height": 138
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(0px)",
+              "rect": {
+                "left": 526,
+                "width": 334
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 887,
+                "width": 344
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(0px)",
+              "rect": {
+                "left": 1259,
+                "width": 135
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 471,
+            "left": 274,
+            "width": 1372,
+            "height": 138
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "",
+              "rect": {
+                "left": 274,
+                "width": 310
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "",
+              "rect": {
+                "left": 612,
+                "width": 289
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "",
+              "rect": {
+                "left": 930,
+                "width": 717
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "none",
+          "opacity": "0"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_p1_entry.png"
+    },
+    {
+      "name": "p1_mid_spread",
+      "time": 1.2,
+      "desc": "Phase 1 Mid Scale & Spread",
+      "metrics": {
+        "elapsedSec": 1.2,
+        "title": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "translate3d(0px, -50%, 0px) scale(1.1567)",
+          "rect": {
+            "top": 540,
+            "left": -150,
+            "width": 2221,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": true,
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "top": 460,
+            "left": 458,
+            "width": 1005,
+            "height": 160
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-350.9px)",
+              "rect": {
+                "left": 52,
+                "width": 386
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 876,
+                "width": 398
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(350.9px)",
+              "rect": {
+                "left": 1712,
+                "width": 156
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 460,
+            "left": 166,
+            "width": 1587,
+            "height": 160
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "",
+              "rect": {
+                "left": 166,
+                "width": 359
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "",
+              "rect": {
+                "left": 558,
+                "width": 335
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "",
+              "rect": {
+                "left": 925,
+                "width": 829
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "none",
+          "opacity": "0"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_p1_mid_spread.png"
+    },
+    {
+      "name": "p1_peak_rush",
+      "time": 1.8,
+      "desc": "Phase 1 High Scale Fly-through",
+      "metrics": {
+        "elapsedSec": 1.8,
+        "title": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "translate3d(0px, -50%, 0px) scale(4.7254)",
+          "rect": {
+            "top": 540,
+            "left": -3576,
+            "width": 9073,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": true,
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "top": 214,
+            "left": -1092,
+            "width": 4104,
+            "height": 652
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -3088,
+                "width": 1576
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 616,
+                "width": 1624
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 4369,
+                "width": 639
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 214,
+            "left": -2282,
+            "width": 6484,
+            "height": 652
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "",
+              "rect": {
+                "left": -2282,
+                "width": 1467
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "",
+              "rect": {
+                "left": -683,
+                "width": 1367
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "",
+              "rect": {
+                "left": 816,
+                "width": 3386
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "none",
+          "opacity": "0"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_p1_peak_rush.png"
+    },
+    {
+      "name": "p2_entry",
+      "time": 2.6,
+      "desc": "Phase 2 (\"THIS WAY TOGETHER\") Entry Fade-in",
+      "metrics": {
+        "elapsedSec": 2.6,
+        "title": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "translate3d(0px, -50%, 0px) scale(1)",
+          "rect": {
+            "top": 540,
+            "left": 0,
+            "width": 1920,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 471,
+            "left": 526,
+            "width": 869,
+            "height": 138
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": 103,
+                "width": 334
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 887,
+                "width": 344
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 1681,
+                "width": 135
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": true,
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "top": 471,
+            "left": 274,
+            "width": 1372,
+            "height": 138
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(0px)",
+              "rect": {
+                "left": 274,
+                "width": 310
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 612,
+                "width": 289
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(0px)",
+              "rect": {
+                "left": 930,
+                "width": 717
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "none",
+          "opacity": "0"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_p2_entry.png"
+    },
+    {
+      "name": "p2_mid_spread",
+      "time": 3.3,
+      "desc": "Phase 2 Cyber Tunnel Mid Scale & Spread",
+      "metrics": {
+        "elapsedSec": 3.3,
+        "title": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "translate3d(0px, -50%, 0px) scale(1.0509)",
+          "rect": {
+            "top": 540,
+            "left": -49,
+            "width": 2018,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 467,
+            "left": 504,
+            "width": 913,
+            "height": 145
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": 60,
+                "width": 351
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 884,
+                "width": 361
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 1718,
+                "width": 142
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": true,
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "top": 467,
+            "left": 239,
+            "width": 1442,
+            "height": 145
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(-211.2px)",
+              "rect": {
+                "left": 17,
+                "width": 326
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 595,
+                "width": 304
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(211.2px)",
+              "rect": {
+                "left": 1150,
+                "width": 753
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "none",
+          "opacity": "0"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_p2_mid_spread.png"
+    },
+    {
+      "name": "p2_peak_rush",
+      "time": 4,
+      "desc": "Phase 2 Cyber Tunnel Fly-through",
+      "metrics": {
+        "elapsedSec": 4,
+        "title": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "translate3d(0px, -50%, 0px) scale(4.7254)",
+          "rect": {
+            "top": 540,
+            "left": -3576,
+            "width": 9073,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 214,
+            "left": -1092,
+            "width": 4104,
+            "height": 652
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -3088,
+                "width": 1576
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 616,
+                "width": 1624
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 4369,
+                "width": 639
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": true,
+          "visibility": "visible",
+          "opacity": "1",
+          "rect": {
+            "top": 214,
+            "left": -2282,
+            "width": 6484,
+            "height": 652
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -4278,
+                "width": 1467
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": -683,
+                "width": 1367
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 2812,
+                "width": 3386
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "none",
+          "opacity": "0"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_p2_peak_rush.png"
+    },
+    {
+      "name": "white_tunnel",
+      "time": 4.8,
+      "desc": "Supersonic White Tunnel Acceleration",
+      "metrics": {
+        "elapsedSec": 4.8,
+        "title": {
+          "display": "flex",
+          "visibility": "hidden",
+          "opacity": "0",
+          "transform": "translate3d(0px, -50%, 0px) scale(11.6073)",
+          "rect": {
+            "top": 540,
+            "left": -10183,
+            "width": 22286,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": -261,
+            "left": -4081,
+            "width": 10082,
+            "height": 1602
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -8984,
+                "width": 3872
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 116,
+                "width": 3990
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 9334,
+                "width": 1570
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": -261,
+            "left": -7004,
+            "width": 15928,
+            "height": 1602
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -11907,
+                "width": 3603
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": -3076,
+                "width": 3358
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 5510,
+                "width": 8317
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "block",
+          "opacity": "0.5"
+        },
+        "isIntroWarp": true,
+        "currentStage": "GoalTunnels"
+      },
+      "shotPath": "option_b_white_tunnel.png"
+    },
+    {
+      "name": "white_hold",
+      "time": 5.6,
+      "desc": "Pure White Light Hold",
+      "metrics": {
+        "elapsedSec": 5.6,
+        "title": {
+          "display": "flex",
+          "visibility": "hidden",
+          "opacity": "0",
+          "transform": "translate3d(0px, -50%, 0px) scale(11.6073)",
+          "rect": {
+            "top": 540,
+            "left": -10183,
+            "width": 22286,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": -261,
+            "left": -4081,
+            "width": 10082,
+            "height": 1602
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -8984,
+                "width": 3872
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 116,
+                "width": 3990
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 9334,
+                "width": 1570
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": -261,
+            "left": -7004,
+            "width": 15928,
+            "height": 1602
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -11907,
+                "width": 3603
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": -3076,
+                "width": 3358
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 5510,
+                "width": 8317
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "block",
+          "opacity": "1"
+        },
+        "isIntroWarp": true,
+        "currentStage": "HomeBalloons"
+      },
+      "shotPath": "option_b_white_hold.png"
+    },
+    {
+      "name": "hero_veil_reveal",
+      "time": 6.4,
+      "desc": "Hero Unveil Veil Dissolve",
+      "metrics": {
+        "elapsedSec": 6.4,
+        "title": {
+          "display": "flex",
+          "visibility": "hidden",
+          "opacity": "0",
+          "transform": "translate3d(0px, -50%, 0px) scale(11.6073)",
+          "rect": {
+            "top": 540,
+            "left": -10183,
+            "width": 22286,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": -261,
+            "left": -4081,
+            "width": 10082,
+            "height": 1602
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -8984,
+                "width": 3872
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 116,
+                "width": 3990
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 9334,
+                "width": 1570
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": -261,
+            "left": -7004,
+            "width": 15928,
+            "height": 1602
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": -11907,
+                "width": 3603
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": -3076,
+                "width": 3358
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 5510,
+                "width": 8317
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "block",
+          "opacity": "0.36"
+        },
+        "isIntroWarp": true,
+        "currentStage": "HomeBalloons"
+      },
+      "shotPath": "option_b_hero_veil_reveal.png"
+    },
+    {
+      "name": "hero_settled",
+      "time": 7.5,
+      "desc": "Hero Fully Settled & Interactive",
+      "metrics": {
+        "elapsedSec": 7.5,
+        "title": {
+          "display": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "transform": "translate3d(0px, -50%, 0px) scale(11.6073)",
+          "rect": {
+            "top": 0,
+            "left": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "p1": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 0,
+            "left": 0,
+            "width": 0,
+            "height": 0
+          },
+          "words": [
+            {
+              "text": "PLAY",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": 0,
+                "width": 0
+              }
+            },
+            {
+              "text": "WITH",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 0,
+                "width": 0
+              }
+            },
+            {
+              "text": "AI",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 0,
+                "width": 0
+              }
+            }
+          ]
+        },
+        "p2": {
+          "isActive": false,
+          "visibility": "hidden",
+          "opacity": "0",
+          "rect": {
+            "top": 0,
+            "left": 0,
+            "width": 0,
+            "height": 0
+          },
+          "words": [
+            {
+              "text": "THIS",
+              "styleTransform": "translateX(-422.4px)",
+              "rect": {
+                "left": 0,
+                "width": 0
+              }
+            },
+            {
+              "text": "WAY",
+              "styleTransform": "translateZ(0px)",
+              "rect": {
+                "left": 0,
+                "width": 0
+              }
+            },
+            {
+              "text": "TOGETHER",
+              "styleTransform": "translateX(422.4px)",
+              "rect": {
+                "left": 0,
+                "width": 0
+              }
+            }
+          ]
+        },
+        "curtain": {
+          "display": "block",
+          "opacity": "0"
+        },
+        "isIntroWarp": false,
+        "currentStage": "HomeBalloons"
+      },
+      "shotPath": "option_b_hero_settled.png"
+    }
+  ],
+  "centeringChecks": [
+    {
+      "step": "p1_entry",
+      "phase": "P1",
+      "centerOffset": 0.5,
+      "rect": {
+        "top": 471,
+        "left": 526,
+        "width": 869,
+        "height": 138
+      }
+    },
+    {
+      "step": "p1_mid_spread",
+      "phase": "P1",
+      "centerOffset": 0.5,
+      "rect": {
+        "top": 460,
+        "left": 458,
+        "width": 1005,
+        "height": 160
+      }
+    },
+    {
+      "step": "p1_peak_rush",
+      "phase": "P1",
+      "centerOffset": 0,
+      "rect": {
+        "top": 214,
+        "left": -1092,
+        "width": 4104,
+        "height": 652
+      }
+    },
+    {
+      "step": "p2_entry",
+      "phase": "P2",
+      "centerOffset": 0,
+      "rect": {
+        "top": 471,
+        "left": 274,
+        "width": 1372,
+        "height": 138
+      }
+    },
+    {
+      "step": "p2_mid_spread",
+      "phase": "P2",
+      "centerOffset": 0,
+      "rect": {
+        "top": 467,
+        "left": 239,
+        "width": 1442,
+        "height": 145
+      }
+    },
+    {
+      "step": "p2_peak_rush",
+      "phase": "P2",
+      "centerOffset": 0,
+      "rect": {
+        "top": 214,
+        "left": -2282,
+        "width": 6484,
+        "height": 652
+      }
+    }
+  ],
+  "midpageCheck": {
+    "midData": {
+      "titlePresent": true,
+      "parentId": "home-goal",
+      "visibility": "hidden",
+      "opacity": "0",
+      "transform": "translateZ(0px)",
+      "rect": {
+        "top": -7518,
+        "left": 96,
+        "width": 1728,
+        "height": 0
+      },
+      "scrollPixel": 14011.411458333334
+    },
+    "shotPath": "option_b_midpage_warp.png"
+  },
+  "consoleErrors": [
+    "%c%d font-size:0;color:transparent NaN",
+    "%c%d font-size:0;color:transparent NaN"
+  ]
+}

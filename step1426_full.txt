@@ -1,0 +1,95 @@
+The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.
+
+<SYSTEM_MESSAGE>
+[Message] timestamp=2026-10-13T22:59:36Z sender=8d41b0d4-aec1-47fb-98be-4caa1da5374d priority=MESSAGE_PRIORITY_HIGH content=# AIueo コンテンツ抽出 & index.html マッピング設計 完了レポート
+
+親エージェントへ報告します。
+元サイト（https://aiueo-lp.vercel.app/）からの全テキスト・イベント・メンバー・活動実績・スタンス・画像アセットの完全抽出および、既存サイトのレイアウト構造（AGENTS.md ルール3厳守）への1:1対応マッピング設計を完了しました。
+
+また、AIエージェントが今後指示一つで即座にイベント追加・更新できるよう、一元管理用JSONファイル `data/aiueo-content.json` を構築し、全画像アセットも `assets/images/aiueo/` にローカル保存済みです。
+
+---
+
+## 1. 抽出したデータ構造の一元管理 (`data/aiueo-content.json`)
+保存場所: `c:\Users\user\Documents\antigravity\intelligent-babbage\data\aiueo-content.json`
+ダウンロード済み画像: `assets/images/aiueo/` (計11ファイル、正常取得確認済み)
+
+### 含まれるデータセクション:
+1. **meta**: サイトタイトル、OGP説明文、連絡先メール (`info@kouheikosehira.com`)、GitHubリンク
+2. **hero**: メインキャッチコピー、サブコピー、スクロール文言
+3. **concept** (Reel): ビジョン、Who We Are、How It Works（3ステップの利用フロー）
+4. **events**: 進行中の企画2件（AI小技 発表会、AIアート展覧会を重要文化財で開催する）の詳細・日時・費用・主催者・画像
+5. **organizers**: 運営コアメンバー3名＋顧問1名（小齊平恒平、伊藤良二、堺彬、岡本ジュンイチ）の写真・肩書・プロフィール
+6. **activities**: 実績・活動アーカイブ4件（SNS運用自動化、AIチャットボット、音声カルテアプリ、書類半自動化アプリ）
+7. **coCreation**: 4つの関わり方（企画持ち込み、助っ人参加、壁打ち相談、会場/案件提供）
+8. **guidelines**: 運営のかかわり方・7原則（AIueoの立場、登録/参加、個人情報、禁止事項、費用、取消、著作権）
+9. **footer**: 拠点（Tokyo & Online）、草AI同盟のステートメント、各種リンク、コピーライト
+
+---
+
+## 2. index.html の各スロットへの完全対応マッピング表 (ルール3厳守)
+
+サイト構成、レイアウト構造、セクション順序、3D WebGL演出枠は**一切変更・削除せず**、既存のスロットに当てはめます。
+
+| セクション / DOM要素 | 既存テキスト・枠組み | AIueo 差し替えマッピング内容 |
+| :--- | :--- | :--- |
+| **Header & Meta** | | |
+| `<title>` | `Lusion - Award Winning 3D...` | `AI League AIueo - 草AI同盟 \| 仲間を集める場` |
+| `<meta name="description">` | `We design and produce 3D visual storytelling...` | `AIを触る仲間を集める場。「今度何かやりましょう」を「こういうのやるので、一緒にどうですか？」に変えます。参加は登録不要。` |
+| `#header-logo text` | `Kouhei Kosehira` (Aeonik) | `AI League AIueo` (または `AIueo`) |
+| `#header-right-talk-btn` | `Let's talk` -> mailto | `Join / Contact` (`mailto:info@kouheikosehira.com`) |
+| `#header-menu-links` | Home / About us / Projects / Contact | Home / About / Events / Contact |
+| **#home-hero** (Heroセクション) | | |
+| `#home-hero-visual-container` | WebGL 3D演出コンテナ | **100%現状維持**（演出枠・カメラワーク不変） |
+| `#home-hero-title` | `Host events more casually, more freely! AI expands your world.` | `「今度何かやりましょう」を、<br>「こういうのやるので、一緒にどうですか？」に変える。` |
+| `#home-hero-scroll` | `scroll to explore` | `scroll to explore`（現状維持） |
+| **#home-reel** (コンセプト・動画セクション) | | |
+| `#home-reel-title-line-1` | `Bold Ideas,` | `場をつくる。` |
+| `#home-reel-title-line-2` | `Brought to Life` | `やりたいことを、実行まで。` |
+| `#home-reel-desc` | `We combine design, motion, 3D, and development...` | `名刺交換を重ねるよりも、まず実際の企画やイベントを1つやってみる。ジャンルは自由です。やりたいことを持ち込む人と、参加したい人が出会い、準備して、実行する。草野球のように集まり、AIを触り、1つのプロトタイプを作る草AI同盟。0はいくら集めても0。まずは1つの草活動から。` |
+| `#home-reel-cta` | `Our Approach` | `How It Works ↓` (AIueoの使い方) |
+| `#home-reel-video-container` | WebGL/Reelコンテナ枠 | **100%現状維持** |
+| **#home-featured** (企画・活動・メンバーカード) | | |
+| `#home-featured-title` | `Featured Work` | `Active Initiatives & Players` (進行中の企画と活動) |
+| `#home-featured-disclaimer` | `A selection of immersive digital experiences...` | `「こういうのやります」進行中の企画と、一緒に動く草AI同盟のプレイヤーたち。誰かの企画に乗っかるもよし、自分の「やりたい」を立ち上げるもよし。` |
+| `.project-list` (カードスロット群) | 各プロジェクトカード | **以下のAIueo企画・メンバー・活動に1:1割り当て**: |
+| ↳ Card 1 | Oryzo AI | **[Event 1] AI小技 発表会**<br>・Line 1: `11/11(水) 20:00 • リモート開催 • 視聴申込不要 • 金銭なし`<br>・Line 2: `AI小技 発表会 - 小さなAI活用を持ち寄るゆるい発表会` |
+| ↳ Card 2 | Atlas Motion | **[Event 2] AIアート展覧会を重要文化財で開催する**<br>・Line 1: `2027年1月頃 • 名古屋市市政資料館（重文） • メンバー割り勘`<br>・Line 2: `AIアート展覧会 - 「AIアートは文化になれるか？」` |
+| ↳ Card 3 | Devin AI | **[Member 1] 小齊平 恒平 (Kouhei Kosehira)**<br>・Line 1: `代表 / AI活動家 • play with AI • 専門学校講師`<br>・Line 2: `小齊平 恒平 - AIueo代表` |
+| ↳ Card 4 | Of The Oak | **[Member 2] 伊藤 良二 (Ryoji Ito)**<br>・Line 1: `プロデューサー • Craft Line Works代表 • 業務効率化`<br>・Line 2: `伊藤 良二 - プロデューサー` |
+| ↳ Card 5 | Everswap | **[Member 3] 堺 彬 (Akira Sakai)**<br>・Line 1: `株式会社SakAI Nexus 代表取締役 • AI導入支援 • 開発`<br>・Line 2: `堺 彬 - AIエンジニア / 開発` |
+| ↳ Card 6 | Porsche: Dream Machine | **[Activity 1] SNS運用の自動化**<br>・Line 1: `#AI #DEVELOPMENT • 投稿の途絶がなくなった`<br>・Line 2: `SNS運用の自動化 - 生成から分析までワンストップ` |
+| ↳ Card 7 | Synthetic Human | **[Activity 2] 自社特化型 AIチャットボット**<br>・Line 1: `#AI #LLM • 定型の問い合わせを自動処理`<br>・Line 2: `自社資料特化型 AIチャットボット` |
+| ↳ Card 8 | Meta: Spatial Fusion | **[Activity 3] 音声カルテ作成アプリ（ペット業界向け）**<br>・Line 1: `#AI #PROTOTYPE • 1日約2時間の事務作業を削減`<br>・Line 2: `音声カルテ作成アプリ（ペット業界向け）` |
+| ↳ Card 9 | Spaace - NFT Marketplace | **[Activity 4] 書類業務の半自動化アプリ（飲食業向け）**<br>・Line 1: `#AI #LOCAL • 月50時間相当を削減`<br>・Line 2: `書類業務の半自動化アプリ（飲食業向け）` |
+| ↳ Card 10 | DDD 2024 | **[Member 4] 岡本 ジュンイチ (Junichi Okamoto)**<br>・Line 1: `顧問 / SNSマーケター • メディアプロデューサー`<br>・Line 2: `岡本 ジュンイチ - 顧問` |
+| `#home-featured-cta` | `See all projects` | `企画を提案する / 参加する →` |
+| **#home-goal** (ワープ演出 & ガイドライン) | | |
+| `#home-goal-title` | `Where Creative Ideas Become Immersive Experiences` | `運営のかかわり方・スタンス（Operating Guidelines）` |
+| `#home-goal-texts` (P1) | `We do not chase trends...` | `AIueoは、やりたいことを持つ人と参加したい人が出会う「呼びかけの場」です。企画・参加・金銭の当事者ではありません。主催者と参加者が、それぞれの責任で自由に行動し、場を乱さず楽しむことを基本とします。` |
+| `#home-goal-texts` (P2) | `Our process blends...` | `参加だけなら会員登録は一切不要。企画を立てる人だけが会員登録（Googleログイン）を行います。利用料・会費・参加費などの金銭は預かりません。分からない場合は、すべて割り勘から始めることを推奨しています。` |
+| `#home-goal-tunnel-title-line-1` | `Step into a new world` | `場をつくる。` |
+| `#home-goal-tunnel-title-line-2` | `and let your` | `場を乱さない。` |
+| `#home-goal-tunnel-title-line-3` | `imagination run wild` | `まずは1つの草活動から。` |
+| **#end-section** (コンタクト / CTA) | | |
+| `#end-section-subtitle-text` | `Is Your Big Idea Ready to Go Wild?` | `「こういうのやるんですけど、一緒にどうですか？」` |
+| `#end-section-title-link` | `Let's work <br> together!` | `Join / Propose <br> 企画を持ち込む・参加する` |
+| `#end-bottom-text` | `CONTINUE TO SCROLL` | `CONTINUE TO SCROLL`（現状維持） |
+| **#footer-section** (フッターリンク & クレジット) | | |
+| `#footer-contact-address` | Suite 2, 9 Marsh Street... | `AI League AIueo`<br>`Tokyo, Japan & Online`<br>`草AI同盟（草野球のように集まりAIを遊ぶ）`<br>`info@kouheikosehira.com` |
+| `#footer-contact-socials` | Twitter / Instagram / LinkedIn | GitHub (`rahiseko-alt/AIueo-LP`) / Captain GitHub / X (Twitter) |
+| `#footer-contact-enquires` | `General enquires: hello@lusion.co` | `お問い合わせ: info@kouheikosehira.com` |
+| `#footer-contact-business` | `New business: business@lusion.co` | `企画の提案・相談: info@kouheikosehira.com` |
+| `#footer-newsletter-header` | `Subscribe to our newsletter` | `AIueoの最新企画通知を受け取る` |
+| `#footer-bottom-copyright` | `©2026 LUSION Creative Studio` | `© 2026 AI League AIueo. Activities & Experiment First.` |
+| `#footer-bottom-tagline` | `Built by Lusion with ❤️` | `Grassroots AI Alliance with ❤️` |
+
+---
+
+## 3. 次のステップの準備完了
+1. `data/aiueo-content.json` の作成完了
+2. `assets/images/aiueo/` への全実アセットダウンロード完了
+3. 上記マッピングに基づき、`index.html` への安全なテキスト置換（枠組み一切破壊なし）を行う準備が完全に整いました。
+
+ご確認いただき、本マッピング計画に沿って `index.html` へのコンテンツ適用フェーズへ進めていただけます。
+</SYSTEM_MESSAGE>

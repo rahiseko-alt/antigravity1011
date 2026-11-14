@@ -3953,9 +3953,9 @@ imageAlpha*=u_opacity;gl_FragColor=vec4(color,imageAlpha);}`;let idx=0;class Pro
   const s = scrollManager.scrollPixel;
   const goalTop = goalR.top;
   
-  // Wide smooth transition zone: starts 800px before reaching goal, smoothly darkens to pitch black
-  const tStart = goalTop - vh * 0.85;
-  const tEnd = goalTop - vh * 0.15;
+  // Wide smooth transition zone: completes while scrolling through #home-members before #end-section enters viewport
+  const tStart = goalTop - vh * 1.65;
+  const tEnd = goalTop - vh * 0.95;
   
   let factor = 0;
   if (s >= tEnd) {
