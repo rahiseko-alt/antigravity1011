@@ -56,6 +56,15 @@ html.is-black-bg #end-section {
   color: #ffffff !important;
 }
 
+#end-section {
+  position: relative !important;
+  z-index: 1 !important;
+  height: calc(var(--vh, 1vh) * 100) !important;
+  min-height: calc(var(--vh, 1vh) * 100) !important;
+  overflow: hidden !important;
+  clip-path: inset(0) !important;
+}
+
 #end-ascii-bg {
   position: absolute !important;
   inset: 0 !important;
@@ -129,6 +138,132 @@ html.is-white-bg .end-section-content-cross:after {
   pointer-events: none !important;
   visibility: hidden !important;
   background: #000000 !important;
+}
+
+/* Concise, minimal Footer scene & collapse unnecessary trailing scenes */
+#footer-section {
+  position: relative !important;
+  z-index: 5 !important;
+  min-height: auto !important;
+  height: auto !important;
+  padding-top: 3.5rem !important;
+  padding-bottom: 2.5rem !important;
+  background-color: #ffffff !important;
+  overflow: hidden !important;
+}
+
+#footer-top,
+#footer-middle-newsletter,
+#footer-contact-enquires,
+#footer-contact-business,
+#footer-bottom-labs,
+#footer-bottom-tagline {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}
+
+#footer-middle {
+  position: relative !important;
+  z-index: 2 !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#footer-middle-contact {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 2rem 3rem !important;
+  width: 100% !important;
+}
+
+#footer-contact-address {
+  flex: 1 1 260px !important;
+  margin: 0 !important;
+}
+
+#footer-contact-socials {
+  flex: 0 1 auto !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem 1.5rem !important;
+  margin: 0 !important;
+}
+
+.footer-socials-line-wrapper {
+  margin-top: 0 !important;
+}
+
+#footer-bottom {
+  position: relative !important;
+  z-index: 2 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 1rem 1.5rem !important;
+  margin-top: 2.25rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 0.5rem !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+#footer-bottom-copyright,
+#footer-bottom-copyright > div,
+#footer-bottom-copyright .word {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  line-height: 1.5 !important;
+}
+
+@media (max-width: 1000px) {
+  #footer-section {
+    padding-top: 2.75rem !important;
+    padding-bottom: 2.25rem !important;
+  }
+  #footer-middle-contact {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+  #footer-contact-socials {
+    flex-direction: column !important;
+    gap: 0.45rem !important;
+  }
+  #footer-bottom {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+    margin-top: 1.75rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-right: 3.5rem !important;
+  }
+  #footer-bottom-up {
+    position: absolute !important;
+    bottom: 0.25rem !important;
+    right: 0 !important;
+  }
+}
+
+/* Collapse trailing #scroll-nav-section ("About Us / Next Page") scene completely */
+#scroll-nav-section,
+#page-extra-sections #scroll-nav-section.section {
+  box-sizing: border-box !important;
+  height: 0px !important;
+  min-height: 0px !important;
+  max-height: 0px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
 }
 
 /* Footer Operating Guidelines button */
