@@ -329,10 +329,27 @@ class EndAsciiBackground {
       } while (this.palB === this.palA);
     }
 
+    const dark =
+      typeof window.__asciiDarkFactor === "number"
+        ? clamp(window.__asciiDarkFactor, 0, 1)
+        : 1;
+
     const t0 = clamp((this.activity - 0.2) / 0.65, 0, 1);
     const fMix = smoother(t0);
-    const colorHi = lerpRGB(BASE_HI, this.palA, fMix);
-    const colorLo = lerpRGB(BASE_LO, this.palB, fMix);
+    const LIGHT_LO = [148, 163, 184];
+    const LIGHT_HI = [30, 41, 59];
+    const darkHi = [
+      Math.round(lerp(BASE_HI[0], this.palA[0], fMix)),
+      Math.round(lerp(BASE_HI[1], this.palA[1], fMix)),
+      Math.round(lerp(BASE_HI[2], this.palA[2], fMix)),
+    ];
+    const darkLo = [
+      Math.round(lerp(BASE_LO[0], this.palB[0], fMix)),
+      Math.round(lerp(BASE_LO[1], this.palB[1], fMix)),
+      Math.round(lerp(BASE_LO[2], this.palB[2], fMix)),
+    ];
+    const colorHi = lerpRGB(LIGHT_HI, darkHi, dark);
+    const colorLo = lerpRGB(LIGHT_LO, darkLo, dark);
     this.activity = Math.max(this.activity - 0.004, 0.15);
 
     const targetScale = cols < 70 ? 1.2 : 0.85;
@@ -352,12 +369,14 @@ class EndAsciiBackground {
     const f = 0.00045 * elapsed;
     const s = 1.2 + ((Math.cos(f) + 1) / 2) * (0.5 - 1.2);
 
-    ctx.globalAlpha = 1;
-    ctx.fillStyle = "#000000";
-    ctx.fillRect(0, 0, viewW, viewH);
+    ctx.clearRect(0, 0, viewW, viewH);
     ctx.font = `600 ${Math.floor(cellH * 0.72)}px "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace`;
     ctx.textBaseline = "middle";
     ctx.textAlign = "center";
+
+    const hiAlpha = lerp(0.32, 0.85, dark);
+    const loAlphaBase = lerp(0.16, 0.42, dark);
+    const loAlphaSpan = lerp(0.18, 0.4, dark);
 
     for (let y = 0; y < rows; y++) {
       const py = y * cellH + cellH * 0.5;
@@ -384,7 +403,7 @@ class EndAsciiBackground {
         }
         cell.v = 0.94 * energy;
 
-        // Subtle ambient noise floor so the entire black space feels alive with ASCII
+        // Subtle ambient noise floor so the entire space feels alive with ASCII
         const ambient = noise2(x * 0.14 + f * 2.2, y * 0.14 - f * 1.6) * 0.42;
         const val = clamp(Math.max(energy, ambient), 0, 1);
 
@@ -395,26 +414,28 @@ class EndAsciiBackground {
         if (ch === " ") continue;
 
         ctx.fillStyle = val >= 0.78 ? colorHi : colorLo;
-        ctx.globalAlpha = val >= 0.78 ? 0.85 : 0.42 + val * 0.4;
+        ctx.globalAlpha = val >= 0.78 ? hiAlpha : loAlphaBase + val * loAlphaSpan;
         ctx.fillText(ch, x * cellW + cellW * 0.5, py);
       }
     }
 
-    // Soft radial vignette in the center to keep foreground "Join / Propose" typography razor-sharp
-    ctx.globalAlpha = 1;
-    const grad = ctx.createRadialGradient(
-      viewW * 0.5,
-      viewH * 0.46,
-      Math.min(viewW, viewH) * 0.08,
-      viewW * 0.5,
-      viewH * 0.46,
-      Math.max(viewW, viewH) * 0.52
-    );
-    grad.addColorStop(0, "rgba(0, 0, 0, 0.72)");
-    grad.addColorStop(0.55, "rgba(0, 0, 0, 0.35)");
-    grad.addColorStop(1, "rgba(0, 0, 0, 0)");
-    ctx.fillStyle = grad;
-    ctx.fillRect(0, 0, viewW, viewH);
+    // Soft radial vignette fades in smoothly as section transitions to black
+    if (dark > 0.02) {
+      ctx.globalAlpha = 1;
+      const grad = ctx.createRadialGradient(
+        viewW * 0.5,
+        viewH * 0.46,
+        Math.min(viewW, viewH) * 0.08,
+        viewW * 0.5,
+        viewH * 0.46,
+        Math.max(viewW, viewH) * 0.52
+      );
+      grad.addColorStop(0, `rgba(0, 0, 0, ${(0.72 * dark).toFixed(3)})`);
+      grad.addColorStop(0.55, `rgba(0, 0, 0, ${(0.35 * dark).toFixed(3)})`);
+      grad.addColorStop(1, "rgba(0, 0, 0, 0)");
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, viewW, viewH);
+    }
   }
 }
 

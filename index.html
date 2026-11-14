@@ -49,12 +49,28 @@
   }
 }
 
-#page-extra-sections,
-#end-section,
-html.is-white-bg #end-section,
-html.is-black-bg #end-section {
-  background-color: #000000 !important;
-  color: #ffffff !important;
+:root {
+  --end-bg: #f0f1fa;
+  --end-fg: #0f172a;
+  --end-fg-soft: rgba(30, 41, 59, 0.78);
+  --end-fg-dim: rgba(51, 65, 85, 0.74);
+  --end-accent: #0284c7;
+  --end-border: rgba(15, 23, 42, 0.18);
+  --end-border-soft: rgba(15, 23, 42, 0.10);
+  --end-btn-bg: rgba(255, 255, 255, 0.72);
+  --end-btn-border: rgba(2, 132, 199, 0.55);
+  --end-text-shadow: none;
+  --end-small-shadow: none;
+  --end-hover-bg: rgba(2, 132, 199, 0.09);
+}
+
+html body #page-extra-sections,
+html body #page-extra-sections #end-section,
+html body #page-extra-sections #end-section.section,
+html.is-white-bg body #page-extra-sections #end-section,
+html.is-black-bg body #page-extra-sections #end-section {
+  background-color: var(--end-bg, #f0f1fa) !important;
+  color: var(--end-fg, #0f172a) !important;
 }
 
 #page-extra-sections {
@@ -171,13 +187,13 @@ html.is-black-bg #end-section {
   font-size: clamp(0.58rem, 2.85vw, 1.05rem) !important;
   line-height: 1.5 !important;
   letter-spacing: 0.01em !important;
-  color: #ffffff !important;
+  color: var(--end-fg, #0f172a) !important;
   text-align: center !important;
   white-space: nowrap !important;
   margin: 0 auto !important;
   padding: 0 !important;
   max-width: 88vw !important;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95), 0 0 10px rgba(0, 240, 255, 0.25) !important;
+  text-shadow: var(--end-small-shadow, none) !important;
 }
 
 #page-extra-sections #end-section-title {
@@ -206,7 +222,8 @@ html.is-black-bg #end-section {
   max-width: 88vw !important;
   margin: 0 auto !important;
   padding: 0 !important;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.92), 0 0 28px rgba(0, 240, 255, 0.18) !important;
+  color: var(--end-fg, #0f172a) !important;
+  text-shadow: var(--end-text-shadow, none) !important;
   cursor: pointer !important;
 }
 
@@ -225,7 +242,7 @@ html.is-black-bg #end-section {
 }
 
 #page-extra-sections #end-section-title-link .end-section-title-link-line:hover {
-  background: rgba(0, 240, 255, 0.08) !important;
+  background: var(--end-hover-bg, rgba(2, 132, 199, 0.09)) !important;
   box-shadow: 0 0 20px rgba(0, 240, 255, 0.18) !important;
 }
 
@@ -239,10 +256,10 @@ html.is-black-bg #end-section {
   max-width: 90vw !important;
   margin: 0 !important;
   padding: clamp(10px, 1.5vh, 14px) 0 0 0 !important;
-  border-top: 1px dashed rgba(255, 255, 255, 0.22) !important;
+  border-top: 1px dashed var(--end-border, rgba(15, 23, 42, 0.18)) !important;
   box-sizing: border-box !important;
   font-family: 'IBMPlexMono', ui-monospace, Menlo, Consolas, 'Noto Sans JP', monospace !important;
-  color: rgba(255, 255, 255, 0.78) !important;
+  color: var(--end-fg-soft, rgba(30, 41, 59, 0.78)) !important;
   z-index: 6 !important;
   pointer-events: auto !important;
 }
@@ -269,8 +286,8 @@ html.is-black-bg #end-section {
   font-size: clamp(0.64rem, 1.15vw, 0.78rem) !important;
   line-height: 1.45 !important;
   letter-spacing: 0.02em !important;
-  color: rgba(226, 232, 240, 0.74) !important;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.95) !important;
+  color: var(--end-fg-soft, rgba(30, 41, 59, 0.78)) !important;
+  text-shadow: var(--end-small-shadow, none) !important;
 }
 
 #page-extra-sections .end-ascii-footer-link {
@@ -279,30 +296,30 @@ html.is-black-bg #end-section {
   font-size: clamp(0.68rem, 1.25vw, 0.84rem) !important;
   line-height: 1.45 !important;
   letter-spacing: 0.03em !important;
-  color: #00f0ff !important;
+  color: var(--end-accent, #0284c7) !important;
   text-decoration: none !important;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.95), 0 0 10px rgba(0, 240, 255, 0.25) !important;
+  text-shadow: var(--end-small-shadow, none) !important;
   cursor: pointer !important;
   transition: color 0.2s ease, text-shadow 0.2s ease !important;
 }
 
 #page-extra-sections .end-ascii-footer-link:hover {
-  color: #ffffff !important;
-  text-shadow: 0 0 14px rgba(0, 240, 255, 0.75) !important;
+  color: var(--end-fg, #0f172a) !important;
+  text-shadow: 0 0 14px rgba(0, 240, 255, 0.55) !important;
 }
 
 #page-extra-sections .end-ascii-top-btn {
   flex-shrink: 0 !important;
   appearance: none !important;
-  background: rgba(0, 0, 0, 0.65) !important;
-  border: 1px dashed rgba(0, 240, 255, 0.45) !important;
+  background: var(--end-btn-bg, rgba(255, 255, 255, 0.72)) !important;
+  border: 1px dashed var(--end-btn-border, rgba(2, 132, 199, 0.55)) !important;
   border-radius: 4px !important;
   padding: 5px 11px !important;
   font-family: 'IBMPlexMono', ui-monospace, Menlo, Consolas, monospace !important;
   font-size: clamp(0.66rem, 1.15vw, 0.8rem) !important;
   line-height: 1.3 !important;
   letter-spacing: 0.06em !important;
-  color: #ffffff !important;
+  color: var(--end-fg, #0f172a) !important;
   cursor: pointer !important;
   white-space: nowrap !important;
   pointer-events: auto !important;
@@ -310,22 +327,22 @@ html.is-black-bg #end-section {
 }
 
 #page-extra-sections .end-ascii-top-btn:hover {
-  border-color: #00f0ff !important;
-  color: #00f0ff !important;
-  background: rgba(0, 240, 255, 0.1) !important;
-  box-shadow: 0 0 14px rgba(0, 240, 255, 0.3) !important;
+  border-color: var(--end-accent, #0284c7) !important;
+  color: var(--end-accent, #0284c7) !important;
+  background: var(--end-hover-bg, rgba(2, 132, 199, 0.09)) !important;
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.28) !important;
 }
 
 #page-extra-sections .end-ascii-footer-copy {
   margin-top: 8px !important;
   padding-top: 6px !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-top: 1px solid var(--end-border-soft, rgba(15, 23, 42, 0.10)) !important;
   font-size: clamp(0.6rem, 1.05vw, 0.72rem) !important;
   line-height: 1.4 !important;
   letter-spacing: 0.03em !important;
-  color: rgba(148, 163, 184, 0.72) !important;
+  color: var(--end-fg-dim, rgba(51, 65, 85, 0.74)) !important;
   text-align: left !important;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.95) !important;
+  text-shadow: var(--end-small-shadow, none) !important;
 }
 
 @media (max-width: 640px) {
@@ -368,7 +385,7 @@ html.is-black-bg #end-section {
 .end-section-content-cross:after,
 html.is-white-bg .end-section-content-cross:before,
 html.is-white-bg .end-section-content-cross:after {
-  background: #ffffff !important;
+  background: var(--end-fg, #0f172a) !important;
 }
 
 /* Collapse #home-goal card to 0px without breaking scrollManager/HomePage black-bg transition */
@@ -1292,6 +1309,25 @@ html.is-white-bg .end-section-content-cross:after {
   }
   #header-container {
     pointer-events: auto !important;
+  }
+  /* Hide Home button, middle Join/Contact button (and placeholder), newsletter box, and bottom Labs link in menu */
+  #header #header-home-btn,
+  #header #header-right-talk-btn,
+  #header #header-right-talk-btn-placeholder,
+  #header #header-menu #header-menu-newsletter,
+  #header #header-menu #header-menu-labs {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
   }
   /* Dark mode sections: Keep header visible with seamless dark frosted gradient */
   html.is-black-bg #header {

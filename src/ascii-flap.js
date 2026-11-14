@@ -891,6 +891,16 @@ class EndSectionAsciiEngine {
   // program.js setOverlay() state machine
   step(frame) {
     let stillActive = false;
+    const isLightBg =
+      typeof window.__asciiDarkFactor === "number" &&
+      window.__asciiDarkFactor < 0.45;
+    const primaryFlash = isLightBg ? "#0284c7" : "#00f0ff";
+    const altFlash = isLightBg ? "#0f172a" : "#ffffff";
+    const bootColor = isLightBg
+      ? "rgba(2, 132, 199, 0.72)"
+      : "rgba(0, 240, 255, 0.55)";
+    const bootShadow = isLightBg ? "none" : "0 0 8px rgba(0, 240, 255, 0.35)";
+    const flashShadow = isLightBg ? "none" : "0 0 14px rgba(0, 240, 255, 0.85)";
 
     for (const c of this.cells) {
       // Phase 1: Diagonal wave countdown (display pre-wave ASCII symbol)
@@ -900,11 +910,7 @@ class EndSectionAsciiEngine {
           ? CJK_GLYPH_TABLE[(c.col + c.it) % 14]
           : WAVE_BOOT_GLYPHS[(c.col + c.it) % WAVE_BOOT_GLYPHS.length];
         this.setCellText(c, bootCh);
-        this.setCellStyle(
-          c,
-          "rgba(0, 240, 255, 0.55)",
-          "0 0 8px rgba(0, 240, 255, 0.35)"
-        );
+        this.setCellStyle(c, bootColor, bootShadow);
         stillActive = true;
         continue;
       }
@@ -919,17 +925,14 @@ class EndSectionAsciiEngine {
           c.it = 0;
           this.setCellText(c, c.targetChar);
           c.flashFrames = 3;
-          this.setCellStyle(
-            c,
-            "#00f0ff",
-            "0 0 14px rgba(0, 240, 255, 0.85)"
-          );
+          this.setCellStyle(c, primaryFlash, flashShadow);
         } else {
           this.setCellText(c, c.table[c.lt]);
           // program.js lines 572-574: even/odd frame high-contrast sparkle ("きらーん")
-          const hiColor = frame % 2 === 0 ? "#00f0ff" : "#ffffff";
-          const hiShadow =
-            frame % 2 === 0
+          const hiColor = frame % 2 === 0 ? primaryFlash : altFlash;
+          const hiShadow = isLightBg
+            ? "none"
+            : frame % 2 === 0
               ? "0 0 12px rgba(0, 240, 255, 0.8)"
               : "0 0 10px rgba(255, 255, 255, 0.7)";
           this.setCellStyle(c, hiColor, hiShadow);
