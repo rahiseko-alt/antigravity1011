@@ -115,7 +115,7 @@ html.is-black-bg #end-section {
 #page-extra-sections #end-section-content {
   position: absolute !important;
   left: 50% !important;
-  top: 50% !important;
+  top: 41% !important;
   transform: translate3d(-50%, -50%, 0) !important;
   width: min(88vw, 960px) !important;
   max-width: 88vw !important;
@@ -133,7 +133,7 @@ html.is-black-bg #end-section {
   position: absolute !important;
   width: min(84vw, 860px) !important;
   max-width: 84vw !important;
-  height: calc(100% + 8vh) !important;
+  height: calc(100% + 7vh) !important;
   left: 50% !important;
   top: 50% !important;
   transform: translate(-50%, -50%) !important;
@@ -229,6 +229,132 @@ html.is-black-bg #end-section {
   box-shadow: 0 0 20px rgba(0, 240, 255, 0.18) !important;
 }
 
+/* Integrated ASCII Footer docked inside the bottom of #end-section */
+#page-extra-sections #end-ascii-footer {
+  position: absolute !important;
+  left: 50% !important;
+  bottom: clamp(14px, 2.8vh, 28px) !important;
+  transform: translateX(-50%) !important;
+  width: min(90vw, 860px) !important;
+  max-width: 90vw !important;
+  margin: 0 !important;
+  padding: clamp(10px, 1.5vh, 14px) 0 0 0 !important;
+  border-top: 1px dashed rgba(255, 255, 255, 0.22) !important;
+  box-sizing: border-box !important;
+  font-family: 'IBMPlexMono', ui-monospace, Menlo, Consolas, 'Noto Sans JP', monospace !important;
+  color: rgba(255, 255, 255, 0.78) !important;
+  z-index: 6 !important;
+  pointer-events: auto !important;
+}
+
+#page-extra-sections .end-ascii-footer-main {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-end !important;
+  justify-content: space-between !important;
+  gap: 10px 18px !important;
+  width: 100% !important;
+}
+
+#page-extra-sections .end-ascii-footer-info {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 3px !important;
+  min-width: 0 !important;
+  text-align: left !important;
+}
+
+#page-extra-sections .end-ascii-footer-line {
+  font-size: clamp(0.64rem, 1.15vw, 0.78rem) !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0.02em !important;
+  color: rgba(226, 232, 240, 0.74) !important;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.95) !important;
+}
+
+#page-extra-sections .end-ascii-footer-link {
+  display: inline-block !important;
+  margin-top: 2px !important;
+  font-size: clamp(0.68rem, 1.25vw, 0.84rem) !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0.03em !important;
+  color: #00f0ff !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.95), 0 0 10px rgba(0, 240, 255, 0.25) !important;
+  cursor: pointer !important;
+  transition: color 0.2s ease, text-shadow 0.2s ease !important;
+}
+
+#page-extra-sections .end-ascii-footer-link:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 14px rgba(0, 240, 255, 0.75) !important;
+}
+
+#page-extra-sections .end-ascii-top-btn {
+  flex-shrink: 0 !important;
+  appearance: none !important;
+  background: rgba(0, 0, 0, 0.65) !important;
+  border: 1px dashed rgba(0, 240, 255, 0.45) !important;
+  border-radius: 4px !important;
+  padding: 5px 11px !important;
+  font-family: 'IBMPlexMono', ui-monospace, Menlo, Consolas, monospace !important;
+  font-size: clamp(0.66rem, 1.15vw, 0.8rem) !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.06em !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  pointer-events: auto !important;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+#page-extra-sections .end-ascii-top-btn:hover {
+  border-color: #00f0ff !important;
+  color: #00f0ff !important;
+  background: rgba(0, 240, 255, 0.1) !important;
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.3) !important;
+}
+
+#page-extra-sections .end-ascii-footer-copy {
+  margin-top: 8px !important;
+  padding-top: 6px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  font-size: clamp(0.6rem, 1.05vw, 0.72rem) !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.03em !important;
+  color: rgba(148, 163, 184, 0.72) !important;
+  text-align: left !important;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.95) !important;
+}
+
+@media (max-width: 640px) {
+  #page-extra-sections #end-section-content {
+    top: 39% !important;
+  }
+  #page-extra-sections #end-ascii-footer {
+    bottom: max(12px, env(safe-area-inset-bottom, 12px)) !important;
+  }
+  #page-extra-sections .end-ascii-footer-main {
+    align-items: flex-end !important;
+    gap: 8px 10px !important;
+  }
+  #page-extra-sections .end-ascii-footer-line {
+    font-size: 0.62rem !important;
+  }
+  #page-extra-sections .end-ascii-footer-link {
+    font-size: 0.68rem !important;
+  }
+  #page-extra-sections .end-ascii-top-btn {
+    padding: 5px 9px !important;
+    font-size: 0.66rem !important;
+  }
+  #page-extra-sections .end-ascii-footer-copy {
+    font-size: 0.58rem !important;
+    margin-top: 6px !important;
+  }
+}
+
 /* Remove white CONTINUE TO SCROLL button in ASCII scene */
 #page-extra-sections #end-bottom,
 #end-bottom {
@@ -264,162 +390,38 @@ html.is-white-bg .end-section-content-cross:after {
   background: #000000 !important;
 }
 
-/* Ultra-compact Footer scene (~half height) & hide unnecessary buttons/blocks (mail link ONLY) */
+/* Collapse #footer-section visually to 0 net height while keeping height=1px for ScrollDomRange & visibility-hidden DOM for FooterSection SplitType */
+#footer-section,
 #page-extra-sections #footer-section,
 #page-extra-sections #footer-section.section {
-  position: relative !important;
-  z-index: 5 !important;
-  min-height: auto !important;
-  height: auto !important;
-  padding-top: 1.15rem !important;
-  padding-bottom: 1rem !important;
-  background-color: #ffffff !important;
+  box-sizing: border-box !important;
+  height: 1px !important;
+  min-height: 1px !important;
+  max-height: 1px !important;
+  padding: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: -1px 0 0 0 !important;
+  border: none !important;
   overflow: hidden !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  background: #000000 !important;
 }
 
 #page-extra-sections #footer-top,
-#page-extra-sections #footer-middle-newsletter,
-#page-extra-sections #footer-contact-socials,
-#page-extra-sections #footer-contact-enquires,
-#page-extra-sections #footer-contact-business,
-#page-extra-sections #footer-bottom-labs,
-#page-extra-sections #footer-bottom-tagline,
-#page-extra-sections #footer-guidelines-btn {
-  display: none !important;
-  height: 0 !important;
+#page-extra-sections #footer-middle,
+#page-extra-sections #footer-bottom,
+#page-extra-sections #footer-bg {
+  height: 1px !important;
+  min-height: 1px !important;
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
   pointer-events: none !important;
-}
-
-#page-extra-sections #footer-middle {
-  position: relative !important;
-  z-index: 2 !important;
-  display: block !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  row-gap: 0 !important;
-}
-
-#page-extra-sections #footer-middle-contact {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  gap: 0.6rem 2rem !important;
-  row-gap: 0.6rem !important;
-  width: 100% !important;
-  margin: 0 !important;
-}
-
-#page-extra-sections #footer-contact-address {
-  flex: 1 1 240px !important;
-  margin: 0 !important;
-  margin-bottom: 0 !important;
-  line-height: 1.35 !important;
-}
-
-#page-extra-sections .footer-address-line {
-  font-size: 0.78rem !important;
-  line-height: 1.35 !important;
-}
-
-#page-extra-sections .footer-address-line-wrapper {
-  margin-bottom: 0.05em !important;
-}
-
-#page-extra-sections #footer-contact-socials {
-  flex: 0 1 auto !important;
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  align-items: center !important;
-  gap: 0.4rem 1.25rem !important;
-  margin: 0 !important;
-  width: auto !important;
-}
-
-#page-extra-sections .footer-socials-line {
-  font-size: 0.78rem !important;
-  line-height: 1.35 !important;
-}
-
-#page-extra-sections .footer-socials-line-wrapper {
-  margin-top: 0 !important;
-}
-
-#page-extra-sections #footer-bottom {
-  position: relative !important;
-  z-index: 2 !important;
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  gap: 0.5rem 1rem !important;
-  margin-top: 0.75rem !important;
-  padding-top: 0.65rem !important;
-  padding-bottom: 0 !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
-}
-
-#page-extra-sections #footer-bottom-copyright,
-#page-extra-sections #footer-bottom-copyright > div,
-#page-extra-sections #footer-bottom-copyright .word {
-  display: inline-block !important;
-  vertical-align: middle !important;
-  font-size: 0.74rem !important;
-  line-height: 1.35 !important;
-  width: auto !important;
-}
-
-#page-extra-sections #footer-bottom-up {
-  width: 2.15rem !important;
-  height: 2.15rem !important;
-  position: relative !important;
-  bottom: auto !important;
-  right: auto !important;
-}
-
-@media (max-width: 1000px) {
-  #page-extra-sections #footer-section,
-  #page-extra-sections #footer-section.section {
-    padding-top: 0.95rem !important;
-    padding-bottom: 0.85rem !important;
-  }
-  #page-extra-sections #footer-middle-contact {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 0.45rem !important;
-    row-gap: 0.45rem !important;
-  }
-  #page-extra-sections #footer-contact-address {
-    flex: 0 0 auto !important;
-    margin-bottom: 0 !important;
-  }
-  #page-extra-sections #footer-contact-socials {
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 0.35rem 1rem !important;
-    width: 100% !important;
-  }
-  #page-extra-sections #footer-bottom {
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    gap: 0.5rem !important;
-    margin-top: 0.6rem !important;
-    padding-top: 0.55rem !important;
-    padding-bottom: 0 !important;
-    padding-right: 0 !important;
-  }
-  #page-extra-sections #footer-bottom-up {
-    position: relative !important;
-    bottom: auto !important;
-    right: auto !important;
-    flex-shrink: 0 !important;
-  }
 }
 
 /* Collapse trailing #scroll-nav-section ("About Us / Next Page") scene completely */
@@ -1876,7 +1878,7 @@ html.is-white-bg .end-section-content-cross:after {
   <div id="tunnel-title-phase2" class="tunnel-title-phase">
     <div class="home-goal-tunnel-title-line"></div>
   </div>
-</div> <div id="home-goal-image-in-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-in-inner"> <div id="home-goal-image-in"></div> </div> </div> <div id="home-goal-image-out-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-out-inner"> <div id="home-goal-image-out"></div> </div> </div> </div> </div> </div> <div id="page-extra-sections"> <div id="end-section" class="section"> <canvas id="end-ascii-bg" aria-hidden="true"></canvas> <div id="end-section-outer"> <div id="end-section-inner"> <div id="end-section-content"> <div id="end-section-content-crosses"> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> </div> <div id="end-section-subtitle"> <div id="end-section-subtitle-text">「こういうのやるんですけど、一緒にどうですか？」</div> </div> <div id="end-section-title"> <div id="end-section-title-link">企画を提案する <br> 企画に参加する <br> AIueoに参加する</div> <span id="end-section-title-top-decoration"></span> <span id="end-section-title-bottom-left-decoration"></span> <span id="end-section-title-bottom-right-decoration"></span> </div> </div> <div id="end-bottom"> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> <div id="end-bottom-text-container"> <div id="end-bottom-text">CONTINUE TO SCROLL</div> <div id="end-bottom-text">CONTINUE TO SCROLL</div> </div> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> </div> </div> </div> </div> <div id="footer-section" class="section"> <div id="footer-bg"></div> <div id="footer-top"></div> <div id="footer-middle"> <div id="footer-middle-contact"> <a id="footer-contact-address" href="mailto:info@kouheikosehira.com" target="_blank"> <div class="footer-address-line">AI League AIueo</div> <div class="footer-address-line">Tokyo, Japan & Online</div> <div class="footer-address-line">草AI同盟（草野球のように集まりAIを遊ぶ）</div> <div class="footer-address-line">info@kouheikosehira.com</div> </a> <div id="footer-contact-socials"> <a class="footer-socials-line" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">GitHub (AIueo-LP)</span> </a> <a class="footer-socials-line" href="https://github.com/rahiseko-alt" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Captain GitHub</span> </a> <a class="footer-socials-line" href="https://twitter.com/kosehirakouhei" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Twitter / X</span> </a> </div> <div id="footer-contact-enquires"> <div id="footer-enquires-header">General enquires</div> <a id="footer-enquires-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> <div id="footer-contact-business"> <div id="footer-business-header">New business</div> <a id="footer-business-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> </div> <div id="footer-middle-newsletter"> <div id="footer-newsletter-header"> <span class="footer-newsletter-line">AIueoの最新企画通知</span> <span class="footer-newsletter-line">を受け取る</span> </div> <div id="footer-newsletter-input"> <div id="footer-newsletter-bg"></div> <form id="footer-newsletter-form"> <input id="footer-newsletter-input-field" type="email" name="EMAIL" autocomplete="email" placeholder="Your email"> <button type="submit" id="footer-newsletter-input-arrow" aria-label="Send newsletter form button"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="black"></path> </svg> </button> </form> <div id="footer-newsletter-feedback-message"></div> </div> </div> </div> <div id="footer-bottom"> <div id="footer-bottom-copyright">© 2026 AI League AIueo. Activities & Experiment First.</div> <a id="footer-bottom-labs" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> GitHub: AIueo-LP</a> <a id="footer-guidelines-btn" href="./guidelines.html" data-link-type="external">運営のかかわり方・規約 ↗</a> <div id="footer-bottom-tagline">Grassroots AI Alliance with ❤️</div> <div id="footer-bottom-up"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> </div> </div> </div> <div id="scroll-nav-section" class="section" data-path="/"> <div id="scroll-nav-content"> <div id="scroll-nav-subtitle">Keep Scrolling<br>to Learn More</div> <div id="scroll-nav-main"> <div id="scroll-nav-text">About Us</div> <div id="scroll-nav-next"> <div id="scroll-nav-next-text">Next Page</div> <div id="scroll-nav-next-bar"><div id="scroll-nav-next-bar-inner"></div></div> <div id="scroll-nav-next-arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="#fff"></path> </svg> </div> </div> </div> <div id="scroll-nav-cross-line"> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> </div> </div> </div> </div> </div> </div> <div id="scroll-indicator"> <div id="scroll-indicator-bar"></div> </div> <div id="input-blocker"></div> <div id="video-overlay"> <div id="video-overlay__vimeo-video"></div> <div id="video-overlay__mobile-close-btn"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75781 3.75732L12.2431 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> <path d="M12.2422 3.75732L3.75691 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> </svg> </div> <div id="video-overlay__controls"> <button id="video-overlay__play-btn">PLAY</button> <div id="video-overlay__progress-container"> <div id="video-overlay__progress-active"></div> <div id="video-overlay__progress-bg"></div> </div> <button id="video-overlay__mute-btn">MUTE</button> </div> <div id="video-overlay-cursor"> <svg id="video-overlay-cursor-svg" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36"><path stroke="#020022" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M31 31 17.928 18 31 5M5 5l13.072 13L5 31"></path></svg> </div> </div> <canvas id="transition-overlay"></canvas> <div id="preloader"> <div id="preloader-percent-digits"><div id="preloader-loading-header"><span id="preloader-loading-label">LOADING</span><span id="preloader-loading-sub">AIUEO // 00</span></div><div id="preloader-bar-track"><div id="preloader-bar-fill"></div></div></div> </div>   
+</div> <div id="home-goal-image-in-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-in-inner"> <div id="home-goal-image-in"></div> </div> </div> <div id="home-goal-image-out-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-out-inner"> <div id="home-goal-image-out"></div> </div> </div> </div> </div> </div> <div id="page-extra-sections"> <div id="end-section" class="section"> <canvas id="end-ascii-bg" aria-hidden="true"></canvas> <div id="end-section-outer"> <div id="end-section-inner"> <div id="end-section-content"> <div id="end-section-content-crosses"> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> </div> <div id="end-section-subtitle"> <div id="end-section-subtitle-text">「こういうのやるんですけど、一緒にどうですか？」</div> </div> <div id="end-section-title"> <div id="end-section-title-link">企画を提案する <br> 企画に参加する <br> AIueoに参加する</div> <span id="end-section-title-top-decoration"></span> <span id="end-section-title-bottom-left-decoration"></span> <span id="end-section-title-bottom-right-decoration"></span> </div> </div> <div id="end-ascii-footer" aria-label="Footer Information"> <div class="end-ascii-footer-main"> <div class="end-ascii-footer-info"> <div class="end-ascii-footer-line af-footer-ascii">AI League AIueo // Tokyo, Japan &amp; Online</div> <div class="end-ascii-footer-line af-footer-ascii">草AI同盟（草野球のように集まりAIを遊ぶ）</div> <div class="end-ascii-footer-line"><a id="end-ascii-footer-mail" class="end-ascii-footer-link af-footer-ascii" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a></div> </div> <button type="button" id="end-ascii-top-btn" class="end-ascii-top-btn af-footer-ascii" aria-label="ページの先頭へ戻る">[^ TOP]</button> </div> <div class="end-ascii-footer-copy af-footer-ascii">© 2026 AI League AIueo. Activities &amp; Experiment First.</div> </div> <div id="end-bottom"> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> <div id="end-bottom-text-container"> <div id="end-bottom-text">CONTINUE TO SCROLL</div> <div id="end-bottom-text">CONTINUE TO SCROLL</div> </div> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> </div> </div> </div> </div> <div id="footer-section" class="section"> <div id="footer-bg"></div> <div id="footer-top"></div> <div id="footer-middle"> <div id="footer-middle-contact"> <a id="footer-contact-address" href="mailto:info@kouheikosehira.com" target="_blank"> <div class="footer-address-line">AI League AIueo</div> <div class="footer-address-line">Tokyo, Japan & Online</div> <div class="footer-address-line">草AI同盟（草野球のように集まりAIを遊ぶ）</div> <div class="footer-address-line">info@kouheikosehira.com</div> </a> <div id="footer-contact-socials"> <a class="footer-socials-line" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">GitHub (AIueo-LP)</span> </a> <a class="footer-socials-line" href="https://github.com/rahiseko-alt" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Captain GitHub</span> </a> <a class="footer-socials-line" href="https://twitter.com/kosehirakouhei" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Twitter / X</span> </a> </div> <div id="footer-contact-enquires"> <div id="footer-enquires-header">General enquires</div> <a id="footer-enquires-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> <div id="footer-contact-business"> <div id="footer-business-header">New business</div> <a id="footer-business-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> </div> <div id="footer-middle-newsletter"> <div id="footer-newsletter-header"> <span class="footer-newsletter-line">AIueoの最新企画通知</span> <span class="footer-newsletter-line">を受け取る</span> </div> <div id="footer-newsletter-input"> <div id="footer-newsletter-bg"></div> <form id="footer-newsletter-form"> <input id="footer-newsletter-input-field" type="email" name="EMAIL" autocomplete="email" placeholder="Your email"> <button type="submit" id="footer-newsletter-input-arrow" aria-label="Send newsletter form button"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="black"></path> </svg> </button> </form> <div id="footer-newsletter-feedback-message"></div> </div> </div> </div> <div id="footer-bottom"> <div id="footer-bottom-copyright">© 2026 AI League AIueo. Activities & Experiment First.</div> <a id="footer-bottom-labs" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> GitHub: AIueo-LP</a> <a id="footer-guidelines-btn" href="./guidelines.html" data-link-type="external">運営のかかわり方・規約 ↗</a> <div id="footer-bottom-tagline">Grassroots AI Alliance with ❤️</div> <div id="footer-bottom-up"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> </div> </div> </div> <div id="scroll-nav-section" class="section" data-path="/"> <div id="scroll-nav-content"> <div id="scroll-nav-subtitle">Keep Scrolling<br>to Learn More</div> <div id="scroll-nav-main"> <div id="scroll-nav-text">About Us</div> <div id="scroll-nav-next"> <div id="scroll-nav-next-text">Next Page</div> <div id="scroll-nav-next-bar"><div id="scroll-nav-next-bar-inner"></div></div> <div id="scroll-nav-next-arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="#fff"></path> </svg> </div> </div> </div> <div id="scroll-nav-cross-line"> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> </div> </div> </div> </div> </div> </div> <div id="scroll-indicator"> <div id="scroll-indicator-bar"></div> </div> <div id="input-blocker"></div> <div id="video-overlay"> <div id="video-overlay__vimeo-video"></div> <div id="video-overlay__mobile-close-btn"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75781 3.75732L12.2431 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> <path d="M12.2422 3.75732L3.75691 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> </svg> </div> <div id="video-overlay__controls"> <button id="video-overlay__play-btn">PLAY</button> <div id="video-overlay__progress-container"> <div id="video-overlay__progress-active"></div> <div id="video-overlay__progress-bg"></div> </div> <button id="video-overlay__mute-btn">MUTE</button> </div> <div id="video-overlay-cursor"> <svg id="video-overlay-cursor-svg" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36"><path stroke="#020022" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M31 31 17.928 18 31 5M5 5l13.072 13L5 31"></path></svg> </div> </div> <canvas id="transition-overlay"></canvas> <div id="preloader"> <div id="preloader-percent-digits"><div id="preloader-loading-header"><span id="preloader-loading-label">LOADING</span><span id="preloader-loading-sub">AIUEO // 00</span></div><div id="preloader-bar-track"><div id="preloader-bar-fill"></div></div></div> </div>   
 
 <div id="proposal-guidelines-modal" role="dialog" aria-modal="true" aria-labelledby="proposal-modal-title" aria-hidden="true">
   <div class="proposal-modal-dialog">

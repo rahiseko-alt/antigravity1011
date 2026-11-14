@@ -111,6 +111,26 @@ function initProposalModal() {
     });
   }
 
+  const endTopBtn = document.getElementById('end-ascii-top-btn');
+  if (endTopBtn) {
+    endTopBtn.addEventListener(
+      'click',
+      (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (
+          window.scrollManager &&
+          typeof window.scrollManager.scrollToPixel === 'function'
+        ) {
+          window.scrollManager.scrollToPixel(0);
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      },
+      { capture: true }
+    );
+  }
+
   // Safe navigation for Reel CTA, Menu Links, and Project Items (prevents SPA router crash on /about or /projects/*)
   const reelCta = document.getElementById('home-reel-cta');
   if (reelCta) {

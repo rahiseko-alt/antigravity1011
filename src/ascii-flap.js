@@ -467,9 +467,7 @@ class EndSectionAsciiEngine {
       { passive: true }
     );
 
-    // Trigger diagonal wave when #end-section-content enters viewport + periodic tiroir shuffle
-    const targetEl =
-      document.getElementById("end-section-content") || this.section;
+    // Trigger diagonal wave when #end-section enters viewport + periodic tiroir shuffle
     if ("IntersectionObserver" in window) {
       const obs = new IntersectionObserver(
         (entries) => {
@@ -488,9 +486,9 @@ class EndSectionAsciiEngine {
             }
           }
         },
-        { threshold: 0.25 }
+        { threshold: 0.12 }
       );
-      obs.observe(targetEl);
+      obs.observe(this.section);
     }
 
     // Hovering #end-section-title triggers a crisp diagonal wave across the title
@@ -501,6 +499,17 @@ class EndSectionAsciiEngine {
         this.triggerTitleWave();
       });
     }
+
+    // Hovering ASCII footer email or [^ TOP] triggers localized ASCII flap wave
+    const footerControls = document.querySelectorAll(
+      "#end-ascii-footer-mail, #end-ascii-top-btn"
+    );
+    footerControls.forEach((ctrl) => {
+      ctrl.addEventListener("mouseenter", () => {
+        this.ensureCellsConnected();
+        this.triggerElementWave(ctrl);
+      });
+    });
   }
 
   ensureCellsConnected() {
@@ -547,7 +556,7 @@ class EndSectionAsciiEngine {
       }
     }
 
-    // 2. Title ("Join / Propose" / "企画を持ち込む・参加する")
+    // 2. Title ("企画を提案する / 企画に参加する / AIueoに参加する")
     if (this.titleEl) {
       const lines = this.titleEl.querySelectorAll(
         ".end-section-title-link-line"
@@ -572,6 +581,14 @@ class EndSectionAsciiEngine {
         }
       }
     }
+
+    // 3. Integrated ASCII Footer (.af-footer-ascii)
+    const footerLines = document.querySelectorAll(
+      "#end-ascii-footer .af-footer-ascii"
+    );
+    footerLines.forEach((el, idx) => {
+      this.wrapElementChars(el, 5 + idx, 0, "footer", el);
+    });
 
     this.isBinding = false;
 
@@ -628,8 +645,9 @@ class EndSectionAsciiEngine {
     });
   }
 
-  wrapElementChars(containerEl, row, startCol, kind) {
+  wrapElementChars(containerEl, row, startCol, kind, ownerEl = null) {
     if (!containerEl) return startCol;
+    const owner = ownerEl || containerEl;
     const existingSpans = containerEl.querySelectorAll(".af-end-ch");
     if (existingSpans.length > 0) {
       let col = startCol;
@@ -642,6 +660,7 @@ class EndSectionAsciiEngine {
         const targetIdx = getGlyphIndex(ch, cjk);
         this.cells.push({
           kind,
+          ownerEl: owner,
           wrapper: null,
           primary: span,
           clone: null,
@@ -687,6 +706,7 @@ class EndSectionAsciiEngine {
 
       this.cells.push({
         kind,
+        ownerEl: owner,
         wrapper: null,
         primary: span,
         clone: null,
@@ -744,8 +764,13 @@ class EndSectionAsciiEngine {
     this.ensureCellsConnected();
     if (!this.cells.length) return;
     for (const c of this.cells) {
-      const waveDelay = Math.floor(c.col / 2 + c.row * 3) + 2;
-      const steps = 8 + (c.col % 5);
+      const colDelay =
+        c.kind === "footer"
+          ? Math.min(Math.floor(c.col / 3), 10)
+          : Math.floor(c.col / 2);
+      const rowDelay = c.kind === "footer" ? 6 + (c.row - 5) : c.row * 3;
+      const waveDelay = colDelay + rowDelay + 2;
+      const steps = c.kind === "footer" ? 6 + (c.col % 4) : 8 + (c.col % 5);
       c.it = waveDelay;
       c.stepsLeft = steps;
       c.lt = (c.targetIdx - steps + c.table.length * 4) % c.table.length;
@@ -762,6 +787,26 @@ class EndSectionAsciiEngine {
       if (c.kind !== "title") continue;
       const waveDelay = Math.floor(c.col / 2 + (c.row - 1) * 2) + 1;
       const steps = 6 + (c.col % 3);
+      c.it = waveDelay;
+      c.stepsLeft = steps;
+      c.lt = (c.targetIdx - steps + c.table.length * 4) % c.table.length;
+      c.flashFrames = 0;
+      any = true;
+    }
+    if (any) {
+      this.manager.activeSet.add(this);
+      this.manager.ensureLoop();
+    }
+  }
+
+  triggerElementWave(targetEl) {
+    if (!targetEl) return;
+    this.ensureCellsConnected();
+    let any = false;
+    for (const c of this.cells) {
+      if (c.ownerEl !== targetEl) continue;
+      const waveDelay = Math.floor(c.col / 3);
+      const steps = 5 + (c.col % 3);
       c.it = waveDelay;
       c.stepsLeft = steps;
       c.lt = (c.targetIdx - steps + c.table.length * 4) % c.table.length;
