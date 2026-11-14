@@ -65,6 +65,272 @@
   text-shadow: 0 2px 18px rgba(0, 0, 0, 0.9) !important;
 }
 
+/* Collapse #home-goal card without breaking scrollManager/HomePage black-bg transition */
+#home-goal {
+  height: 1px !important;
+  min-height: 1px !important;
+  max-height: 1px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+/* Footer Operating Guidelines button */
+#footer-guidelines-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.55em 1.25em;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.04);
+  color: #000000;
+  font-family: 'Aeonik', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  pointer-events: auto !important;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+#footer-guidelines-btn:hover {
+  background: #000000;
+  color: #ffffff;
+  border-color: #000000;
+  transform: translateY(-1px);
+}
+
+/* Pre-proposal Operating Guidelines confirmation modal */
+#proposal-guidelines-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(2, 4, 12, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.28s ease, visibility 0.28s ease;
+}
+
+#proposal-guidelines-modal.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.proposal-modal-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  max-height: 88vh;
+  overflow-y: auto;
+  background: #0d1017;
+  color: #f4f6fb;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 20px;
+  padding: 28px 28px 24px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.65);
+  font-family: 'Aeonik', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  box-sizing: border-box;
+  transform: translateY(12px) scale(0.98);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#proposal-guidelines-modal.is-open .proposal-modal-dialog {
+  transform: translateY(0) scale(1);
+}
+
+.proposal-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.proposal-modal-eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #60a5fa;
+  margin-bottom: 6px;
+}
+
+.proposal-modal-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #ffffff;
+}
+
+#proposal-modal-close {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  color: #cbd5e1;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#proposal-modal-close:hover {
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+}
+
+.proposal-modal-lead {
+  margin: 0 0 16px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #cbd5e1;
+}
+
+.proposal-modal-list {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.proposal-modal-list li {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.proposal-modal-list strong {
+  display: block;
+  font-size: 13.5px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.proposal-modal-full-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #93c5fd;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 18px;
+}
+
+.proposal-modal-full-link:hover {
+  color: #bfdbfe;
+}
+
+.proposal-modal-agree {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(37, 99, 235, 0.12);
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 18px;
+  user-select: none;
+}
+
+.proposal-modal-agree input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #2563eb;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.proposal-modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#proposal-modal-cancel {
+  padding: 11px 18px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #e2e8f0;
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#proposal-modal-cancel:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#proposal-modal-approve {
+  padding: 11px 22px;
+  border-radius: 9999px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+#proposal-modal-approve:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+#proposal-modal-approve:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+  .proposal-modal-dialog {
+    padding: 22px 18px 20px;
+    border-radius: 16px;
+  }
+  .proposal-modal-actions {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  #proposal-modal-cancel,
+  #proposal-modal-approve {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 #home-featured-cta-contact,
 #home-featured-cta {
   display: inline-flex !important;
@@ -1205,8 +1471,49 @@
   <div id="tunnel-title-phase2" class="tunnel-title-phase">
     <div class="home-goal-tunnel-title-line"></div>
   </div>
-</div> <div id="home-goal-image-in-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-in-inner"> <div id="home-goal-image-in"></div> </div> </div> <div id="home-goal-image-out-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-out-inner"> <div id="home-goal-image-out"></div> </div> </div> </div> </div> </div> <div id="page-extra-sections"> <div id="end-section" class="section"> <canvas id="end-ascii-bg" aria-hidden="true"></canvas> <div id="end-section-outer"> <div id="end-section-inner"> <div id="end-section-content"> <div id="end-section-content-crosses"> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> </div> <div id="end-section-subtitle"> <div id="end-section-subtitle-text">「こういうのやるんですけど、一緒にどうですか？」</div> </div> <div id="end-section-title"> <div id="end-section-title-link">Join / Propose <br> 企画を持ち込む・参加する</div> <span id="end-section-title-top-decoration"></span> <span id="end-section-title-bottom-left-decoration"></span> <span id="end-section-title-bottom-right-decoration"></span> </div> </div> <div id="end-bottom"> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> <div id="end-bottom-text-container"> <div id="end-bottom-text">CONTINUE TO SCROLL</div> <div id="end-bottom-text">CONTINUE TO SCROLL</div> </div> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> </div> </div> </div> </div> <div id="footer-section" class="section"> <div id="footer-bg"></div> <div id="footer-top"></div> <div id="footer-middle"> <div id="footer-middle-contact"> <a id="footer-contact-address" href="mailto:info@kouheikosehira.com" target="_blank"> <div class="footer-address-line">AI League AIueo</div> <div class="footer-address-line">Tokyo, Japan & Online</div> <div class="footer-address-line">草AI同盟（草野球のように集まりAIを遊ぶ）</div> <div class="footer-address-line">info@kouheikosehira.com</div> </a> <div id="footer-contact-socials"> <a class="footer-socials-line" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">GitHub (AIueo-LP)</span> </a> <a class="footer-socials-line" href="https://github.com/rahiseko-alt" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Captain GitHub</span> </a> <a class="footer-socials-line" href="https://twitter.com/kosehirakouhei" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Twitter / X</span> </a> </div> <div id="footer-contact-enquires"> <div id="footer-enquires-header">General enquires</div> <a id="footer-enquires-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> <div id="footer-contact-business"> <div id="footer-business-header">New business</div> <a id="footer-business-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> </div> <div id="footer-middle-newsletter"> <div id="footer-newsletter-header"> <span class="footer-newsletter-line">AIueoの最新企画通知</span> <span class="footer-newsletter-line">を受け取る</span> </div> <div id="footer-newsletter-input"> <div id="footer-newsletter-bg"></div> <form id="footer-newsletter-form"> <input id="footer-newsletter-input-field" type="email" name="EMAIL" autocomplete="email" placeholder="Your email"> <button type="submit" id="footer-newsletter-input-arrow" aria-label="Send newsletter form button"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="black"></path> </svg> </button> </form> <div id="footer-newsletter-feedback-message"></div> </div> </div> </div> <div id="footer-bottom"> <div id="footer-bottom-copyright">© 2026 AI League AIueo. Activities & Experiment First.</div> <a id="footer-bottom-labs" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> GitHub: AIueo-LP</a> <div id="footer-bottom-tagline">Grassroots AI Alliance with ❤️</div> <div id="footer-bottom-up"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> </div> </div> </div> <div id="scroll-nav-section" class="section" data-path="/about"> <div id="scroll-nav-content"> <div id="scroll-nav-subtitle">Keep Scrolling<br>to Learn More</div> <div id="scroll-nav-main"> <div id="scroll-nav-text">About Us</div> <div id="scroll-nav-next"> <div id="scroll-nav-next-text">Next Page</div> <div id="scroll-nav-next-bar"><div id="scroll-nav-next-bar-inner"></div></div> <div id="scroll-nav-next-arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="#fff"></path> </svg> </div> </div> </div> <div id="scroll-nav-cross-line"> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> </div> </div> </div> </div> </div> </div> <div id="scroll-indicator"> <div id="scroll-indicator-bar"></div> </div> <div id="input-blocker"></div> <div id="video-overlay"> <div id="video-overlay__vimeo-video"></div> <div id="video-overlay__mobile-close-btn"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75781 3.75732L12.2431 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> <path d="M12.2422 3.75732L3.75691 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> </svg> </div> <div id="video-overlay__controls"> <button id="video-overlay__play-btn">PLAY</button> <div id="video-overlay__progress-container"> <div id="video-overlay__progress-active"></div> <div id="video-overlay__progress-bg"></div> </div> <button id="video-overlay__mute-btn">MUTE</button> </div> <div id="video-overlay-cursor"> <svg id="video-overlay-cursor-svg" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36"><path stroke="#020022" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M31 31 17.928 18 31 5M5 5l13.072 13L5 31"></path></svg> </div> </div> <canvas id="transition-overlay"></canvas> <div id="preloader"> <div id="preloader-percent-digits"><div id="preloader-loading-header"><span id="preloader-loading-label">LOADING</span><span id="preloader-loading-sub">AIUEO // 00</span></div><div id="preloader-bar-track"><div id="preloader-bar-fill"></div></div></div> </div>   
+</div> <div id="home-goal-image-in-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-in-inner"> <div id="home-goal-image-in"></div> </div> </div> <div id="home-goal-image-out-outer" style="display: none !important; visibility: hidden !important;"> <div id="home-goal-image-out-inner"> <div id="home-goal-image-out"></div> </div> </div> </div> </div> </div> <div id="page-extra-sections"> <div id="end-section" class="section"> <canvas id="end-ascii-bg" aria-hidden="true"></canvas> <div id="end-section-outer"> <div id="end-section-inner"> <div id="end-section-content"> <div id="end-section-content-crosses"> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> <div class="end-section-content-cross"></div> </div> <div id="end-section-subtitle"> <div id="end-section-subtitle-text">「こういうのやるんですけど、一緒にどうですか？」</div> </div> <div id="end-section-title"> <div id="end-section-title-link">Join / Propose <br> 企画を持ち込む・参加する</div> <span id="end-section-title-top-decoration"></span> <span id="end-section-title-bottom-left-decoration"></span> <span id="end-section-title-bottom-right-decoration"></span> </div> </div> <div id="end-bottom"> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> <div id="end-bottom-text-container"> <div id="end-bottom-text">CONTINUE TO SCROLL</div> <div id="end-bottom-text">CONTINUE TO SCROLL</div> </div> <div class="end-bottom-arrow-container"> <div class="end-bottom-arrow"></div> <div class="end-bottom-arrow"></div> </div> </div> </div> </div> </div> <div id="footer-section" class="section"> <div id="footer-bg"></div> <div id="footer-top"></div> <div id="footer-middle"> <div id="footer-middle-contact"> <a id="footer-contact-address" href="mailto:info@kouheikosehira.com" target="_blank"> <div class="footer-address-line">AI League AIueo</div> <div class="footer-address-line">Tokyo, Japan & Online</div> <div class="footer-address-line">草AI同盟（草野球のように集まりAIを遊ぶ）</div> <div class="footer-address-line">info@kouheikosehira.com</div> </a> <div id="footer-contact-socials"> <a class="footer-socials-line" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">GitHub (AIueo-LP)</span> </a> <a class="footer-socials-line" href="https://github.com/rahiseko-alt" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Captain GitHub</span> </a> <a class="footer-socials-line" href="https://twitter.com/kosehirakouhei" target="_blank"> <svg class="footer-socials-line-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M6.948 18.113a.75.75 0 0 1-1.06-1.06l9.885-9.886H8.65a.75.75 0 1 1 0-1.5h9.682v9.682a.75.75 0 0 1-1.5 0v-7.12l-9.884 9.884Z" clip-rule="evenodd"></path></svg> <span class="footer-socials-text">Twitter / X</span> </a> </div> <div id="footer-contact-enquires"> <div id="footer-enquires-header">General enquires</div> <a id="footer-enquires-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> <div id="footer-contact-business"> <div id="footer-business-header">New business</div> <a id="footer-business-link" href="mailto:info@kouheikosehira.com">info@kouheikosehira.com</a> </div> </div> <div id="footer-middle-newsletter"> <div id="footer-newsletter-header"> <span class="footer-newsletter-line">AIueoの最新企画通知</span> <span class="footer-newsletter-line">を受け取る</span> </div> <div id="footer-newsletter-input"> <div id="footer-newsletter-bg"></div> <form id="footer-newsletter-form"> <input id="footer-newsletter-input-field" type="email" name="EMAIL" autocomplete="email" placeholder="Your email"> <button type="submit" id="footer-newsletter-input-arrow" aria-label="Send newsletter form button"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="black"></path> </svg> </button> </form> <div id="footer-newsletter-feedback-message"></div> </div> </div> </div> <div id="footer-bottom"> <div id="footer-bottom-copyright">© 2026 AI League AIueo. Activities & Experiment First.</div> <a id="footer-bottom-labs" href="https://github.com/rahiseko-alt/AIueo-LP" target="_blank"> GitHub: AIueo-LP</a> <a id="footer-guidelines-btn" href="./guidelines.html" data-link-type="external">運営のかかわり方・規約 ↗</a> <div id="footer-bottom-tagline">Grassroots AI Alliance with ❤️</div> <div id="footer-bottom-up"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" fill-rule="evenodd" d="M12 22a1 1 0 0 1-1-1V5.857l-6.223 6.224a1 1 0 0 1-1.415-1.415l7.9-7.9a1 1 0 0 1 1.414 0v.001l7.9 7.9a1 1 0 0 1-1.414 1.414L13 5.919V21a1 1 0 0 1-1 1Z" clip-rule="evenodd"></path></svg> </div> </div> </div> <div id="scroll-nav-section" class="section" data-path="/about"> <div id="scroll-nav-content"> <div id="scroll-nav-subtitle">Keep Scrolling<br>to Learn More</div> <div id="scroll-nav-main"> <div id="scroll-nav-text">About Us</div> <div id="scroll-nav-next"> <div id="scroll-nav-next-text">Next Page</div> <div id="scroll-nav-next-bar"><div id="scroll-nav-next-bar-inner"></div></div> <div id="scroll-nav-next-arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9999 11.9998C1.9999 12.552 2.44762 12.9997 2.9999 12.9997H18.9757C18.8901 13.148 18.7838 13.2876 18.657 13.4144L12.2931 19.7784C11.9025 20.1689 11.9025 20.8021 12.2931 21.1926C12.6836 21.5831 13.3168 21.5831 13.7073 21.1926L22.1926 12.7073C22.5831 12.3168 22.5831 11.6836 22.1926 11.2931L22.1924 11.293L13.7071 2.80767C13.3166 2.41715 12.6834 2.41715 12.2929 2.80767C11.9024 3.1982 11.9024 3.83136 12.2929 4.22189L18.657 10.586C18.7836 10.7126 18.8896 10.8518 18.9752 10.9998H2.9999C2.44762 10.9997 1.9999 11.4475 1.9999 11.9998Z" fill="#fff"></path> </svg> </div> </div> </div> <div id="scroll-nav-cross-line"> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> <div class="scroll-nav-cross"></div> </div> </div> </div> </div> </div> </div> <div id="scroll-indicator"> <div id="scroll-indicator-bar"></div> </div> <div id="input-blocker"></div> <div id="video-overlay"> <div id="video-overlay__vimeo-video"></div> <div id="video-overlay__mobile-close-btn"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75781 3.75732L12.2431 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> <path d="M12.2422 3.75732L3.75691 12.2426" stroke="white" stroke-width="2" stroke-linecap="round"></path> </svg> </div> <div id="video-overlay__controls"> <button id="video-overlay__play-btn">PLAY</button> <div id="video-overlay__progress-container"> <div id="video-overlay__progress-active"></div> <div id="video-overlay__progress-bg"></div> </div> <button id="video-overlay__mute-btn">MUTE</button> </div> <div id="video-overlay-cursor"> <svg id="video-overlay-cursor-svg" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36"><path stroke="#020022" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M31 31 17.928 18 31 5M5 5l13.072 13L5 31"></path></svg> </div> </div> <canvas id="transition-overlay"></canvas> <div id="preloader"> <div id="preloader-percent-digits"><div id="preloader-loading-header"><span id="preloader-loading-label">LOADING</span><span id="preloader-loading-sub">AIUEO // 00</span></div><div id="preloader-bar-track"><div id="preloader-bar-fill"></div></div></div> </div>   
+
+<div id="proposal-guidelines-modal" role="dialog" aria-modal="true" aria-labelledby="proposal-modal-title" aria-hidden="true">
+  <div class="proposal-modal-dialog">
+    <div class="proposal-modal-header">
+      <div>
+        <div class="proposal-modal-eyebrow">Operating Guidelines // 事前確認</div>
+        <h2 id="proposal-modal-title" class="proposal-modal-title">企画を提案する前のご確認</h2>
+      </div>
+      <button type="button" id="proposal-modal-close" aria-label="閉じる">×</button>
+    </div>
+    <p class="proposal-modal-lead">AIueoは企画を持ち込む人と参加者が集まるオープンな「呼びかけの場」です。企画の提案（Googleフォームへの入力）に進む前に、以下の運営スタンスをご確認ください。</p>
+    <ul class="proposal-modal-list">
+      <li>
+        <strong>1. 呼びかけの場・自己責任原則</strong>
+        AIueoは企画の主催者・共催者・仲介者ではなく、実施・成果・トラブルについて一切の責任を負いません。企画者・参加者各自の責任で運営・参加いただきます。
+      </li>
+      <li>
+        <strong>2. 金銭の非仲介（実費割り勘推奨）</strong>
+        AIueoは会費や参加費などの金銭を一切預かりません。費用が発生する場合は事前に明記し、実費の割り勘を原則としてください。
+      </li>
+      <li>
+        <strong>3. 禁止事項（秩序の維持）</strong>
+        虚偽告知、誹謗中傷、マルチ商法・強引な営業勧誘、公序良俗に反する企画は禁止です。違反時は掲載の非公開・削除を行います。
+      </li>
+      <li>
+        <strong>4. 変更・中止時の説明責任</strong>
+        企画内容の変更や中止が発生する場合は、主催者が参加者へ速やかに連絡・説明を行ってください。
+      </li>
+    </ul>
+    <a class="proposal-modal-full-link" href="./guidelines.html" target="_blank" rel="noopener noreferrer">詳細な運営規約・スタンスの全文を見る ↗</a>
+    <label class="proposal-modal-agree">
+      <input type="checkbox" id="proposal-agree-checkbox">
+      <span>上記の運営スタンス・免責事項を確認し、同意します</span>
+    </label>
+    <div class="proposal-modal-actions">
+      <button type="button" id="proposal-modal-cancel">キャンセル</button>
+      <button type="button" id="proposal-modal-approve" disabled>同意して企画を提案する（Googleフォームへ）</button>
+    </div>
+  </div>
+</div>
 
 <script type="module" src="./src/ascii-flap.js"></script>
 <script type="module" src="./src/end-ascii-bg.js"></script>
+<script type="module" src="./src/proposal-modal.js"></script>
 </body></html>
