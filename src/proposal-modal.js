@@ -1,8 +1,11 @@
 const PROPOSAL_FORM_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLScoWgLBxNmZwAWGkEsFzV_0me3M2DeaBsV79szLmenXAlDdkQ/viewform';
 
-const JOIN_MAILTO_URL =
-  'mailto:info@kouheikosehira.com?subject=%E3%80%90AIueo%E3%80%91%E5%8F%82%E5%8A%A0%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF&body=%E3%80%90AIueo%20%E5%8F%82%E5%8A%A0%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF%E3%80%91%0D%0A%E3%83%BB%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%88%E3%83%8B%E3%83%83%E3%82%AF%E3%83%8D%E3%83%BC%E3%83%A0%E5%8F%AF%EF%BC%89%EF%BC%9A%0D%0A%E3%83%BB%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B%E3%81%AE%E4%BC%81%E7%94%BB%E3%83%BB%E9%96%A2%E5%BF%83%E3%83%86%E3%83%BC%E3%83%9E%EF%BC%9A%0D%0A%E3%83%BB%E4%B8%80%E8%A8%80%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A';
+const JOIN_PROJECT_MAILTO_URL =
+  'mailto:info@kouheikosehira.com?subject=%E3%80%90AIueo%E3%80%91%E4%BC%81%E7%94%BB%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF&body=%E3%80%90AIueo%20%E4%BC%81%E7%94%BB%E5%8F%82%E5%8A%A0%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF%E3%80%91%0D%0A%E3%83%BB%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%88%E3%83%8B%E3%83%83%E3%82%AF%E3%83%8D%E3%83%BC%E3%83%A0%E5%8F%AF%EF%BC%89%EF%BC%9A%0D%0A%E3%83%BB%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B%E3%81%AE%E4%BC%81%E7%94%BB%E5%90%8D%EF%BC%9A%0D%0A%E3%83%BB%E4%B8%80%E8%A8%80%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A';
+
+const JOIN_AIUEO_MAILTO_URL =
+  'mailto:info@kouheikosehira.com?subject=%E3%80%90AIueo%E3%80%91AIueo%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF&body=%E3%80%90AIueo%20%E5%8F%82%E5%8A%A0%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF%E3%80%91%0D%0A%E3%83%BB%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%88%E3%83%8B%E3%83%83%E3%82%AF%E3%83%8D%E3%83%BC%E3%83%A0%E5%8F%AF%EF%BC%89%EF%BC%9A%0D%0A%E3%83%BB%E8%88%88%E5%91%B3%E3%81%AE%E3%81%82%E3%82%8B%E3%83%86%E3%83%BC%E3%83%9E%E3%83%BB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%EF%BC%9A%0D%0A%E3%83%BB%E4%B8%80%E8%A8%80%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A';
 
 function smoothScrollToSection(selector) {
   const el = document.querySelector(selector);
@@ -66,16 +69,30 @@ function initProposalModal() {
     if (lines.length >= 2 && clickedLine === lines[1]) {
       e.preventDefault();
       e.stopPropagation();
-      window.location.href = JOIN_MAILTO_URL;
+      window.location.href = JOIN_PROJECT_MAILTO_URL;
+      return;
+    }
+
+    if (lines.length >= 3 && clickedLine === lines[2]) {
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href = JOIN_AIUEO_MAILTO_URL;
       return;
     }
 
     if (lines.length === 0 && endTitleTrigger) {
       const rect = endTitleTrigger.getBoundingClientRect();
-      if (e.clientY > rect.top + rect.height * 0.52) {
+      const relY = e.clientY - rect.top;
+      if (relY > rect.height * 0.66) {
         e.preventDefault();
         e.stopPropagation();
-        window.location.href = JOIN_MAILTO_URL;
+        window.location.href = JOIN_AIUEO_MAILTO_URL;
+        return;
+      }
+      if (relY > rect.height * 0.33) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.location.href = JOIN_PROJECT_MAILTO_URL;
         return;
       }
     }
