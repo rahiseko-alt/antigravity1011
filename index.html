@@ -1485,6 +1485,17 @@ html.is-white-bg .end-section-content-cross:after {
   --accent-color: #ff2d87;
   --accent-glow: rgba(255, 45, 135, 0.35);
 }
+.member-card[data-id="ishida"] {
+  --accent-color: #b388ff;
+  --accent-glow: rgba(179, 136, 255, 0.35);
+}
+.member-card[data-id="watanabe"] {
+  --accent-color: #4fc3f7;
+  --accent-glow: rgba(79, 195, 247, 0.35);
+}
+/* Per-photo crop: keep faces inside the wide frame */
+.member-card[data-id="ishida"] .member-photo-img { object-position: center 50% !important; }
+.member-card[data-id="watanabe"] .member-photo-img { object-position: 60% 26% !important; }
 
 .member-card-inner {
   padding: clamp(14px, 1.6vw, 18px) !important;
@@ -1628,6 +1639,8 @@ html.is-white-bg .end-section-content-cross:after {
 .glow-emerald { background: radial-gradient(circle, #00ff88 0%, #00f0ff 70%, transparent 100%) !important; }
 .glow-amber { background: radial-gradient(circle, #ffaa00 0%, #ff4c41 70%, transparent 100%) !important; }
 .glow-rose { background: radial-gradient(circle, #ff2d87 0%, #a01a7d 70%, transparent 100%) !important; }
+.glow-violet { background: radial-gradient(circle, #b388ff 0%, #5e35b1 70%, transparent 100%) !important; }
+.glow-sky { background: radial-gradient(circle, #4fc3f7 0%, #1a5ffb 70%, transparent 100%) !important; }
 </style>
 
 </head> <body>
@@ -1740,31 +1753,7 @@ html.is-white-bg .end-section-content-cross:after {
       </div>
     </div>
 
-    <!-- Card 03: 堺 彬 -->
-    <div class="member-card" data-id="sakai">
-      <div class="member-card-glow glow-emerald"></div>
-      <div class="member-card-inner">
-        <div class="member-photo-frame">
-          <img src="./assets/images/aiueo/member-sakai.jpg" alt="堺 彬" class="member-photo-img" loading="lazy">
-          <div class="member-photo-overlay"></div>
-          <div class="member-photo-sns">
-            <a class="sns-btn" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
-            <a class="sns-btn" href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg></a>
-            <a class="sns-btn" href="mailto:info@kouheikosehira.com" aria-label="Email"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
-          </div>
-        </div>
-        <div class="member-card-body">
-          <div class="member-card-title-row">
-            <h4 class="member-card-name">堺 彬</h4>
-            <span class="member-card-role-title">開発 / AI導入支援</span>
-          </div>
-          <div class="member-card-sub">株式会社SakAI Nexus 代表取締役</div>
-          <p class="member-card-desc">先端LLMと最新アーキテクチャで「動くもの」を最速で具現化するエンジニアリングの要。生成AIアプリの高速プロトタイプから企業導入までを推進。</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 04: 岡本 ジュンイチ -->
+    <!-- Card 03: 岡本 ジュンイチ -->
     <div class="member-card" data-id="okamoto">
       <div class="member-card-glow glow-amber"></div>
       <div class="member-card-inner">
@@ -1784,6 +1773,30 @@ html.is-white-bg .end-section-content-cross:after {
           </div>
           <div class="member-card-sub">SNSマーケター • メディア戦略</div>
           <p class="member-card-desc">熱量を最大化し、共感と連鎖を生み出すストーリーテラー。発信力とメディアディレクションで草AI同盟のビジョンを広く社会へ届ける。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 04: 堺 彬 -->
+    <div class="member-card" data-id="sakai">
+      <div class="member-card-glow glow-emerald"></div>
+      <div class="member-card-inner">
+        <div class="member-photo-frame">
+          <img src="./assets/images/aiueo/member-sakai.jpg" alt="堺 彬" class="member-photo-img" loading="lazy">
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-sns">
+            <a class="sns-btn" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            <a class="sns-btn" href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg></a>
+            <a class="sns-btn" href="mailto:info@kouheikosehira.com" aria-label="Email"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+          </div>
+        </div>
+        <div class="member-card-body">
+          <div class="member-card-title-row">
+            <h4 class="member-card-name">堺 彬</h4>
+            <span class="member-card-role-title">開発 / AI導入支援</span>
+          </div>
+          <div class="member-card-sub">株式会社SakAI Nexus 代表取締役</div>
+          <p class="member-card-desc">先端LLMと最新アーキテクチャで「動くもの」を最速で具現化するエンジニアリングの要。生成AIアプリの高速プロトタイプから企業導入までを推進。</p>
         </div>
       </div>
     </div>
@@ -1809,6 +1822,49 @@ html.is-white-bg .end-section-content-cross:after {
           </div>
           <div class="member-card-sub">発信・集客導線 • 商品づくり</div>
           <p class="member-card-desc">想いを形にする導線をつくるコミュニティ運営者。発信・集客・商品づくりとAI活用をわかりやすく整理し、最初の一歩に伴走。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 06: 石田 恵美 -->
+    <div class="member-card" data-id="ishida">
+      <div class="member-card-glow glow-violet"></div>
+      <div class="member-card-inner">
+        <div class="member-photo-frame">
+          <img src="./assets/images/aiueo/member-ishida.jpg" alt="石田 恵美" class="member-photo-img" loading="lazy">
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-sns">
+            <a class="sns-btn" href="http://www.shibumi-sandart.work/" target="_blank" rel="noopener noreferrer" aria-label="Website"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></a>
+            <a class="sns-btn" href="https://www.instagram.com/the_sandart_shibumi" target="_blank" rel="noopener noreferrer" aria-label="Instagram (Sand Art)"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+            <a class="sns-btn" href="https://www.instagram.com/handmade_shibumi" target="_blank" rel="noopener noreferrer" aria-label="Instagram (Handmade)"><svg class="member-sns-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+          </div>
+        </div>
+        <div class="member-card-body">
+          <div class="member-card-title-row">
+            <h4 class="member-card-name">石田 恵美</h4>
+            <span class="member-card-role-title">サンドアーティスト</span>
+          </div>
+          <div class="member-card-sub">安曇野拠点 • サンドアート / 布製品デザイン</div>
+          <p class="member-card-desc">ニュージーランドを車で1年旅した経験から独自の表現でサンドアートを創作。安曇野を拠点に県内外で個展を開催し、オリジナルデザインの布製品も手がける。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 07: 渡辺 裕太 -->
+    <div class="member-card" data-id="watanabe">
+      <div class="member-card-glow glow-sky"></div>
+      <div class="member-card-inner">
+        <div class="member-photo-frame">
+          <img src="./assets/images/aiueo/member-watanabe.jpg" alt="渡辺 裕太" class="member-photo-img" loading="lazy">
+          <div class="member-photo-overlay"></div>
+        </div>
+        <div class="member-card-body">
+          <div class="member-card-title-row">
+            <h4 class="member-card-name">渡辺 裕太</h4>
+            <span class="member-card-role-title">AI活用 × Web制作</span>
+          </div>
+          <div class="member-card-sub">動画制作 • SNS運用 • HP/LP制作</div>
+          <p class="member-card-desc">AIツールを活用した動画の企画・編集、SNS運用、集客改善、HP・LP制作、業務効率化に取り組む。初心者向けAI講師の実績あり。一つひとつのご縁を大切に価値を届ける。</p>
         </div>
       </div>
     </div>
