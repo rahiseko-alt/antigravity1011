@@ -79,12 +79,9 @@ class SplitFlapManager {
       if (inst) this.instances.push(inst);
     });
 
-    // 2. Members section typography (scroll-reveal + pointer ripple)
+    // 2. Members section typography (keep kanji names & roles crystal clear; animate badge only)
     const memberSelectors = [
-      { sel: ".members-header-badge", stagger: 1, steps: 8, ripple: true, accent: "#38bdf8" },
-      { sel: ".members-header-title", stagger: 1, steps: 6, ripple: true, accent: "#38bdf8" },
-      { sel: ".member-card-name", stagger: 2, steps: 7, ripple: true, accent: "#38bdf8" },
-      { sel: ".member-card-role-title", stagger: 1, steps: 5, ripple: true, accent: "#93c5fd" },
+      { sel: ".members-header-badge", stagger: 1, steps: 6, ripple: true, accent: "#38bdf8" },
     ];
 
     memberSelectors.forEach(({ sel, stagger, steps, ripple, accent }) => {
@@ -458,6 +455,10 @@ class EndSectionAsciiEngine {
     window.addEventListener(
       "resize",
       () => {
+        for (const c of this.cells) {
+          const el = c.wrapper || c.primary;
+          if (el) el.style.minWidth = "";
+        }
         this.restoreCanonicalChars();
         clearTimeout(this.resizeTimer);
         this.resizeTimer = setTimeout(() => {
@@ -893,7 +894,7 @@ class EndSectionAsciiEngine {
     let stillActive = false;
     const isLightBg =
       typeof window.__asciiDarkFactor === "number" &&
-      window.__asciiDarkFactor < 0.45;
+      window.__asciiDarkFactor <= 0.52;
     const primaryFlash = isLightBg ? "#0284c7" : "#00f0ff";
     const altFlash = isLightBg ? "#0f172a" : "#ffffff";
     const bootColor = isLightBg

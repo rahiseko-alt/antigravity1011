@@ -270,8 +270,60 @@ function initProposalModal() {
   });
 }
 
+function initHeaderContrastSync() {
+  const membersEl = document.getElementById('home-members');
+  if (!membersEl) return;
+
+  let isVisible = false;
+  let rafId = null;
+
+  const sync = () => {
+    const rect = membersEl.getBoundingClientRect();
+    const isDarkZone = rect.top <= 92 && rect.bottom > 44;
+    document.documentElement.classList.toggle('is-members-header-dark', isDarkZone);
+  };
+
+  const loop = () => {
+    sync();
+    if (isVisible) {
+      rafId = requestAnimationFrame(loop);
+    } else {
+      rafId = null;
+    }
+  };
+
+  const ensureLoop = () => {
+    sync();
+    if (isVisible && rafId === null) {
+      rafId = requestAnimationFrame(loop);
+    }
+  };
+
+  sync();
+
+  if ('IntersectionObserver' in window) {
+    const obs = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          isVisible = entry.isIntersecting;
+        }
+        ensureLoop();
+      },
+      { root: null, threshold: 0 }
+    );
+    obs.observe(membersEl);
+  }
+
+  window.addEventListener('scroll', sync, { passive: true });
+  window.addEventListener('resize', sync, { passive: true });
+}
+
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initProposalModal);
+  document.addEventListener('DOMContentLoaded', () => {
+    initProposalModal();
+    initHeaderContrastSync();
+  });
 } else {
   initProposalModal();
+  initHeaderContrastSync();
 }
