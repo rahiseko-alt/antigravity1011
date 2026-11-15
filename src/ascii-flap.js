@@ -4,23 +4,15 @@
  * Adapted for zero-reflow, zero-idle-CPU execution alongside WebGL & SplitType.
  */
 
-// Exact half-width glyph table from amazing-bell/combined/program.js
-// (ordered: space -> punctuation -> box-drawing -> shades -> symbols -> letters -> digits)
+// Exact half-width glyph table (for preloader / English UI / hover)
 const GLYPH_TABLE =
   " .,·-•─~+:;=*π’“”┐┌┘└┼├┤┴┬│╗╔╝╚╬╠╣╩╦║░▒▓█▄▀▌▐■!?&#$@aàäbcdefghijklmnoòöpqrstuüvwxyzßABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789%()".split(
     ""
   );
 
-// Exact full-width (2-cell) CJK glyph table from amazing-bell/combined/program.js
-// Guaranteed 2-cell width so Japanese text never jitters horizontally
-const CJK_GLYPH_TABLE = (
-  "　！？”＃＄％＆＊＋＝・：；〜ー" +
-  "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワン" +
-  "ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ" +
-  "東京文字電脳波動光星音"
-)
-  .replace("”", "＂")
-  .split("");
+// Clean mechanical ASCII split-flap table (no random CJK/Katakana mojibake)
+const ASCII_FLAP_TABLE =
+  ".:-=+*#%@/\\[]{}<>~^_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 // ASCII pre-wave matrix symbols (box-drawing & density shades from program.js)
 const WAVE_BOOT_GLYPHS = "·•─~+:;=*┐┌┘└┼├┤┴┬│░▒▓█▄▀■".split("");
@@ -37,11 +29,19 @@ function isCJK(ch) {
   );
 }
 
-function getGlyphIndex(ch, cjk) {
-  const table = cjk ? CJK_GLYPH_TABLE : GLYPH_TABLE;
+function getGlyphIndex(ch, asciiOnly) {
+  const table = asciiOnly ? ASCII_FLAP_TABLE : GLYPH_TABLE;
   const idx = table.indexOf(ch);
   if (idx >= 0) return idx;
   return 1 + (ch.charCodeAt(0) % (table.length - 1));
+}
+
+function resolveElementAccentColor(el, fallback = "#38bdf8") {
+  if (!el || typeof window === "undefined") return fallback;
+  const card = el.closest ? el.closest(".member-card") : null;
+  const target = card || el;
+  const raw = getComputedStyle(target).getPropertyValue("--accent-color").trim();
+  return raw || fallback;
 }
 
 class SplitFlapManager {
@@ -70,6 +70,7 @@ class SplitFlapManager {
       const inst = this.attach(textEl, {
         triggerOnHoverTarget: btn,
         ripple: false,
+        asciiFlap: true,
         steps: 5,
         stagger: 1,
         accentColor: btn.classList.contains("pill-cta-white")
@@ -79,19 +80,27 @@ class SplitFlapManager {
       if (inst) this.instances.push(inst);
     });
 
-    // 2. Members section typography (keep kanji names & roles crystal clear; animate badge only)
+    // 2. Members section typography & cards (crisp ASCII split-flap with CJK safety)
     const memberSelectors = [
-      { sel: ".members-header-badge", stagger: 1, steps: 6, ripple: true, accent: "#38bdf8" },
+      { sel: ".members-header-badge", stagger: 1, steps: 5, ripple: true, accent: "#38bdf8", hoverOnCard: false },
+      { sel: ".members-header-title", stagger: 1, steps: 5, ripple: false, accent: "#60a5fa", hoverOnCard: false },
+      { sel: ".member-card-name", stagger: 1, steps: 5, ripple: true, accent: "#38bdf8", hoverOnCard: true },
+      { sel: ".member-card-role-title", stagger: 1, steps: 5, ripple: false, accent: "#38bdf8", hoverOnCard: true },
     ];
 
-    memberSelectors.forEach(({ sel, stagger, steps, ripple, accent }) => {
+    memberSelectors.forEach(({ sel, stagger, steps, ripple, accent, hoverOnCard }) => {
       document.querySelectorAll(sel).forEach((el) => {
+        const card = hoverOnCard ? el.closest(".member-card") : null;
+        const resolvedAccent = resolveElementAccentColor(el, accent);
         const inst = this.attach(el, {
           revealOnIntersect: true,
+          triggerOnHoverTarget: card || undefined,
+          hoverCooldownMs: 650,
+          asciiFlap: true,
           ripple,
           steps,
           stagger,
-          accentColor: accent,
+          accentColor: resolvedAccent,
         });
         if (inst) this.instances.push(inst);
       });
@@ -143,21 +152,49 @@ class SplitFlapManager {
     this.endEngine = new EndSectionAsciiEngine(this);
     this.endEngine.init();
 
-    // Setup IntersectionObserver for scroll-in reveal
+    // 6. Dual IntersectionObserver + Scroll-Viewport Check for Lusion transform scrolling
+    const checkViewportReveals = () => {
+      const vh = window.innerHeight || 900;
+      const now = performance.now();
+      for (const inst of this.instances) {
+        if (!inst.revealOnIntersect) continue;
+        const rect = inst.el.getBoundingClientRect();
+        if (rect.width === 0 && rect.height === 0) continue;
+        const inView = rect.top < vh * 0.92 && rect.bottom > vh * 0.08;
+        if (inView) {
+          if (!inst.hasRevealed && now - inst.lastRevealTime > 900) {
+            inst.hasRevealed = true;
+            inst.lastRevealTime = now;
+            this.trigger(inst);
+          }
+        } else if (rect.bottom < -60 || rect.top > vh + 60) {
+          inst.hasRevealed = false;
+        }
+      }
+    };
+
     if ("IntersectionObserver" in window) {
       const observer = new IntersectionObserver(
         (entries) => {
+          const now = performance.now();
           for (const entry of entries) {
+            const inst = entry.target.__splitFlapInst;
+            if (!inst) continue;
             if (entry.isIntersecting) {
-              const inst = entry.target.__splitFlapInst;
-              if (inst && !inst.hasRevealed) {
+              if (!inst.hasRevealed && now - inst.lastRevealTime > 900) {
                 inst.hasRevealed = true;
+                inst.lastRevealTime = now;
                 this.trigger(inst);
+              }
+            } else {
+              const vh = window.innerHeight || 900;
+              if (entry.boundingClientRect.bottom < -40 || entry.boundingClientRect.top > vh + 40) {
+                inst.hasRevealed = false;
               }
             }
           }
         },
-        { threshold: 0.25 }
+        { threshold: 0.05 }
       );
       for (const inst of this.instances) {
         if (inst.revealOnIntersect) {
@@ -165,6 +202,39 @@ class SplitFlapManager {
         }
       }
     }
+
+    let scrollCheckFrames = 0;
+    let scrollCheckRaf = null;
+    const scheduleViewportCheck = (frames = 24) => {
+      scrollCheckFrames = Math.max(scrollCheckFrames, frames);
+      if (scrollCheckRaf !== null) return;
+      const tick = () => {
+        checkViewportReveals();
+        scrollCheckFrames--;
+        if (scrollCheckFrames > 0) {
+          scrollCheckRaf = requestAnimationFrame(tick);
+        } else {
+          scrollCheckRaf = null;
+        }
+      };
+      scrollCheckRaf = requestAnimationFrame(tick);
+    };
+
+    window.addEventListener("wheel", () => scheduleViewportCheck(28), { passive: true });
+    window.addEventListener("touchmove", () => scheduleViewportCheck(28), { passive: true });
+    window.addEventListener("scroll", () => scheduleViewportCheck(16), { passive: true });
+    window.addEventListener("click", () => scheduleViewportCheck(40), { passive: true });
+
+    const pageContainer = document.getElementById("page-container");
+    if (pageContainer && "MutationObserver" in window) {
+      const scrollObs = new MutationObserver(() => {
+        scheduleViewportCheck(4);
+      });
+      scrollObs.observe(pageContainer, { attributes: true, attributeFilter: ["style"] });
+    }
+
+    // Initial check once preloader clears / page settles
+    setTimeout(() => checkViewportReveals(), 180);
 
     // Global pointer listener for ripple
     window.addEventListener("pointermove", this.onPointerMove.bind(this), {
@@ -194,17 +264,22 @@ class SplitFlapManager {
       span.textContent = ch;
       span.style.display = "inline-block";
       span.style.textAlign = "center";
+      span.style.verticalAlign = "baseline";
+      span.style.overflow = "hidden";
+      span.style.whiteSpace = "nowrap";
       span.style.transition = "color 120ms ease";
       frag.appendChild(span);
 
       const cjk = isCJK(ch);
-      const table = cjk ? CJK_GLYPH_TABLE : GLYPH_TABLE;
-      const targetIdx = getGlyphIndex(ch, cjk);
+      const asciiOnly = options.asciiFlap !== false || cjk;
+      const table = asciiOnly ? ASCII_FLAP_TABLE : GLYPH_TABLE;
+      const targetIdx = getGlyphIndex(ch, asciiOnly);
 
       cells.push({
         span,
         targetChar: ch,
         cjk,
+        asciiOnly,
         table,
         targetIdx,
         delay: 0,
@@ -218,15 +293,6 @@ class SplitFlapManager {
     el.textContent = "";
     el.appendChild(frag);
 
-    requestAnimationFrame(() => {
-      for (const c of cells) {
-        const w = c.span.getBoundingClientRect().width;
-        if (w > 0) {
-          c.span.style.minWidth = `${w.toFixed(2)}px`;
-        }
-      }
-    });
-
     const inst = {
       el,
       cells,
@@ -235,7 +301,10 @@ class SplitFlapManager {
       ripple: !!options.ripple,
       revealOnIntersect: !!options.revealOnIntersect,
       accentColor: options.accentColor || "#38bdf8",
+      hoverCooldownMs: options.hoverCooldownMs || 0,
       hasRevealed: false,
+      lastRevealTime: 0,
+      lastHoverTime: 0,
       isFlapping: false,
       lastRippleTime: 0,
     };
@@ -244,6 +313,11 @@ class SplitFlapManager {
 
     if (options.triggerOnHoverTarget) {
       options.triggerOnHoverTarget.addEventListener("mouseenter", () => {
+        const now = performance.now();
+        if (inst.hoverCooldownMs && now - inst.lastHoverTime < inst.hoverCooldownMs) {
+          return;
+        }
+        inst.lastHoverTime = now;
         this.trigger(inst);
       });
     }
@@ -253,8 +327,17 @@ class SplitFlapManager {
 
   trigger(inst) {
     if (!inst || !inst.cells.length) return;
+    const widths = inst.cells.map((c) =>
+      c.span.style.width ? 0 : c.span.getBoundingClientRect().width
+    );
     for (let i = 0; i < inst.cells.length; i++) {
       const c = inst.cells[i];
+      const w = widths[i];
+      if (w > 0) {
+        const px = `${w.toFixed(2)}px`;
+        c.span.style.width = px;
+        c.span.style.minWidth = px;
+      }
       c.delay = Math.floor(i * 0.5 * inst.stagger);
       c.stepsLeft = inst.steps;
       c.lt =
@@ -300,6 +383,11 @@ class SplitFlapManager {
       const dist = Math.hypot(ev.clientX - cx, ev.clientY - cy);
 
       if (dist <= radius) {
+        if (rect.width > 0) {
+          const px = `${rect.width.toFixed(2)}px`;
+          c.span.style.width = px;
+          c.span.style.minWidth = px;
+        }
         const steps = 4;
         c.delay = 0;
         c.stepsLeft = steps;
@@ -326,16 +414,9 @@ class SplitFlapManager {
       }
       const elapsed = now - this.lastStepTime;
       if (elapsed >= this.stepIntervalMs) {
-        const stepsToRun = Math.max(
-          1,
-          Math.min(5, Math.floor(elapsed / this.stepIntervalMs))
-        );
         this.lastStepTime = now;
-        for (let s = 0; s < stepsToRun; s++) {
-          this.frame++;
-          this.stepAll();
-          if (this.activeSet.size === 0) break;
-        }
+        this.frame++;
+        this.stepAll();
       }
       if (this.activeSet.size > 0) {
         this.rafId = requestAnimationFrame(loop);
@@ -370,10 +451,12 @@ class SplitFlapManager {
           c.stepsLeft--;
           if (c.stepsLeft === 0) {
             c.span.textContent = c.targetChar;
+            c.span.style.fontFamily = "";
             c.flashFrames = 3;
             c.span.style.color = inst.accentColor;
-            c.span.style.textShadow = `0 0 8px ${inst.accentColor}66`;
+            c.span.style.textShadow = `0 0 8px color-mix(in srgb, ${inst.accentColor} 45%, transparent)`;
           } else {
+            c.span.style.fontFamily = "'IBMPlexMono', ui-monospace, monospace";
             c.span.textContent = c.table[c.lt];
             c.span.style.color = inst.accentColor;
           }
@@ -383,6 +466,9 @@ class SplitFlapManager {
           if (c.flashFrames === 0) {
             c.span.style.color = "";
             c.span.style.textShadow = "";
+            c.span.style.fontFamily = "";
+            c.span.style.width = "";
+            c.span.style.minWidth = "";
           } else {
             stillActive = true;
           }
@@ -625,7 +711,7 @@ class EndSectionAsciiEngine {
     if (clone) clone.setAttribute("data-orig-ch", ch);
 
     const cjk = isCJK(ch);
-    const table = cjk ? CJK_GLYPH_TABLE : GLYPH_TABLE;
+    const table = cjk ? ASCII_FLAP_TABLE : GLYPH_TABLE;
     const targetIdx = getGlyphIndex(ch, cjk);
 
     this.cells.push({
@@ -657,7 +743,7 @@ class EndSectionAsciiEngine {
           span.getAttribute("data-orig-ch") || span.textContent || "";
         if (!ch.trim()) return;
         const cjk = isCJK(ch);
-        const table = cjk ? CJK_GLYPH_TABLE : GLYPH_TABLE;
+        const table = cjk ? ASCII_FLAP_TABLE : GLYPH_TABLE;
         const targetIdx = getGlyphIndex(ch, cjk);
         this.cells.push({
           kind,
@@ -702,7 +788,7 @@ class EndSectionAsciiEngine {
       frag.appendChild(span);
 
       const cjk = isCJK(ch);
-      const table = cjk ? CJK_GLYPH_TABLE : GLYPH_TABLE;
+      const table = cjk ? ASCII_FLAP_TABLE : GLYPH_TABLE;
       const targetIdx = getGlyphIndex(ch, cjk);
 
       this.cells.push({
@@ -907,16 +993,14 @@ class EndSectionAsciiEngine {
       // Phase 1: Diagonal wave countdown (display pre-wave ASCII symbol)
       if (c.it > 1) {
         c.it--;
-        const bootCh = c.cjk
-          ? CJK_GLYPH_TABLE[(c.col + c.it) % 14]
-          : WAVE_BOOT_GLYPHS[(c.col + c.it) % WAVE_BOOT_GLYPHS.length];
+        const bootCh = WAVE_BOOT_GLYPHS[(c.col + c.it) % WAVE_BOOT_GLYPHS.length];
         this.setCellText(c, bootCh);
         this.setCellStyle(c, bootColor, bootShadow);
         stillActive = true;
         continue;
       }
 
-      // Phase 2: Mechanical split-flap cycling through GLYPH_TABLE / CJK_GLYPH_TABLE
+      // Phase 2: Mechanical split-flap cycling through GLYPH_TABLE / ASCII_FLAP_TABLE
       if (c.stepsLeft > 0) {
         c.it = 1;
         c.lt = (c.lt + 1) % c.table.length;

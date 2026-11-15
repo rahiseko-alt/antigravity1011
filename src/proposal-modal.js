@@ -18,12 +18,20 @@ function closeHeaderMenuIfOpen() {
 function smoothScrollToSection(selector) {
   const el = document.querySelector(selector);
   if (!el) return;
+  const headerEl = document.getElementById('header');
+  const headerHeight = headerEl ? Math.round(headerEl.getBoundingClientRect().height) : 76;
+  const offset = selector === '#end-section' ? 0 : headerHeight + 18;
   const sm = window.scrollManager;
   if (sm && typeof sm.scrollToPixel === 'function') {
+    if (typeof sm.scrollPixel === 'number') {
+      const targetPixel = sm.scrollPixel + el.getBoundingClientRect().top - offset;
+      sm.scrollToPixel(Math.max(0, targetPixel));
+      return;
+    }
     if (typeof sm.getDomRange === 'function') {
       const range = sm.getDomRange(el);
       if (range && Number.isFinite(range.top)) {
-        sm.scrollToPixel(Math.max(0, range.top - 40));
+        sm.scrollToPixel(Math.max(0, range.top - offset));
         return;
       }
     }
@@ -33,7 +41,7 @@ function smoothScrollToSection(selector) {
     }
   }
   const rect = el.getBoundingClientRect();
-  const targetY = window.scrollY + rect.top - 40;
+  const targetY = window.scrollY + rect.top - offset;
   window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
 }
 
@@ -234,6 +242,22 @@ function initProposalModal() {
     );
   }
 
+  const contactMenuLink = document.querySelector(
+    '.header-menu-link[data-scroll-to="contact"]'
+  );
+  if (contactMenuLink) {
+    contactMenuLink.addEventListener(
+      'click',
+      (e) => {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        closeHeaderMenuIfOpen();
+        smoothScrollToSection('#end-section');
+      },
+      { capture: true }
+    );
+  }
+
   checkbox.addEventListener('change', () => {
     approveBtn.disabled = !checkbox.checked;
   });
@@ -251,8 +275,22 @@ function initProposalModal() {
     if (e.target === modal) closeModal();
   });
 
+  // Intercept wheel/touch in capture phase while modal is open so Lusion's ScrollPane cannot hijack dialog scrolling
+  window.addEventListener(
+    'wheel',
+    (e) => {
+      if (!modal.classList.contains('is-open')) return;
+      e.stopImmediatePropagation();
+      if (dialog && dialog.contains(e.target) && dialog.scrollHeight > dialog.clientHeight) {
+        dialog.scrollTop += e.deltaY;
+      }
+      e.preventDefault();
+    },
+    { capture: true, passive: false }
+  );
+
   if (dialog) {
-    ['wheel', 'touchstart', 'touchmove'].forEach((evtName) => {
+    ['touchstart', 'touchmove'].forEach((evtName) => {
       dialog.addEventListener(
         evtName,
         (e) => {
@@ -272,29 +310,33 @@ function initProposalModal() {
 
 function initHeaderContrastSync() {
   const membersEl = document.getElementById('home-members');
+  const headerEl = document.getElementById('header');
   if (!membersEl) return;
 
-  let isVisible = false;
+  let burstFrames = 0;
   let rafId = null;
 
   const sync = () => {
+    const hdrBottom = headerEl ? Math.max(64, Math.ceil(headerEl.getBoundingClientRect().bottom)) : 92;
     const rect = membersEl.getBoundingClientRect();
-    const isDarkZone = rect.top <= 92 && rect.bottom > 44;
+    const isDarkZone = rect.top <= hdrBottom + 6 && rect.bottom > Math.round(hdrBottom * 0.5);
     document.documentElement.classList.toggle('is-members-header-dark', isDarkZone);
   };
 
   const loop = () => {
     sync();
-    if (isVisible) {
+    burstFrames--;
+    if (burstFrames > 0) {
       rafId = requestAnimationFrame(loop);
     } else {
       rafId = null;
     }
   };
 
-  const ensureLoop = () => {
+  const triggerSyncBurst = (frames = 45) => {
     sync();
-    if (isVisible && rafId === null) {
+    burstFrames = Math.max(burstFrames, frames);
+    if (rafId === null) {
       rafId = requestAnimationFrame(loop);
     }
   };
@@ -303,19 +345,23 @@ function initHeaderContrastSync() {
 
   if ('IntersectionObserver' in window) {
     const obs = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          isVisible = entry.isIntersecting;
-        }
-        ensureLoop();
-      },
-      { root: null, threshold: 0 }
+      () => triggerSyncBurst(30),
+      { root: null, threshold: [0, 0.1, 0.5, 1] }
     );
     obs.observe(membersEl);
   }
 
-  window.addEventListener('scroll', sync, { passive: true });
+  const pageContainer = document.getElementById('page-container');
+  if (pageContainer && 'MutationObserver' in window) {
+    const pcObs = new MutationObserver(sync);
+    pcObs.observe(pageContainer, { attributes: true, attributeFilter: ['style'] });
+  }
+
+  window.addEventListener('wheel', () => triggerSyncBurst(55), { passive: true });
+  window.addEventListener('touchmove', () => triggerSyncBurst(55), { passive: true });
+  window.addEventListener('scroll', () => triggerSyncBurst(20), { passive: true });
   window.addEventListener('resize', sync, { passive: true });
+  window.addEventListener('click', () => triggerSyncBurst(65), { passive: true });
 }
 
 if (document.readyState === 'loading') {

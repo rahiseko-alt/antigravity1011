@@ -682,6 +682,37 @@ html.is-white-bg .end-section-content-cross:after {
   cursor: not-allowed;
 }
 
+@media (max-height: 820px) and (min-width: 641px) {
+  .proposal-modal-dialog {
+    max-height: 92vh;
+    padding: 20px 24px 18px;
+  }
+  .proposal-modal-header {
+    margin-bottom: 10px;
+  }
+  .proposal-modal-lead {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .proposal-modal-list {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .proposal-modal-list li {
+    padding: 9px 12px;
+    font-size: 12.5px;
+    line-height: 1.48;
+  }
+  .proposal-modal-full-link {
+    margin-bottom: 10px;
+  }
+  .proposal-modal-agree {
+    padding: 9px 12px;
+    margin-bottom: 12px;
+  }
+}
+
 @media (max-width: 640px) {
   .proposal-modal-dialog {
     padding: 22px 18px 20px;
@@ -1048,11 +1079,14 @@ html #page-container #home-hero-title .word {
 /* PC Desktop: Balanced Editorial Hero/Reel + Split-Showcase Flagship (Uncropped 3:4 & 4:3) */
 @media (min-width: 813px) {
   html #page-container #home-hero-title {
-    grid-column: 2 / span 10 !important;
+    grid-column: 1 / -1 !important;
+    width: min(88vw, 1080px) !important;
+    justify-self: center !important;
+    margin-inline: auto !important;
     font-size: clamp(1.45rem, 2.05vw, 2.45rem) !important;
     line-height: 1.45 !important;
     max-width: 1080px !important;
-    margin-top: clamp(38px, 4.8vh, 56px) !important;
+    margin-top: clamp(50px, 6.2vh, 68px) !important;
   }
   html #page-container #home-reel {
     padding-top: clamp(64px, 8vh, 110px) !important;
@@ -1112,8 +1146,9 @@ html #page-container #home-hero-title .word {
     transform: none !important;
     opacity: 1 !important;
   }
-  html #page-container .project-item:not(:hover) .project-item-line-2-inner-list {
+  html #page-container .project-item .project-item-line-2-inner-list {
     transform: translate3d(0, 0, 0) !important;
+    opacity: 1 !important;
   }
   .project-list {
     margin-top: clamp(16px, 2.2vh, 32px) !important;
@@ -1179,8 +1214,29 @@ html #page-container #home-hero-title .word {
     height: 1.4em !important;
     line-height: 1.35 !important;
   }
+  .project-item:not(.project-item-flagship) {
+    padding: clamp(18px, 2.2vw, 26px) !important;
+    border-radius: 22px !important;
+    border: 1px solid rgba(15, 23, 42, 0.14) !important;
+    background: transparent !important;
+    box-sizing: border-box !important;
+    transition: border-color 0.35s ease !important;
+  }
+  .project-item:not(.project-item-flagship):hover {
+    border-color: rgba(15, 23, 42, 0.34) !important;
+  }
   .project-item:not(.project-item-flagship) .project-item-main {
-    padding-top: 75% !important;
+    padding-top: 62.5% !important;
+    border-radius: 14px !important;
+  }
+  .project-item:not(.project-item-flagship) .meta-chip {
+    background: rgba(255, 255, 255, 0.92) !important;
+    border-color: rgba(15, 23, 42, 0.16) !important;
+    color: #0f172a !important;
+  }
+  .project-item:not(.project-item-flagship) .meta-chip-status {
+    background: rgba(15, 23, 42, 0.08) !important;
+    border-color: rgba(15, 23, 42, 0.24) !important;
   }
   .project-item:not(.project-item-flagship) .project-item-line-2 {
     font-size: clamp(1.15rem, 1.45vw, 1.7rem) !important;
@@ -1194,10 +1250,10 @@ html #page-container #home-hero-title .word {
   }
   /* Auto-balance: flagship = child 1, regular cards pair as (2,3),(4,5)...
      If the count is odd, the last card sits alone (always an even child)
-     -> center it cleanly without shrinking below 4:3 clarity. */
+     -> center it cleanly without shrinking below clarity. */
   .project-item-flagship ~ .project-item:last-child:nth-child(even) {
-    grid-column: 3 / span 8 !important;
-    max-width: 680px !important;
+    grid-column: 2 / span 10 !important;
+    max-width: 780px !important;
     width: 100% !important;
     justify-self: center !important;
   }
@@ -1761,7 +1817,7 @@ html #page-container #home-hero-title .word {
 }
 @media (min-width: 901px) {
   .member-photo-frame {
-    height: clamp(225px, 21vw, 280px) !important;
+    height: clamp(260px, 24vw, 330px) !important;
   }
 }
 
